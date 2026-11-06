@@ -2,7 +2,7 @@
 
 Every computer-assisted step of the paper and of its supplementary material, in the order of the text, with the script
 that checks it and the log of our run. Statements are named by their LaTeX labels (those of the supplementary material
-in the second table). Paths are relative to the root of the repository; logs are in `results/`.
+in the second table). Paths are relative to the folder `paper3/`; logs are in `results/`.
 
 Kind of check:
 

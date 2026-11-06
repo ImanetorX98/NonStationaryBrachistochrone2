@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below, together with the paper it supports."
-title: "NonStationaryBrachistochrone2-Proof: computer-assisted steps for the global minimality of controlled-rail brachistochrones in conformal Kerr and Vaidya spacetimes"
+message: "If you use this software, please cite it as below, together with the paper it supports (Paper III: folder paper3)."
+title: "NonStationaryBrachistochrone2: reproducibility packages for controlled-rail brachistochrones in conformal Kerr, Vaidya and McVittie spacetimes"
 type: software
 authors:
   - family-names: Rosignoli
@@ -9,7 +9,7 @@ authors:
     affiliation: "University of Pavia"
 version: "1.0.0"
 license: MIT
-repository-code: "https://github.com/ImanetorX98/NonStationaryBrachistochrone2-Proof"
+repository-code: "https://github.com/ImanetorX98/NonStationaryBrachistochrone2"
 keywords:
   - general relativity
   - brachistochrone
