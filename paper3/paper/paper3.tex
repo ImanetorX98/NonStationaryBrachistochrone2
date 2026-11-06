@@ -213,8 +213,8 @@ procedures documented in the supplementary material.
 
 \paragraph{What is not covered.} Conformal Kerr in three dimensions at finite spin beyond the barrier,
 which leads to a state-constrained problem at $r=2M$; on the equator, a time-dependent factor with
-$2\le q<5/2$ or $|a|>\sqrt{2451}/50\,M$, and the physical reading of the rail inside the ergoregion; the
-freezing regime $A\ge\Ehat$, which is not globally hyperbolic in general (Remark~\ref{rmk:freezing});
+$2\le q<5/2$ or $|a|>\sqrt{2451}/50\,M$, and the physical reading of the rail inside the ergoregion; the regime outside the uniform bound $\sup A<\Ehat$, including moving freezing fronts when they occur
+(Remark~\ref{rmk:freezing});
 on the proper-time branch, the identification of the minimizer with a specific extremal between the
 regimes covered by the theorems; for Vaidya, decreasing masses outside the stated bounds and the
 necessity of the accretion-rate bound below $3/2$. The weak-field regime of a star that loses mass,
@@ -426,8 +426,7 @@ Lemma~\ref{lem:gopt-basic}(3) the indicatrix is the section $v^\eta=1$ of the fu
 null cone of $\gopt$, so the spacetime covector
 $P=(P_\eta,p)=(p_\eta-1,p)$ satisfies $P_\eta=-\sigma(p)$ on $\mathcal H=0$: its kernel
 is a hyperplane supporting the cone along a null generator. A covector supports the
-null cone of a Lorentzian metric along a generator if and only if it is null, so the
-level set $\{\mathcal H=0\}$ coincides with the future-null part of
+null cone of a Lorentzian metric along a generator if and only if it is null, so, on the non-zero covectors, the level set $\{\mathcal H=0\}$ coincides with the future-null part of
 $\{\mathcal G=0\}$, $\mathcal G=\frac12\gopt^{-1}(P,P)$. On a common regular level set the
 Hamiltonian vector fields of $\mathcal H$ and $\mathcal G$ are parallel, since
 $\dd\mathcal G=\mu\,\dd\mathcal H$ there for some function $\mu\neq0$; their integral curves
@@ -524,13 +523,13 @@ $q\in I^+(o)$ by push-up.
 
 \begin{proposition}[abstract first-arrival theorem]\label{prop:first-arrival}
 Let $(D,g)$ be globally hyperbolic, with $\eta$ and the lines $L_x$ as above, and let
-$o\in D$ and $x_f$ be such that $L_{x_f}\cap J^+(o)\neq\emptyset$. Then:
+$o\in D$ and $x_f$, different from the spatial point of $o$, be such that $L_{x_f}\cap J^+(o)\neq\emptyset$. Then:
 \begin{enumerate}
 \item the first-arrival time $\eta_*$ is attained, and $q_*=(\eta_*,x_f)\in E^+(o)$;
 \item every first-arrival curve is a null pregeodesic, and it has no point conjugate to
   $o$ in its interior;
 \item a null geodesic $\gamma$ from $o$ is a first-arrival curve to the spatial point of
-  $\gamma(t)$ if and only if $t\le t_0$, where $\gamma(t_0)$ is its null cut point; the cut
+  $\gamma(t)$ if and only if $t\le t_0$, where $\gamma(t_0)$ is its null cut point ($t_0=+\infty$ if $\gamma$ has no cut point in $D$); the cut
   point is the first conjugate point or the first point reached by a second maximal
   null geodesic from $o$;
 \item for $t<t_0$ the first-arrival curve to $\gamma(t)$ is unique up to
@@ -748,7 +747,7 @@ Assume (H1). Then:
 \begin{enumerate}
 \item $(D,\gopt)$ is globally hyperbolic, and every slice $\eta=\mathrm{const}$ is a
   Cauchy surface;
-\item for every launch event $o=(\eta_0,x_0)$ and every $x_f\in\Omega$ with
+\item for every launch event $o=(\eta_0,x_0)$ and every $x_f\in\Omega$ with $x_f\ne x_0$ and
   $\eta_0+\sqrt{N_{\max}}\,d_{h_0}(x_0,x_f)\in I$, a first-arrival rail curve from $o$ to
   $x_f$ exists;
 \item every first-arrival curve is a rail extremal (a null pregeodesic of $\gopt$) with
@@ -789,10 +788,13 @@ If $A$ exceeds $\Ehat$ somewhere, the freezing surface
 $r_F(\eta)=2M/(1-\Ehat^2/A(\eta)^2)$ appears, and the regular domain is $r<r_F(\eta)$. By
 \eqref{eq:null-cone} the radial speed obeys $|\dd r/\dd\eta|\le f/\sqrt N$, which vanishes
 on $r=r_F$. If $A$ grows, the front moves inwards, and a line $L_x$ with $r(x)$ fixed is
-cut off in finite $\eta$: the slices are no longer Cauchy surfaces, and $D$ is not
-globally hyperbolic. Condition~\eqref{eq:H1} is therefore not a technical convenience
-for Fact~\ref{fact:CBC}. Whether a weaker condition suffices, for example a receding
-front or a causally convex subregion, is open.
+cut off in finite $\eta$. If a fixed spatial line terminates at the inward-moving front before clock $t$, its
+inextendible segment misses the slice $\eta=t$, which is therefore not a Cauchy surface, and the product structure
+used for Fact~\ref{fact:CBC} is lost.
+Global hyperbolicity may still hold, since a front advancing with positive speed, where the admissible radial
+speed vanishes, acts as a barrier for causal curves; it then has to be proved separately, together with the
+existence and compactness of minimizers up to the moving boundary. Condition~\eqref{eq:H1} is the hypothesis under
+which the product structure, and hence Fact~\ref{fact:CBC}, applies; the regime outside the uniform bound $\sup A<\Ehat$ is not treated here.
 \end{remark}
 
 \begin{remark}[the long arc]\label{rmk:long-arc}
@@ -1079,8 +1081,9 @@ before $\eta_0$ if needed). It is smooth, $q_{\rm ext}\ge\bar q>1$, and $A_{\rm 
 satisfies (H1). Theorem~\ref{thm:angle-radius} with $\bar q$ applies to $A_{\rm ext}$. Every competitor that
 arrives no later than $T$ lies in $\eta\le T$, where the two metrics coincide; so minimality, uniqueness and
 the cut-point statement at the event transfer to $A$. The extension is fixed by the given time $T$, not
-by a first arrival, so the argument is not circular. The margin $\bar q<q_{\min}$ is needed: if $q(T)=q_{\min}$
-and $q'(T)<0$, no smooth extension keeps $q\ge q_{\min}$.
+by a first arrival, so the argument is not circular. The margin $\bar q<q_{\min}$ is needed: if $q(T)=q_{\min}$ and $q'(T)<0$, no smooth extension keeps
+$q\ge q_{\min}$. Statements about the cut point of $\gamma$ after $T$ refer to the extended problem, that is, to one
+admissible continuation of $A$.
 \end{proof}
 
 The bound $R(q_{\min})$ is sufficient and far from optimal. Far enough beyond it the swept-angle rule
@@ -1266,9 +1269,14 @@ global minimum in the common region, its continuation.
 \end{lemma}
 
 \begin{proof}
-As for Theorem~\ref{thm:persistence}, which never uses that the reference is autonomous or
-that the parameter is a conformal factor: the common competitor gives $\limsup$ of the
-arrival times; closure in the convex body of velocities gives $\liminf$; uniqueness gives
+As for Theorem~\ref{thm:persistence}, except for the upper bound on the arrival times, since slowing down a
+non-autonomous reference need not be admissible. Let $z_0$ be the shooting data of the reference. The perturbed
+shooting maps $S_s$ are $C^1$ in $z$ and, together with their $z$-derivative, depend continuously on $s$ uniformly
+near $z_0$, by the assumptions on $H_s$ and the first-variation equations; since the reference Jacobian is invertible,
+the contraction $z\mapsto z-DS_0(z_0)^{-1}S_s(z)$ has a fixed point $z_s\to z_0$. The corresponding extremal is a rail
+curve of the perturbed problem, interior for small $s$, reaching the target at a time $T_s\to T_0$: this gives
+$\limsup T\le T_0$ for the minimal arrival times. The common competitor gives the uniform bounds; closure in the
+convex body of velocities gives $\liminf$; uniqueness gives
 convergence to the reference; interiority gives normality and normalized shooting data in a
 compact set; the flow and strong convexity give convergence of those data; the invertible
 Jacobian gives a local uniqueness that contains every perturbed minimum.
@@ -1464,8 +1472,15 @@ coercive on $H^1_0$ by Picone's identity, both fundamental solutions being posit
 $(0,\lambda_T]$. The arrival Hessian at the timelike receiver is $-I/G(k_T,\partial_v)$, with a
 positive prefactor, and the local Fermat principle with a fixed reparametrization gauge gives
 the claim for null competitors~\cite{GiannoniMasielloPiccioneFermat}; by spherical symmetry this
-includes out-of-plane perturbations. The non-caustic null front defines a local causal barrier
-in a sufficiently small tube about the segment, so nearby timelike competitors cannot arrive
+includes out-of-plane perturbations. Competitors are causal curves in a sufficiently small tube about the segment, written as graphs over the clock.
+Away from a small neighborhood of the launch, treated in a convex normal neighborhood, the null exponential map is a
+regular branch on the tube, since there are no conjugate points; the null hypersurface it generates is then a local
+barrier for causal curves in the tube. Since $\partial_v$ is timelike, the hypersurface is locally a graph $v=b(x)$ with
+future side $F=v-b(x)\ge0$, and $\dd F\ge0$ on future causal directions on it, with equality only along the generator;
+the velocity bodies vary in a locally Lipschitz way on the compact tube, so along a competitor parametrized by $v$,
+$F'\ge-C|F|$ after shrinking the tube. Gr\"onwall on the negative part keeps $F\ge0$, and once $F>0$ the exponential
+lower bound keeps it positive; equality at the arrival therefore keeps the competitor on the hypersurface, along a
+generator. So nearby timelike competitors cannot arrive
 earlier either.
 \end{proof}
 
@@ -1897,7 +1912,7 @@ $\sin\vartheta$, strictly if $a\ne0$.
 \begin{proof}
 With $x=\sin\vartheta$, $\Sigma=r^2+a^2-a^2x^2$ and $k=2M|a|r/\sqrt\Delta$ one has
 $|\beta|_{h_0}=kx/\Sigma$ and $\sqrt\Delta\,F=G(x)=(\Sigma-kx)/\sqrt{\Sigma-2Mr}$, with
-$(\Sigma-2Mr)^{3/2}G'(x)=a^2x(4Mr-\Sigma)-k\Delta$. If $4Mr\le\Sigma$ this is negative.
+$(\Sigma-2Mr)^{3/2}G'(x)=a^2x(4Mr-\Sigma)-k\Delta$. For $a=0$ it vanishes and $F$ is constant in $\vartheta$. For $a\ne0$, if $4Mr\le\Sigma$ it is negative.
 Otherwise $\Sigma\ge r^2$ and $x\le1$ give $a^2x(4Mr-\Sigma)\le a^2r(4M-r)$, and it remains to
 show $|a|(4M-r)<2M\sqrt\Delta$ for $2M<r<4M$: with $r=2M+s$,
 $4M^2\Delta-a^2(4M-r)^2=s(8M^3+4Ma^2)+s^2(4M^2-a^2)>0$.
@@ -1918,7 +1933,7 @@ monotone pieces are needed.
 
 \subsection{First arrival within the margin}
 \begin{theorem}[conformal Kerr within the margin]\label{thm:kerr}
-Assume (H2), $2M<r_1<r_2$, a launch event $o$ at $r_0\ge r_2$ and a target $x_f$ with
+Assume (H2), $2M<r_1<r_2$, a launch event $o$ at $r_0\ge r_2$ and a target $x_f$, different from the spatial point of $o$, with
 $r_f\ge r_2$, and a rail curve from $o$ to $x_f$ of duration $T_{\rm up}<2C(r_1,r_2)$ with
 $[\eta_0,\eta_0+T_{\rm up}]\subset I$. Then every rail curve from $o$ reaching $x_f$ within
 $T_{\rm up}$ stays in $r>r_1$; a first-arrival rail curve to $x_f$ exists and is a null
@@ -2072,7 +2087,8 @@ reached in finite time, including at the extremal spin.
 \begin{proposition}[existence in every class]\label{prop:kerr-exist}
 Let $|a|\le1$. Then $(D,G)$ and its azimuthal cover $\tilde D$ are globally hyperbolic. For every lifted
 angle $\Theta\in\Delta\varphi+2\pi\mathbb Z$ the earliest arrival $m(\Theta)$ at the lifted receiver $\gamma_\Theta$ is
-attained by a null pregeodesic of $G$, and
+attained by a null pregeodesic of $G$, except for $\Theta=0$ when $r_f=r_0$, where the receiver contains $o$ and
+$m(0)=\eta_0$; and
 \[
   m(\Theta)-\eta_0\ge\frac{|\Theta|}{2+\sqrt{N_{\max}}} .
 \]
@@ -2112,7 +2128,7 @@ in time. This fixes a reference field, not the factor $A$. Launch and receiver l
 $\omega_*=0$.
 
 \begin{proposition}[one ray per class]\label{prop:kerr-class}
-Let $|a|\le1$ and $\Theta\in\Delta\varphi+2\pi\mathbb Z$. If no future null geodesic of $\tilde D$ from $\tilde o$ to $\gamma_\Theta$
+Let $|a|\le1$ and $\Theta\in\Delta\varphi+2\pi\mathbb Z$, with $\Theta\ne0$ if $r_f=r_0$. If no future null geodesic of $\tilde D$ from $\tilde o$ to $\gamma_\Theta$
 has a point conjugate to $\tilde o$ in $(0,1]$, there is exactly one such geodesic, up to
 reparametrization, and it is the earliest arrival of its class.
 \end{proposition}
@@ -2150,7 +2166,7 @@ every $A$, and let $\Theta_0$ be the lifted angle at which the null geodesic fro
 $r=r_f$. When $r_f=r_0$ we set $\Theta_0=0$ and extend the arrival value by $m(0)=\eta_0$: this value
 represents the coincident end point and is not a non-constant null ray, and statements that
 count rays concern distinct targets; $m$ is continuous at $0$ by small causal arcs on the circle,
-and Lemma~\ref{lem:kerr-V} is applied only at $\Theta\ne0$.
+and in this case Lemma~\ref{lem:kerr-V} is applied only at $\Theta\ne0$.
 
 \begin{lemma}[zero angular momentum]\label{lem:kerr-Z}
 Along a null geodesic of $G$ with $L=0$, $\dot r$ never vanishes. Exactly two null geodesics from $o$
@@ -2188,10 +2204,10 @@ tie.
 \end{theorem}
 
 \begin{proof}
-$m$ is Lipschitz, by a circular arc at $r_f$, and coercive by Proposition~\ref{prop:kerr-exist}. At a
-weak local minimum of $m$, Lemma~\ref{lem:kerr-V} with both signs of $\epsilon$ forces $L=0$, so by
-Lemma~\ref{lem:kerr-Z} the only weak local minimum is $\Theta_0$, which is also the global minimum when
-$r_f\ne r_0$. If $a<b$ in $[\Theta_0,\infty)$ had $m(a)\ge m(b)$, the minimum of $m$ on $[a,\infty)$, which exists by
+$m$ is Lipschitz, by a circular arc at $r_f$, and coercive by Proposition~\ref{prop:kerr-exist}. At a weak local minimum of $m$, with $\Theta\ne0$ when $r_f=r_0$ (there $\Theta=0$ is the coincident end point),
+Lemma~\ref{lem:kerr-V} with both signs of $\epsilon$ forces $L=0$. By Lemma~\ref{lem:kerr-Z}, when $r_f\ne r_0$ the
+only such point is $\Theta_0$, which is also the global minimum; when $r_f=r_0$ there is none with $\Theta\ne0$,
+since $\dot r\ne0$ along a null geodesic with $L=0$, so it does not return to $r_0$. If $a<b$ in $[\Theta_0,\infty)$ had $m(a)\ge m(b)$, the minimum of $m$ on $[a,\infty)$, which exists by
 coercivity, would be a weak local minimum different from $\Theta_0$; the left side is the same. For
 the tie, $D(\theta)=m(\theta)-m(\theta-2\pi)$ is continuous and strictly increasing on $[\Theta_0,\Theta_0+2\pi]$, negative at
 the left end and positive at the right end, so it has exactly one zero.
@@ -2323,7 +2339,8 @@ Assume one of:
   Proposition~\ref{prop:kerr-Kvar}(2) at every future time; competitors: all future causal equatorial
   curves in $D$.
 \end{enumerate}
-Then each winding class contains exactly one null geodesic from $o$ to the receiver, and it is the
+Then each winding class, except the class $\Theta=0$ of the coincident end point when $r_f=r_0$, contains exactly
+one null geodesic from $o$ to the receiver, and it is the
 earliest arrival of its class; the earliest arrival overall lies in one of the two classes
 adjacent to $\Theta_0$, and is unique unless these two tie; on each circle $r=r_f>2$ they tie at exactly
 one angle, where the two minimizers are distinct; and the equatorial null cut locus of $o$,
@@ -2346,8 +2363,9 @@ time, radius and lifted angle, a compact subset of $\{r>2\}$, and its causal lim
 infimum of the original problem. A minimizer is a null pregeodesic by local push-up, and it
 cannot touch $r_m$, where it would have a radial minimum with negative acceleration. The same
 holds for every null geodesic between the end points: if it went down to $r_m$ or below, it
-would have a radial minimum in the collar. So all of them lie in $\Lambda=\{r>r_m\}$, whose boundary is
-timelike ($G^{rr}>0$) and light-convex. On $\Lambda$ the lift holds with $T=\partial_\eta$, the sublevels are
+would have a radial minimum in the collar. So all of them lie in $\Lambda=\{r>r_m\}$, whose boundary is timelike ($G^{rr}>0$) and light-convex in the sense
+of~\cite{GiannoniMasielloPiccioneMorse}: a null geodesic of the closure tangent to it from inside would have a radial
+minimum there with negative acceleration. On $\Lambda$ the lift holds with $T=\partial_\eta$, the sublevels are
 precompact in the closure, and~\cite[Theorem~1.7]{GiannoniMasielloPiccioneMorse} with
 Proposition~\ref{prop:kerr-Kvar}(1) gives one geodesic per class; it is therefore the only one in
 $\{r>2\}$. Theorem~\ref{thm:kerr-W} holds with the same proof: coercivity holds for competitors in
@@ -2478,7 +2496,13 @@ and none escapes to infinity because $R\to\infty$. The closed ball of radius $L$
 is the compact quotient of $[0,L]\times S^2$ with $\{0\}\times S^2$ collapsed, so the
 completion is proper; Hopf--Rinow for proper length spaces gives a minimizer. One through
 $p_*$ has parts of lengths $R(r_0)$ and $R(r_f)$, hence is two radial segments; one avoiding
-$p_*$ stays away from the boundary and is a smooth interior geodesic.
+$p_*$ stays away from the boundary and is a smooth interior geodesic. Every rail curve in $r>2M$ has proper time
+equal to the $h_\tau$-length of its spatial path (Lemma~\ref{lem:tau-density}); conversely every rectifiable interior spatial path on a compact interval is the path of a rail curve with finite
+clock, its image being compact in $r>2M$, and the
+time domain contains the whole future. So the infimum over rail curves is the distance in the completion, computed by
+interior curves. A path through $p_*$ is approximated by two radial segments to $r=2M+\epsilon$ joined by an arc at
+that radius, of length $O(\rho(2M+\epsilon))\to0$. Hence the infimum is $\min\{\ell_{\rm int},R(r_0)+R(r_f)\}$, and if
+$R(r_0)+R(r_f)<\ell_{\rm int}$ every minimizer of the completion passes through $p_*$, so no rail curve attains it.
 \end{proof}
 
 In case of equality one must check whether an interior geodesic of the same length exists.
@@ -2750,9 +2774,13 @@ argmin (Danskin's theorem~\cite{Danskin1966}).
 $(L_c^+,\rho_0]$, and $L_c^+$ itself does not minimize there since $\dd F_\delta/\dd L=\delta-\delta_c<0$
 at it. If $\Delta$ is non-increasing on $[L_c^+,\rho_0]$, lemma~\ref{lem:analytic} makes it
 strictly decreasing, so $\mathcal S$ is strictly convex there and every supporting line touches
-once. If not, $\mathcal S$ is not convex on $[L_c^+,\rho_0]$, and $\hat{\mathcal S}$ has a face there
-with two contact points; its slope is $-\delta_i$ with $0<\delta_i<\delta_c$, since the slopes of
-$\hat{\mathcal S}$ increase. Both contacts are interior, so they are dips.
+once. If not, $\mathcal S$ is not convex on $[L_c^+,\rho_0]$, so $\hat{\mathcal S}<\mathcal S$ somewhere in
+$(L_c^+,\rho_0)$. On a component $(a,b)$ of the open set $\{\hat{\mathcal S}<\mathcal S\}$ in $(L_c^+,\rho_0)$,
+$\hat{\mathcal S}$ is affine and touches $\mathcal S$ at $a$ and $b$, which are therefore two minimizers of
+$F_{\delta_i}$, with $-\delta_i$ the slope of that face; $a\ge L_c^+$ because $L_c^+$ is a contact point. Since
+$\mathcal S$ decreases strictly, $\delta_i>0$. The slopes of $\hat{\mathcal S}$ do not decrease and the face of slope
+$-\delta_c$ through $(0,2R_0)$ has $L_c^+$ as its last contact, so $\delta_i<\delta_c$. Then $a\neq L_c^+$, where
+$\dd F_{\delta_i}/\dd L=\delta_i-\delta_c<0$, and $b\neq\rho_0$ by (1); both contacts are interior, so they are dips.
 \end{proof}
 
 The construction is the classical one of conjugate functions and convex envelopes
@@ -2798,8 +2826,9 @@ Let $2M<r_f<r_0$, with $\rho_i=\rho(R_i)$, and write the half-angle from periast
 radius $r_i$ as $A_i(L)=\int_L^{\rho_i}L\,w\,\dd\rho/(\rho\sqrt{\rho^2-L^2})$. By the convexity of
 $R$ (proof of lemma~\ref{lem:dips}) an interior geodesic from $P_f$ to $P_0$ is either
 \emph{monotone}, with angle $\Phi_-=A_0-A_f$, or a \emph{dip} with periastron below $r_f$ and
-angle $\Phi_+=A_0+A_f$, with $L\in(0,\rho_f]$. Both families meet at the geodesic tangent to
-$r=r_f$, of angle $\delta_{\rm tan}=A_0(\rho_f)$, and $\Phi_\pm<\pi$. The radial path through
+angle $\Phi_+=A_0+A_f$, with $L\in(0,\rho_f]$. Both families meet at the geodesic tangent to $r=r_f$, of angle $\delta_{\rm tan}=A_0(\rho_f)$.
+Since $w<1$, $A_i(L)<\arccos(L/\rho_i)<\pi/2$, hence $\Phi_\pm<\pi$; for $\delta\le\pi$ the other orientation
+and windings, which need a swept angle of at least $2\pi-\delta\ge\pi$, do not occur. The radial path through
 $p_*$ has length $R_0+R_f$. Parametrized by the launch angle $\theta\in(0,\pi)$ at $P_f$, with
 $L=\rho_f\sin\theta$, the front $\theta\mapsto(\Phi,\ell)$ is smooth, also at $\theta=\pi/2$, and
 $\dd\ell=L\,\dd\Phi$ along it.
@@ -2850,8 +2879,9 @@ $R_0+R_f$ for $2R_0$, completes the proof. If $\delta_c\le\delta_{\rm tan}$, no 
 minimizes.
 \end{proof}
 
-For $\delta\ge\delta_{\rm tan}$ the monotone geodesics are no longer candidates, and
-theorem~\ref{thm:maxwell} holds on the dips with $\mathcal S_+=\ell_+-L\Phi_+$ and $L\in[0,\rho_f]$;
+For $\delta>\delta_{\rm tan}$ the monotone geodesics are no longer candidates (at $\delta=\delta_{\rm tan}$ the
+tangent geodesic is the common end of both families), and the scalar minimization
+and the supporting-line construction of theorem~\ref{thm:maxwell} apply on the dips, with $\mathcal S_+=\ell_+-L\Phi_+$ and $L\in[0,\rho_f]$;
 if $\delta_c\ge\delta_{\rm tan}$, then $\delta_c=\max_{0<L\le\rho_f}L^{-1}\int_0^L\Phi_+$. The
 concavity of $d$ holds only in that regime: along the monotone branch
 $\dd^2\ell/\dd\delta^2=\dd L/\dd\delta>0$. Open: the case $\delta<\delta_{\rm tan}$ when $\Phi_+$ has
@@ -3022,13 +3052,14 @@ with $L=p_\varphi$ constant. Hence the generalized Clairaut relation
 \]
 For constant $A$, $p_\eta\equiv0$ and $\rho_{\rm eff}=(A^2/\Ehat)\,r\sqrt{Nf}$ is the $\rho$ of
 proposition~\ref{prop:completion}. If $A$ is monotone on $[\eta,T]$, $p_\eta(\eta)$ has the sign
-opposite to that of $A'$. Along such an extremal, which satisfies $p_\eta(T)=0$, inserting a short
-wait at time $\sigma$ changes the cost by
-$\epsilon\,(\omega-p_\eta(\sigma))+o(\epsilon)=\epsilon\,|p|/\sqrt N+o(\epsilon)\ge o(\epsilon)$.
+opposite to that of $A'$. Where the minimal remaining cost $V(\sigma,x)$ from the event $(\sigma,x)$ of a minimizer is
+differentiable in $\sigma$, with $p_\eta=-\partial_\sigma V$, waiting at $x$ in the relaxed problem during
+$[\sigma,\sigma+\epsilon]$ and then continuing optimally changes the cost by
+$\epsilon\,(\omega-p_\eta(\sigma))+o(\epsilon)=\epsilon\,|p|/\sqrt N+o(\epsilon)$, which is positive for small $\epsilon$.
 \end{proposition}
 
-The identities follow from the maximization of the Hamiltonian; the last statement is the
-first variation of the remaining cost with respect to its starting time.
+The identities follow from the maximization of the Hamiltonian; the last statement is the first variation of the remaining cost with respect to its starting clock, the wait
+itself costing $\omega$ per unit clock.
 
 \subsection{The escape price}
 Write $A_{\max}=\sup_{\eta\ge\eta_0}A$ and $N_{\max}=(1-A_{\max}^2/\Ehat^2)^{-1}$.
@@ -3110,8 +3141,8 @@ $\varrho>0$ such that, if $\|A-A_0\|_{C^1_b([\eta_0,\infty))}<\varrho$:
 \begin{proof}
 Choose $a_*<A_0$ with $C_0<R_{a_*}(r_0)+R_{a_*}(r_f)$. For $\varrho$ small, theorem~\ref{thm:tau-exist}
 gives global minimizers, a uniform shell and a uniform duration $H$, and convergence to
-$\gamma_0$. By proposition~\ref{prop:tau-rail} every minimizer is a normal extremal, planar
-because $0<\delta<\pi$, with $L\neq0$ since $\delta>0$; uniform convergence to $\gamma_0$ fixes
+$\gamma_0$. By propositions~\ref{prop:tau-rail} and~\ref{prop:tau-budget} every minimizer is a normal extremal, planar and
+on the short arc because $0<\delta<\pi$, with $L\neq0$ since $\delta>0$; uniform convergence to $\gamma_0$ fixes
 its angular lift. The clock costate solves a linear equation with coefficients of order
 $d=\|A'\|_{L^\infty([\eta_0,\eta_0+H])}$ and $p_\eta(T)=0$, so Gr\"onwall gives $\|p_\eta\|_\infty\le C_Hd$.
 Then $|p|=\sqrt N(\omega-p_\eta)$ is bounded below on the shell, the extremal equations are $C^1$ in
@@ -3121,7 +3152,10 @@ so the last row of $D\Phi_{A_0}$ is $(0,1,0)$ and
 $\det D\Phi_{A_0}=-\det\partial(r,\varphi)/\partial(\psi_{\rm in},T)\neq0$. The right-hand sides
 involve $A$ and $A'$ but not $A''$, so $\Phi_A$ is $C^1$-close to $\Phi_{A_0}$ and has a single
 zero in a fixed neighborhood $U$ of the reference data. The data of every global minimizer
-lie in $U$ and a global minimizer exists, so it is unique and is that zero. For item~(3),
+lie in $U$ and a global minimizer exists, so it is unique and is that zero. For $A_\epsilon=A_0+\epsilon\alpha$ with
+$\alpha\in C^1_b$ the right-hand sides depend on $\epsilon$ only through the values $A_\epsilon$ and $A_\epsilon'$, which are affine
+in $\epsilon$, and smoothly on them on the interior tube, so $\Phi$ is $C^1$ in $(z,\epsilon)$ without using $\alpha''$, and $z(A_\epsilon)$ is $C^1$ in $\epsilon$ by the implicit function theorem. For
+item~(3),
 with the adjoint equation and the stationarity of the control, the variation of the cost
 is $-\int\partial_\epsilon\mathcal H\,\dd\eta$ plus the boundary term $p_\eta(T_0)T_0'=0$; at $\epsilon=0$,
 $p_\eta=0$, $|p|=\sqrt{N_0}\,\omega_0$ and $N_0A_0^2f/\Ehat^2=N_0-1$ give the integrand.
@@ -3152,7 +3186,7 @@ margin; slowness alone, or a bounded excursion of the factor, does not supply th
 \begin{corollary}\label{cor:tau-P}
 The hypotheses of theorem~\ref{thm:tau-P} hold for $q_0\ge3/2$, $r_0\ge r_f>2M$ and
 $0<\delta<\delta_c$, with $\delta_c$ from theorem~\ref{thm:single-max} or~\ref{thm:unequal},
-including the tangent separation $\delta=\delta_{\rm tan}$.
+including the tangent separation $\delta=\delta_{\rm tan}$ whenever $\delta_{\rm tan}<\delta_c$.
 \end{corollary}
 
 \begin{proof}
@@ -3240,7 +3274,8 @@ enclose $\tau^*$. The constants are in section~\ref{S-sec:supp-ts-examples} of t
 Let $\delta=1/50$ and $A_0=3/4$, so $q_0=32/9$. Every $A$ with $\|A-3/4\|_{C^1_b([0,\infty))}<1/4$ has a unique
 proper-time global minimizer among all three-dimensional rail curves, and its clock costate obeys
 $\|p_\eta\|_{L^\infty([0,T])}\le\frac{25}{97}\|A'\|_\infty\le\frac13\|A'\|_\infty$; the last inequality is strict if
-$\|A'\|_\infty>0$, and $p_\eta\equiv0$ if $A$ is constant. Thus $\varrho=1/4$ is admissible in Theorem~\ref{thm:tau-P} for this reference.
+$\|A'\|_\infty>0$, and $p_\eta\equiv0$ if $A$ is constant. Thus $\varrho=1/4$ is admissible in item~(1) of Theorem~\ref{thm:tau-P} for this reference, with the backward
+shooting map on $Q$ in place of $\Phi_A$.
 \end{corollary}
 
 \begin{proof}
@@ -3289,8 +3324,9 @@ a non-increasing $C^1$ factor. Write $m_d$ for the infimum and $B_d=D_\downarrow
 price. Since the family is ordered by translation in $d$, $m_d$ and $B_d$ are non-decreasing in $d$.
 
 \begin{lemma}[a single periastron]\label{lem:tau-var-peri}
-For a non-increasing factor, every minimizer between two points at the same radius has
-$p_\eta\ge0$, $p_r$ vanishes exactly once, and the radius decreases to a single periastron and then increases.
+For a non-increasing factor, every minimizer between two points at angular separation $0<\delta\le\pi$ has $p_\eta\ge0$ and $p_r$ vanishes at
+most once, crossing zero upwards (here $J\neq0$, by the budget argument, with a chosen half great circle at
+$\delta=\pi$); if the two points are at the same radius, $p_r$ vanishes exactly once, and the radius decreases to a single periastron and then increases.
 \end{lemma}
 
 \begin{proof}
@@ -3383,7 +3419,9 @@ $\bar C=R_{A_0}(r_0)+R_{A_\infty}(r_f)$, $L=\bar C/c$ and $g=\delta-\epsilon/(3\
 
 \emph{Structure of a minimizer.} Suppose a minimizer exists for some $d\ge D$. It is a normal rail
 extremal with saturated budget and $J>0$ (Proposition~\ref{prop:tau-budget}; for $\delta=\pi$ a half great
-circle). As in Lemma~\ref{lem:tau-var-peri}, $0\le p_\eta<\omega_A$ and every zero of $p_r$ is crossed upwards, so
+circle). As in Lemma~\ref{lem:tau-var-peri}, whose proof uses only $A'\le0$, $J\ne0$ and the increase of $\rho_A$ with $r$,
+which holds for every $M$ and $\Ehat$ (see the paragraph after the statement), $0\le p_\eta<\omega_A$ and every zero of
+$p_r$ is crossed upwards, so
 $p_r$ has at most one zero, there is no apoastron and $r\le\max(r_0,r_f)$; no equality of the radial end
 points is needed.
 
@@ -3675,7 +3713,7 @@ universal cover, and
 
 \begin{proof}
 $N$ and $\Delta$ increase with $r$. With $s=r-2M$, $\sqrt{h_{\tau,rr}}=(A^2/\Ehat)\sqrt{2Ms}/a+O(s^{3/2})$ and
-$\rho=\rho_h+(A^2/\Ehat)(M/a+a/(4QM))s+O(s^2)$. Near $R=0$ the metric is comparable to
+$\rho=\rho_h+(A^2/\Ehat)(M/a+a/(4qM))s+O(s^2)$. Near $R=0$ the metric is comparable to
 $\dd R^2+\rho_h^2\dd\varphi^2$, and distinct ring points are at distance at least $\rho_h$ times their
 angular separation. The radial density tends to $A^2/\sqrt{\Ehat^2-A^2}>0$ at infinity, and
 $\dd s\ge|\dd R|$, $\dd s\ge\rho_h|\dd\varphi|$ make closed balls compact. The last inequality follows from $(r-M)^2-r^2f=M^2$, as in
@@ -3813,7 +3851,7 @@ For $a>0$:
 \item along circular rails the conformal time per radian is $T_\pm=(\sqrt{N\Delta}\mp2Ma/r)/f$, with
   $T_+(2M)=a+aA^2/(2\Ehat^2)+2M^2/a$ finite and $T_-\sim4aM/(r-2M)$;
 \item waiting at radius $r$ costs $\omega$ per unit time, which vanishes at the ring;
-\item the clock along the tangent geodesic to the ring is finite in the prograde sense and
+\item for constant $A$, the clock along the frozen geodesic tangent to the ring is finite in the prograde sense and
   diverges logarithmically in the retrograde sense.
 \end{enumerate}
 \end{lemma}
@@ -3822,9 +3860,13 @@ For $a>0$:
 (1) In the variables $X=r\dot r/\sqrt{f\Delta}$, $Y=\sqrt\Delta\,\dot\varphi/f$ the constraint is
 $-|\beta|Y+\sqrt N\sqrt{X^2+Y^2}\le1$; the maximum of $(1+|\beta|Y)^2/N-Y^2$ is $1/(N-|\beta|^2)$, and
 $1-|\beta|^2=fg_{\varphi\varphi}/\Delta$. (2)--(3) are direct. (4) Along a curve with $\dd r/\dd\varphi=u$ the
-prograde clock per radian is at most $T_+(r)+\sqrt N r^2u^2/(2\Delta^{3/2})$, bounded for bounded
-$u$; in the retrograde sense it is at least $T_-\ge c/(r-2M)$, while $\dd\varphi/\dd r$ has a positive
-limit at the ring.
+clock per radian exceeds $T_\pm$, in both senses, by
+$(\sqrt{N\Delta}/f)\bigl(\sqrt{1+fr^2u^2/\Delta^2}-1\bigr)\in[0,\sqrt Nr^2u^2/(2\Delta^{3/2})]$. Along the frozen geodesic
+tangent to the ring, $L=\rho_h$ and $|\dd\varphi/\dd r|=\rho_hR'/(\rho\sqrt{\rho^2-\rho_h^2})$; by the expansions in the
+proof of Lemma~\ref{lem:tau-eq-ring}, $R'\asymp\sqrt{r-2M}$ and $\rho^2-\rho_h^2\asymp r-2M$, so $\dd\varphi/\dd r$ has a
+positive finite limit and $u$ is bounded. The prograde clock therefore has a bounded density in $r$, and the
+retrograde one has density $T_-|\dd\varphi/\dd r|+O(1)$, asymptotic to a positive multiple of $1/(r-2M)$ since
+$T_-\sim4aM/(r-2M)$.
 \end{proof}
 
 For a class $\Lambda$ define the escape price $B(\Lambda)$ as the limit, as $\epsilon\to0$, of the infimum of
@@ -3977,8 +4019,8 @@ $A_\epsilon=A_0+\epsilon\alpha$, $\alpha\in C^1_b$,
 \[
   m_\epsilon=C_0+\epsilon\int_{\eta_0}^{T_0}\frac{A_0f(N_0+1)}{\Ehat}\bigl(1-\beta(\dot x_0)\bigr)\alpha(\eta)\,\dd\eta+o(\epsilon).
 \]
-The frozen hypotheses hold for $q_0\ge3/2$ and $0<\delta<\delta_c$, including unequal radii and the
-tangent separation.
+The frozen hypotheses hold for $q_0\ge3/2$ and $0<\delta<\delta_c$, including unequal radii and, whenever
+$\delta_{\rm tan}<\delta_c$, the tangent separation.
 \end{corollary}
 
 \begin{proof}
@@ -3989,8 +4031,12 @@ compactness brings every minimizer to $\gamma_0$ as $A\to A_0$. The clock equati
 $p_\eta=O(\|A'\|_\infty)$, so $\omega-p_\eta$ stays positive on the shell; the normal shooting data are therefore
 compact and approach the reference data. Non-degeneracy and the implicit-function argument of
 Theorem~\ref{thm:tau-P}, restricted to equatorial competitors, identify a unique zero containing
-every global minimizer. At the frozen reference $p_\eta=0$, and differentiating the Hamiltonian action
-gives the first variation. The strict frozen barrier follows from the corner shortcut below
+every global minimizer. At the frozen reference $p_\eta=0$, and $z(A_\epsilon)$ is $C^1$ in $\epsilon$ as in Theorem~\ref{thm:tau-P}. At fixed $p$ the velocity maximizes $p\cdot v-c_A(v)$, with $c_A(v)=\omega_A(1-\beta(v))$, on $K$, and the
+constraint $\beta(v)+\sqrt N|v|_{h_0}=1$ is active; stationarity gives
+$p+\omega\beta=\mu\,D_v\bigl(\beta(v)+\sqrt N|v|_{h_0}\bigr)$, and contracting with $v$, by homogeneity and
+$\mathcal H=0$ at the frozen reference, $\mu=p\cdot v+\omega\beta(v)=\omega$. The derivative of the reduced cost is
+$-\partial_A\mathcal H$ at fixed $p$: the direct term $2A_0f(1-\beta)/\Ehat$ plus the constraint term
+$\omega\,\partial_A(\sqrt N)\,|v|_{h_0}=A_0f(N_0-1)(1-\beta)/\Ehat$, which gives the weight. The strict frozen barrier follows from the corner shortcut below
 $\delta_{\rm ring}$ and from the Maxwell rule above it.
 \end{proof}
 
@@ -4335,7 +4381,8 @@ $H=(\Ehat C^*+r_f-r_0)/f_{\min}$ with $f_{\min}=1-2m_+/r_1$. The frozen minimize
 $\lambda<1$ has velocities in the interior of the frozen body $K_0$ with a uniform margin, since
 $\lambda K_0+(1-\lambda)B_c\subset K_0$ when $K_0$ contains the ball $B_c$ of radius $c$ about the origin; it is admissible for small $\varrho$, with cost tending to
 $(C_0+\Delta r/\Ehat)/\lambda-\Delta r/\Ehat$. Existence, convergence of all minimizers to $\gamma_0$,
-normality and planarity follow as in theorems~\ref{thm:tau-exist} and~\ref{thm:tau-P}. Since $h$ is
+normality and planarity follow as in theorems~\ref{thm:tau-exist} and~\ref{thm:tau-P}, with
+Proposition~\ref{prop:vaidya-budget} for the plane and the short arc. Since $h$ is
 positively homogeneous and $h\ge c|p|$, the condition $\mathcal H=p_v+h-\omega=0$ gives
 $|p|\le C(\omega+|p_v|)$; the clock costate solves $p_v'=-m'\,\partial_m(h-\omega)$, $p_v(T)=0$, so Gr\"onwall
 gives $\|p_v\|_\infty\le C_H\|m'\|$, after which $h=\omega-p_v$ bounds $|p|$ below. The shooting map
@@ -4352,8 +4399,9 @@ separate the spatial costate from zero and make the initial shooting data of all
 compact. Every limiting extremal generates the unique frozen minimizer, and the shooting
 data converge to its data. Thus all minimizers lie in the same local shooting neighborhood
 for sufficiently small $\varrho$, and the uniform implicit function theorem identifies every global
-minimizer with the unique nearby zero. For the
-first variation, with the adjoint equation and the free final time, the derivative is
+minimizer with the unique nearby zero. For $m_\epsilon=m_0+\epsilon\beta$ the shooting map depends on $\epsilon$ only through the values $m_\epsilon$ and $m_\epsilon'$, which are affine in
+$\epsilon$, and smoothly on them on the interior tube, so the shooting data are $C^1$ in $\epsilon$ without using
+$\beta''$. For the first variation, with the adjoint equation and the free final time, the derivative is
 $-\int\partial_\epsilon\mathcal H\,\dd v$ plus $p_v(T_0)T_0'=0$; at $\epsilon=0$, $p_v=0$ and $h=\omega$, which gives the
 bracket. If $p_r\ge0$, $h\ge(-w+\Ehat\sqrt w)p_r$ gives $p_r\le1/\Ehat+1/\sqrt w$ and the bracket is at
 most $(\sqrt w-\Ehat)/(rw)<0$; if $p_r<0$ it is negative at once.
@@ -4364,6 +4412,13 @@ The frozen hypotheses of theorem~\ref{thm:vaidya-P} hold for $\Ehat^2\ge3/2$, $r
 $0<\delta<\delta_c$, with $\delta_c$ from theorem~\ref{thm:single-max} or~\ref{thm:unequal} for $A=1$;
 the tangent separation is included whenever $\delta_{\rm tan}<\delta_c$.
 \end{corollary}
+
+\begin{proof}
+At constant mass $m_0$ the frozen problem is the proper-time problem of conformal Schwarzschild with $M=m_0$,
+$A=1$ and $q=\Ehat^2$, written in the coordinate $v$. Uniqueness and $C_0<R(r_0)+R(r_f)$ are
+theorems~\ref{thm:single-max} and~\ref{thm:unequal}; non-degeneracy is that of corollary~\ref{cor:tau-P},
+transferred to the $v$ convention as in the proof of theorem~\ref{thm:vaidya-P}.
+\end{proof}
 
 At fixed end points, launch clock and charge, a non-negative perturbation of the mass along
 the frozen minimizer therefore lowers the minimal proper time to first order, strictly if it
@@ -4474,7 +4529,7 @@ reaches $r_f$. In the radial parametrization its passage time through a radius $
 as $\eta\to0$, to that of $b_\infty$ for $z<h_\infty$ and to infinity for $z>h_\infty$; the weight $1/\sqrt w$
 is bounded by $1/\sqrt{\Ehat^2-1}$, so by dominated convergence the radial cost tends to
 $W(v_0,r_0)+R_\infty(r_f)$. For the angle, fix $R_\epsilon=h_\infty+\epsilon<r_f$ and choose $\eta=\eta(\epsilon)$ so
-small that $R_\epsilon$ is first reached at a time $V$ with $m_\infty-m(V)\le\epsilon/2$; afterwards
+small that $R_\epsilon$ is first reached on the way up at a time $V$ with $m_\infty-m(V)\le\epsilon/2$; afterwards
 $\epsilon/R_\epsilon\le f(v,R_\epsilon)\le2\epsilon/R_\epsilon$, an arc of angle $\delta$ at radius $R_\epsilon$ costs
 $O(\delta\sqrt\epsilon)$, the final rise costs at most
 $\int_{R_\epsilon}^{r_f}\dd z/\sqrt{\Ehat^2-1+2(m_\infty-\epsilon/2)/z}$, and the apparent gap at $R_\epsilon$ is at
@@ -4527,7 +4582,7 @@ If $m'\ge0$, then $0\le p_v<\omega$ along every minimizer.
 
 \begin{proof}
 $p_v'=-m'\,\partial_m(h-\omega)$ with $\partial_m(h-\omega)=(2/r)B$, $B=-p_r/2+h/(2w)+1/\Ehat$, $x=\sqrt w\in(0,\Ehat)$.
-Where $p_v\ge0$, $0<h\le\omega$. If $p_r\le0$, $B>0$. If $p_r>0$, $h\ge x(\Ehat-x)p_r$ gives
+Where $p_v\ge0$, $0<h\le\omega$ ($h>0$ because $p\ne0$, since $J\ne0$ by Proposition~\ref{prop:vaidya-budget}). If $p_r\le0$, $B>0$. If $p_r>0$, $h\ge x(\Ehat-x)p_r$ gives
 $p_r\le(\Ehat+x)/(\Ehat x)$ and $B\ge1/\Ehat$ for $2x\le\Ehat$, $B\ge(\Ehat-x)/(2x^2)>0$ otherwise. Hence $p_v'\le0$
 wherever $p_v\ge0$, and $p_v(T)=0$ keeps $p_v\ge0$ backwards (Gr\"onwall for the negative part).
 \end{proof}
@@ -4544,7 +4599,9 @@ $m'<r\,h_{pp}\dot p_r$ at every turning point, the minimizer has at most one per
 \begin{proof}
 $\dot r=0$ exactly at $p_r=\sqrt wJ/(\Ehat r\sqrt f)$, where $\partial_m\dot r=-1/r$; the constraint $h=\omega-p_v$
 fixes $J$. $P$ is affine in $p_v$, with $P(0)/m^3=au^3+3(a+1)u^2+2(a+1)u>0$, $a=\Ehat^2-1$, $u=(r-2m)/m$, and
-$P(\omega)=2m(r-2m)[(\Ehat^2-1)r+2m]>0$.
+$P(\omega)=2m(r-2m)[(\Ehat^2-1)r+2m]>0$. By Lemma~\ref{lem:vaidya-q}, $0\le p_v<\omega$, so $P(p_v)>0$ and
+$r(1-\Ehat p_v)-2m>r(1-\Ehat\omega)-2m=0$. Under the condition on $m'$ every turning point is a strict local
+minimum of $r$, so there is at most one, a periastron.
 \end{proof}
 
 At $p_v=0$ the turning threshold tends to zero at the horizon; $m'\ge0$ alone does not enforce the
@@ -4675,8 +4732,9 @@ to a minimizer at $d_*$, of cost $B_{d_*}$. Since no minimizer exists for $d\le 
 \begin{proposition}[structure in the separation]\label{prop:vaidya-delta}
 For a fixed profile with bounded mass, $r_0,r_f>2\sup m$ and $\delta\in[0,\pi]$, $V(\delta)$ is non-decreasing and Lipschitz,
 $|V(\delta_2)-V(\delta_1)|\le r_f|\delta_2-\delta_1|/\sqrt{\Ehat^2-1}$, and $V(\delta_1)<V(\delta_2)$ for $\delta_1<\delta_2$ whenever a
-minimizer exists at $\delta_2$. If $\{\delta:V(\delta)=B\}$ is non-empty, it is an interval $[\delta_c,\pi]$, and no minimizer
-exists beyond $\delta_c$.
+minimizer exists at $\delta_2$. Under the hypotheses of Theorem~\ref{thm:vaidya-escape}, the escape price $B=B_V$ does not depend on $\delta$ and
+$V\le B$; if $\{\delta:V(\delta)=B\}$ is non-empty, it is an interval $[\delta_c,\pi]$, and no minimizer exists beyond
+$\delta_c$.
 \end{proposition}
 
 \begin{proof}
@@ -4758,8 +4816,8 @@ they exist.
   quantity; and the state-constrained problem near the stationary limit.
 \item On the equator: a time-dependent factor with $2\le q<5/2$ or with spin above the stated band, and
   the physical reading of the rail inside the ergoregion.
-\item The freezing regime $A\ge\Ehat$, where the regular domain shrinks and global hyperbolicity fails in
-  general.
+\item The regime outside the uniform bound $\sup A<\Ehat$, including inward-moving freezing fronts, which shrink the
+  regular domain; there global hyperbolicity has to be established separately.
 \item The optimal radius below $q=3/2$, and whether the accretion-rate bound for Vaidya below $3/2$ can be
   removed under the same radius restriction.
 \item On the proper-time branch: the identification of the minimizer with a specific extremal between

@@ -16,7 +16,7 @@ drop_large_separation	69	PASS R_1' = rho_1/(r sqrt f)
 hand_reductions	39	PASS 39  FAIL 2  (2 FAIL expected: the checks that must fail)
 kerr_equator_curvature	16	SUMMARY: 16 PASS, 0 FAIL
 kerr_equator_structure	34	SUMMARY: 34 PASS, 0 FAIL
-pulse_drop_constants	17	PASS strict triangular margin: 9/100 - (21/500)(21/50) > 7/100
+pulse_drop_constants	23	PASS strict triangular margin: 9/100 - (21/500)(21/50) > 7/100
 pulse_drop_examples	104	PASS drop: density of R_{1/2} <= (1/4) density of R_1
 supplement_bands_direct_ricci	0	control just outside: max Cp at Q=1.55 over r: 3.9504907409403777*^-16;  at Q=2.05: -6.691802300012613*^-15
 supplement_frame_family_positivity	0	C_phi >= 0 somewhere in the family band? {T, False}

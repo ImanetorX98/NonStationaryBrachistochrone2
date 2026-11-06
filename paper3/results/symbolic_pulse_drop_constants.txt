@@ -13,5 +13,11 @@ PASS chord combination is an equality: (13/24)(1302/10^4) + (11/24)(1110/10^4) =
 PASS upper switch enclosure: (1/50)/(607/5000 - 27/200000) = 4000/24253
 PASS drop is non-increasing
 PASS drop joins C1 to both plateaus
+PASS pulse, sides: c_r^2 = A^4/(2 - 2A^2/3) >= 3/88 for 1/2 <= A <= 1
+PASS pulse, sides: sin(1/5) > 149/750 = 1/5 - (1/5)^3/6
+PASS pulse, sides: (3/88)(149/750)^2 > (63/2000)^2 = ((3/20)(21/100))^2
+PASS pulse, T column: T|A'(T)| <= pi/2 for 0 < T <= tau, A = 1 - sin^2(pi eta/tau)/2
+PASS pulse, T column: 2/A + A/(3 - A^2) decreases on [1/2,1], maximum 46/11
+PASS pulse, T column: (46/11)(pi/2) < 46/7 since pi < 22/7
 PASS terminal derivative margin: (21/100)(46/11)(1100/147) = 46/7
 PASS strict triangular margin: 9/100 - (21/500)(21/50) > 7/100

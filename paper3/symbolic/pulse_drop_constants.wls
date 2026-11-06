@@ -24,6 +24,16 @@ ok["upper switch enclosure: (1/50)/(607/5000 - 27/200000) = 4000/24253", (1/50)/
 aa = 1 - (3 z^2 - 2 z^3)/2;
 ok["drop is non-increasing", Resolve[ForAll[z, Implies[0 <= z <= 1, D[aa, z] <= 0]], Reals]];
 ok["drop joins C1 to both plateaus", {aa /. z -> 0, aa /. z -> 1, D[aa, z] /. z -> 0, D[aa, z] /. z -> 1} == {1, 1/2, 0, 0}];
+(* pulse, step 2: signs on the sides of Q and the T column *)
+ok["pulse, sides: c_r^2 = A^4/(2 - 2A^2/3) >= 3/88 for 1/2 <= A <= 1", Resolve[ForAll[A, 1/2 <= A <= 1, A^4/(2 - 2 A^2/3) >= 3/88], Reals]];
+ok["pulse, sides: sin(1/5) > 149/750 = 1/5 - (1/5)^3/6", Sin[1/5] > 149/750 && 1/5 - (1/5)^3/6 == 149/750];
+ok["pulse, sides: (3/88)(149/750)^2 > (63/2000)^2 = ((3/20)(21/100))^2", (3/88) (149/750)^2 > (63/2000)^2 && (3/20) (21/100) == 63/2000];
+ok["pulse, T column: T|A'(T)| <= pi/2 for 0 < T <= tau, A = 1 - sin^2(pi eta/tau)/2",
+  Simplify[D[1 - Sin[Pi eta/tau]^2/2, eta] + (Pi/(2 tau)) Sin[2 Pi eta/tau]] === 0 &&
+  Resolve[ForAll[{T, tau}, 0 < T <= tau, T (Pi/(2 tau)) <= Pi/2], Reals]];
+ok["pulse, T column: 2/A + A/(3 - A^2) decreases on [1/2,1], maximum 46/11",
+  Resolve[ForAll[A, 1/2 <= A <= 1, D[2/A + A/(3 - A^2), A] < 0], Reals] && (2/A + A/(3 - A^2) /. A -> 1/2) == 46/11];
+ok["pulse, T column: (46/11)(pi/2) < 46/7 since pi < 22/7", Pi < 22/7 && (46/11) (22/7)/2 == 46/7];
 (* margins *)
 ok["terminal derivative margin: (21/100)(46/11)(1100/147) = 46/7", (21/100)(46/11)(1100/147) == 46/7];
 ok["strict triangular margin: 9/100 - (21/500)(21/50) > 7/100", 9/100 - (21/500)(21/50) > 7/100];
