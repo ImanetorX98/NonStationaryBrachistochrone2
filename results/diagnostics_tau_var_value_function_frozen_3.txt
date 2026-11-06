@@ -1,0 +1,1 @@
+mode frozen: grid dr=0.0125, db=0.00626, de=0.0125, nu=41; K input [0,46.0] x [2.44,9.28], effective r in [2.4375,9.2875]; W(0, r0, delta) = 5.836429; candidate 5.813037; candidate - W = -0.02339; 441s

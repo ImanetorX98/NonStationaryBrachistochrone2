@@ -1,0 +1,6 @@
+PASS g_q(f) = -2f^3/q + (3/2 + 1/q) f^2 - f/2
+PASS g(1/3) = 1/(27q), g(1) = (q-1)/q
+PASS identity of the chord
+PASS 12f + 10 - 9q > 1/2 for f >= 1/3, q < 3/2
+PASS mu* = (q-1)/q per q <= 28/27, 1/(27q) oltre
+PASS max_q mu* = 1/28

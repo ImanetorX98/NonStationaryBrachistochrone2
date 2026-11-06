@@ -1,0 +1,6 @@
+PASS dm(h-om) = (2/r)[-p_r + S/(2 sqrt w) + 1/E]
+PASS 1/E[1-(E+x)(2x-E)/(2x^2)] = (E-x)/(2 x^2)
+   [N] samples on the surface h=omega-q, q in [0,omega): 2592 ; dm(h-om)<=0: 0
+PASS [N] dm(h-om) > 0 if q >= 0
+PASS rdot(p_r=0) = -w < 0
+PASS p_r'(p_r=0) > 0

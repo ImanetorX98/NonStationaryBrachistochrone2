@@ -1,0 +1,193 @@
+--- (A) identities of the geometry and of the Hamiltonian [EXACT]
+PASS |beta|^2 = 1/(r^2 Delta)
+PASS omega beta_phi = -g
+PASS H = -omega + sigma_K(p + omega beta): linear part -xi beta/(hp d) = -k_H xi
+PASS H = -omega + sigma_K(p + omega beta): X/d^2 = Y (radicands; both sides positive, d > 0)
+PASS rdot = a_H p/S, phidot = b_H xi/S - k_H
+PASS ell_r = 2/r - 2/(r(r-2)) - (2r-2)/Delta
+PASS ell_phi = (2r-2)/Delta - 4/(r(r-2))
+PASS ell_r' = -2/r^2 + P - 2/Delta + V^2
+PASS ell_phi' = 2/Delta - V^2 + 2P
+PASS V decreasing: 2 Delta - Delta'^2 < 0 for every real r
+PASS P decreasing on the shell: 1/(r-1) - 2/r - 2/(r-2) < 0
+PASS L_N = N A^2/r^2
+PASS L_N' = L_N (L_N - 2/r)
+PASS N''/N = 2 L_N^2 - 2 L_N/r
+PASS L_d' = (N'' - B'')/d - L_d^2
+PASS L_B = -2/r - V, L_B' = 2/r^2 - 2/Delta + V^2
+PASS k_r = -k C_k, C_k = 1/(r-2) + L_d + ell_phi
+PASS alpha = -(L_d + ell_r)/2, gamma = (L_N - 2 L_d - ell_phi)/2
+PASS omega_rr = -2 omega_r/r, xi_rr = -2 xi_r/r
+--- (B) derivatives of S and of H [EXACT]
+PASS S_r = (alpha u^2 + gamma w^2)/S + sqrt(b) xi_r w/S
+PASS S_rr/S = (alpha'+alpha^2) rho + (gamma'+gamma^2) sigma + rho sigma (gamma-alpha+xi_r/xi)^2 + sqrt(b)(2 gamma xi_r + xi_rr) w/S^2
+PASS H_rr = -omega_rr + S_rr - k_rr xi - 2 k_r xi_r - k xi_rr
+PASS H_rp = rdot [2 alpha - alpha rho - gamma sigma - (xi_r/xi) sigma]
+PASS H_rJ = (phidot + k)[gamma + rho(gamma - alpha + xi_r/xi)] - k_r
+PASS rank one: H_pJ = -Z H_pp, H_JJ = -Z H_pJ
+PASS (J H_pp)^2 = (a^2/b)/((xi/J)^2 (1+t)^3)  [S^2 = b xi^2 (1+t)]
+PASS (a/sqrt b)^2 = h_phi/(h_r^2 N)
+PASS projective force identity: p H_rp + J H_rJ - H_r = omega_r - xi_r phidot + g H_rJ
+--- (C) projective system and angular identity [EXACT]
+PASS u' = b u + a P - q h  (a = j H_pp, P = z/j, q = a Z g/j, j = J > 0)
+PASS P' = -l u - b P - f h  (l = H_rr/j, f = (omega_r - xi_r phidot + g H_rJ)/j)
+PASS dphi' = (H_rJ + Z H_rp) u - Z u'
+PASS theta column: z(T) = -s c_r/cos(theta)  (s = +-1)
+PASS T column: with dp = H_r + ell p, dJ = ell J one has z(T) = H_r
+--- (D) reference at r = 6 [EXACT]
+
+Clear::wrsym: Symbol C is Protected.
+PASS h_r(6) = 216/97, h_phi(6) = 873/16, kappa_6^2 = 3456/84681
+PASS a kappa^2 = b gamma = 1/(d h_phi) at r = 6
+PASS s=1: d/dtheta (K sin/L) = K X (1 - s v cos)/L^3
+PASS s=1: d/dtheta (sqrt(b) X/L) = -sqrt(b) gamma sin (1 - s v cos)/L^3
+PASS s=1: cos X + sin^2 = 1 - s v cos
+PASS s=-1: d/dtheta (K sin/L) = K X (1 - s v cos)/L^3
+PASS s=-1: d/dtheta (sqrt(b) X/L) = -sqrt(b) gamma sin (1 - s v cos)/L^3
+PASS s=-1: cos X + sin^2 = 1 - s v cos
+PASS d log c_phi/dA = 2/A + A/(3 - A^2) (at r = 6)
+PASS 2/A + A/(3-A^2) decreasing on [1/2,1], maximum 46/11
+PASS x |sin(2 pi x)| <= 1 on [0,1]  (hence T|A'(T)| <= pi/2)
+PASS (46/11)(pi/2) < 46/7
+PASS alpha'(1) = 0, alpha(1) = 1, alpha = 3/4 + cos(2 pi q)/4
+PASS int_0^1 alpha^2 = 19/32
+--- (E) elementary lemmas [EXACT]
+PASS weighted mean: M(1-c)^2 - m c^2 <= 0 with c = 3/5 if M/m <= 9/4
+PASS weighted mean: int_0^1 (x-c) W <= [M(1-c)^2 - m c^2]/2 (W = M on [c,1], m on [0,c] is the worst case)
+PASS comparison matrix: inverse with entries >= 0 if 1 - TB > 0 and det > 0
+PASS chord: weights 13/24, 11/24 from the mean 19/32 between 1/4 and 1
+PASS sqrt(1 - f x/2) concave in x
+PASS w/(1 - b w) increasing and convex, w/(1 + b w) increasing and concave (0 < b w < 1)
+PASS s=1: pure angular speed (sqrt b - s k)(sqrt(N h_phi) + s beta_phi) = 1
+PASS s=-1: pure angular speed (sqrt b - s k)(sqrt(N h_phi) + s beta_phi) = 1
+PASS 1 - (1+t)^(-1/2) <= t/2 for t >= 0
+--- (F) extremes on the shell used in the tables [EXACT where marked]
+PASS [EXACT] 0 <= alpha
+PASS [EXACT] alpha <= 11/100
+PASS [EXACT] gamma <= 0
+PASS [EXACT] gamma >= -77/500
+PASS [EXACT] sqrt(a_H) < 2/3
+PASS [EXACT] sqrt(b_H) < 67/500
+PASS [EXACT] |k_H| < 6/1250
+PASS [EXACT] |k_H,r| < 69/25000
+PASS [EXACT] omega_r < 43/1000
+PASS [EXACT] xi_r < 43/2000
+PASS [EXACT] |alpha'| < 8/125
+PASS [EXACT] |gamma'| < 57/1000
+PASS [EXACT] |k_rr| < (6/1250)((23/40)^2 + 3/20)
+PASS [EXACT] |omega_rr| < 3/200
+PASS [EXACT] |xi_rr| < 3/400
+PASS [EXACT] 0 < ell_r' < 53/500
+PASS [EXACT] ell_r' > 0
+PASS [EXACT] |ell_phi'| < 7/125
+PASS [EXACT] L_N <= 800/17457
+PASS [EXACT] 0 <= L_d < 47/1000
+PASS [EXACT] |L_d'| < 21/1000
+PASS [EXACT] 7/3 < a/sqrt(b)
+PASS [EXACT] a/sqrt(b) < 15/4
+PASS [EXACT] a/b < 29
+--- (G) phase-space domain: table of the coefficients [N] (NMaxValue, 4 variables)
+PASS [N] whole Q: a > 29
+--
+20 (extreme 2.14381)
+PASS [N] whole Q: a < 48/11 (extreme 3.51156)
+PASS [N] whole Q: |H_rp| < 7
+--
+50 (extreme 0.0594131)
+PASS [N] whole Q: |H_rr|/j < 1/25 (extreme 0.0198258)
+PASS [N] whole Q: |H_rJ| <  4
+---
+125 (extreme 0.0220786)
+PASS [N] whole Q: |f| <  57
+----
+1000 (extreme 0.0426497)
+PASS [N] whole Q: |q| < 11
+---
+200 (extreme 0.0284567)
+PASS [N] whole Q: |H_r|/j < 2/25 (extreme 0.0616298)
+PASS [N] return: a > 37
+--
+20 (extreme 2.76513)
+PASS [N] return: a < 48/11 (extreme 3.30292)
+PASS [N] return: |H_rp| <  8
+---
+125 (extreme 0.0308585)
+PASS [N] return: |H_rr|/j < 1/25 (extreme 0.0178015)
+PASS [N] return: |H_rJ| < 13
+---
+500 (extreme 0.0192961)
+PASS [N] return: |f| <  7
+---
+125 (extreme 0.0395977)
+PASS [N] return: |q| < 13
+---
+500 (extreme 0.0159346)
+PASS [N] return: |H_r|/j < 2/25 (extreme 0.0573082)
+PASS [N] whole Q (s=-1): a > 29
+--
+20 (extreme 1.92375)
+
+NMaxValue::cvmit: Failed to converge to the requested accuracy or precision within 100 iterations.
+PASS [N] whole Q (s=-1): a < 48/11 (extreme 3.37742)
+PASS [N] whole Q (s=-1): |H_rp| < 7
+--
+50 (extreme 0.0590356)
+PASS [N] whole Q (s=-1): |H_rr|/j < 1/25 (extreme 0.0216537)
+PASS [N] whole Q (s=-1): |H_rJ| <  4
+---
+125 (extreme 0.0170207)
+PASS [N] whole Q (s=-1): |f| <  57
+----
+1000 (extreme 0.0529654)
+PASS [N] whole Q (s=-1): |q| < 11
+---
+200 (extreme 0.0186329)
+PASS [N] return (s=-1): a > 37
+--
+20 (extreme 2.29553)
+
+NMaxValue::cvmit: Failed to converge to the requested accuracy or precision within 100 iterations.
+PASS [N] return (s=-1): a < 48/11 (extreme 3.17197)
+PASS [N] return (s=-1): |H_rp| <  8
+---
+125 (extreme 0.0301730)
+PASS [N] return (s=-1): |H_rr|/j < 1/25 (extreme 0.0195836)
+PASS [N] return (s=-1): |H_rJ| < 13
+---
+500 (extreme 0.0149756)
+PASS [N] return (s=-1): |f| <  7
+---
+125 (extreme 0.0488240)
+PASS [N] return (s=-1): |q| < 13
+---
+500 (extreme 0.00959720)
+PASS [N] whole Q (s=-1): |H_r|/j < 2/25 (extreme 0.0679123)
+--- (H) rational chain of the uniqueness and sector-change theorems [EXACT]
+PASS theta column: U < 213/1000, V < 223/1000
+PASS V > 189/1000
+PASS dU/dt > 23/100
+PASS D22 > (23/100)(3/25) > 1/40
+PASS |D12|/D22 < Z0 + (21/100) C0 < 6/125
+PASS |u(T)| < (15/4)(189/10000)(72/55) < 93/1000
+PASS T column: U_T < 7/10, V_T < 47/100
+PASS int|u'| < 61/100
+PASS sqrt(b_H) > 11/100 on the return domain: 1/(N h_phi) at r = 301/50, A = 1
+PASS D11 > 7/100
+PASS Gamma' > 7/100 - (6/125)(7/10) = 91/2500
+PASS j > 4 at the change: (291/16)(49/50)^2 > 16
+PASS Z* = 63/7750, 29 Z*^2 < 1/500
+PASS |r - 6| < (1/10)(15/4) Z* < 1/300
+PASS |D12|/D22 < Z* + (21/100) C* < 7/500
+PASS dilation: U_d < 7/100, V_d < 1/25
+PASS H_diag > 49/500
+PASS T column at the change: U_T < 3/50, V_T < 1/25, int|u'| < 21/500
+PASS Gamma_T < 71/500
+PASS F' < -(49/500)/(71/500) = -49/71 < -2/3
+PASS w(r+,1/2) > 0.12956, w(r+,1) > 0.11048, sqrt((1 - 19 f(r-)/64)/h_phi(r-)) < 0.1213, w(r-,1/2) < 0.13
+PASS L_w <= (13/24) w(r+,1/2) + (11/24) w(r+,1)
+PASS b_beta in (249/1000, 251/1000) on |r - 6| < 1/300
+PASS e = (67/500)(1/500)/2 = 67/500000
+PASS tau+* in (1/(50 U+), 1/(50 L+)) = (96737/606500, 12124010000/75418769133)
+PASS tau-* in (1/(50 U-), 1/(50 L-)) = (10302037/60650000, 1032630000/6033081379)
+PASS simple enclosures: 159/1000 < tau+ < 161/1000 < 169/1000 < tau- < 172/1000
+PASS denominators and lower bounds positive

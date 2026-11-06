@@ -1,0 +1,17 @@
+symbolic
+  [PASS] h_phiphi = Delta sin^2/f
+  [PASS] |beta|_h0^2 = 4M^2a^2r^2 sin^2/(Sigma^2 Delta)
+  [PASS] sin/Sigma increasing in sin(theta): max at equator
+  [PASS] h0_rr = Sigma^2/(Delta (Sigma - 2Mr))
+  [PASS] Lemma 2: (Sigma-2Mr)^{3/2} G' = a^2 X(4Mr-Sigma) - k Delta
+  [PASS] Lemma 2: 4M^2 Delta - a^2(4M-r)^2 = s(8M^3+4Ma^2) + s^2(4M^2-a^2) at r=2M+s
+
+numerical
+  [PASS] joint polar minimum at the equator on 800 (a,r) samples (consistent with Lemma 2)
+  [PASS] split bound <= joint minimum (consistency)
+  a=0.5 (Lemma 2, 3D = equatorial): r2=4: 10.34, r2=6: 16.68, r2=8: 22.15, r2=12: 32.06
+  a=0.9 (Lemma 2, 3D = equatorial): r2=4: 7.01, r2=6: 12.95, r2=8: 18.26, r2=12: 28.04
+  a=0.99 (Lemma 2, 3D = equatorial): r2=4: 6.52, r2=6: 12.37, r2=8: 17.64, r2=12: 27.39
+  [PASS] Lemma 2 bound: v^eta >= c_eq(r)|v^r| on 20000 random 3D null vectors   min slack 1.31e-02
+
+all checks passed

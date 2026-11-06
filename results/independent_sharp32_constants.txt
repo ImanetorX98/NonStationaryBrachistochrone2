@@ -1,0 +1,38 @@
+PASS epsilon minus
+PASS epsilon plus
+PASS D0 > K/c
+PASS F_min > 0
+PASS lower bound > 0.1832 (exact)
+PASS upper bound < -1.922 (exact)
+PASS negative control: lower bound NOT > 0.19
+PASS negative control: upper bound NOT < -1.923
+PASS b_plus <= D/2: beta_plus/D0 <= 1/2
+PASS Phi < pi: 300 > pi K/(2 sqrt(3)c)
+PASS rho(10)^2 = 375
+PASS rho_star < 20 < 300
+PASS r_c: r_c^2+12r_c-40 = 0
+PASS 2 < r_c < 3
+PASS derivative of rho^2 with the sign of the critical polynomial
+PASS rho(3)^2 = 486/13
+PASS b_c <= rho(3) < 7 < 300
+PASS rho(8200)^2 > D0^2
+PASS derivative of -2/sqrt(1-e/t) positive
+PASS derivative of sqrt(1-e/t) positive
+PASS derivative of -1/sqrt(t) positive
+PASS derivative of +1/sqrt(t) negative
+PASS negative control: the positive upper term increases between t=1 and 4
+PASS D R1 bound scales as t^(-1/2)
+PASS numerator of H_q prime
+PASS c1 positive at q=3/2 and increasing
+PASS margin for -f/(2w) < 1/2
+PASS log derivative of h_r
+PASS log derivative of h_phi
+PASS margin Delta < (r-1)^2
+PASS upper bound of the log derivative of h_r
+PASS lower bound of the log derivative of h_phi
+PASS shell beyond 2+sqrt(2)
+PASS zeros of the radius polynomial
+CERTIFIED low in 0.18328970536723663 0.18328970536723663
+CERTIFIED upper in -1.9221260343338715 -1.9221260343338715
+rho_star/M = 19.3649167310371 ; b_c/M = 5.98829092631448
+PASS 34; FAIL 0 (negative controls included)

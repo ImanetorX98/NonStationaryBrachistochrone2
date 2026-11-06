@@ -1,0 +1,3 @@
+n=160, start T=33.12: success False (Iteration limit reached); cost 3.950191, T=162.144, min r 2.0001, angle 0.500pi, time at r<2.5: 145.93
+n=160, start T=28.0: success False (Iteration limit reached); cost 3.941375, T=189.496, min r 2.0004, angle 0.500pi, time at r<2.5: 172.91
+n=200, start T=38.0: success False (Iteration limit reached); cost 3.943202, T=197.865, min r 2.0001, angle 0.500pi, time at r<2.5: 181.05

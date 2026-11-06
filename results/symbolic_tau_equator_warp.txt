@@ -1,0 +1,7 @@
+PASS drho/dR = the stated formula
+PASS (r-M)^2 - r^2 f = M^2
+PASS r - M > r Sqrt[f] for r > 2M
+PASS negative control: residual of the opposite sign = 2M Dl/(r^(3/2)Sqrt[r-2M](2M+(Q-1)r)) > 0
+PASS rho^2 = A^2 V_a (A^2 = cc^2 Q) and R'/rho = K_a
+PASS a = 0: V and K of the text
+PASS V_a(2M) = a^2/Q (ring)

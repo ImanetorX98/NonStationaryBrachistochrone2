@@ -1,0 +1,20 @@
+== Conformal Kerr, barrier ==
+  [PASS] eq:excursion: P0 = h0_rr on the equator = r^2/(f Delta), c = theta r/sqrt(f Delta)
+  [PASS] eq:excursion: theta(2M) = 0
+  [PASS] eq:excursion: theta -> 1 for r -> oo
+  [PASS] eq:excursion: theta increasing on r > 2M (M = 1)
+  [PASS] eq:excursion: C(2M+, r2) finite for a != 0 (numerical integral at a = 1/2, r2 = 6M)
+  [PASS] lem:worst: |beta|_h0 = k x/Sigma
+  [PASS] lem:worst: sqrt(Delta) F = G(x) = (Sigma - k x)/sqrt(Sigma - 2Mr)
+  [PASS] lem:worst: (Sigma - 2Mr)^{3/2} G'(x) = a^2 x(4Mr - Sigma) - k Delta
+  [PASS] lem:worst: 4M^2 Delta - a^2(4M - r)^2 = s(8M^3 + 4M a^2) + s^2(4M^2 - a^2), r = 2M + s
+  [PASS] lem:worst: on the equator F = c(r)
+  [PASS] lem:worst: F non-increasing in x = sin(theta) (Reduce, M = 1)
+   2C(2M+, 6M) at a = 1/2: 16.684512669553671411`6.
+  [PASS] margin 2C(2M+, 6M) = 16.7M for a = 1/2
+   2C(2M+, 6M) at a = 9/10: 12.9494183995398116195`6.
+  [PASS] margin 2C(2M+, 6M) = 12.9M for a = 9/10
+   2C(2M+, 6M) at a = 99/100: 12.3702579717135659308`6.
+  [PASS] margin 2C(2M+, 6M) = 12.4M for a = 99/100
+
+SUMMARY: 14 PASS, 0 FAIL

@@ -1,0 +1,20 @@
+1_P0_perturbed: REJECTED (expected) | REJECTED (local) tampered_1_P0_perturbed.json: leaf rejected (after 1 leaves, node 5)
+2_s0_too_large: REJECTED (expected) | REJECTED (local) tampered_2_s0_too_large.json: leaf rejected (after 1 leaves, node 5)
+3_truncated_tree: REJECTED (expected) | REJECTED (local) tampered_3_truncated_tree.json: malformed tree: truncated tree
+4_split_into_leaf: REJECTED (expected) | REJECTED (local) tampered_4_split_into_leaf.json: leaf rejected (after 1 leaves, node 1)
+5_g_negated: REJECTED (expected) | REJECTED (local) tampered_5_g_negated.json: g not certified >= 0 at the root
+ALL TAMPERINGS REJECTED
+6_delegation_outside_region: REJECTED (expected) | REJECTED (local) tampered_6_delegation_outside_region.json: leaf rejected (after 1 leaves, node 14)
+7_wrong_alternative: REJECTED (expected) | REJECTED (local) tampered_7_wrong_alternative.json: leaf rejected (after 1 leaves, node 4)
+8_square_P0_perturbed: REJECTED (expected) | REJECTED (local) tampered_8_square_P0_perturbed.json: leaf rejected (after 1 leaves, node 1)
+9_nonneg_negated: REJECTED (expected) | REJECTED (local) tampered_9_nonneg_negated.json: leaf rejected (after 1 leaves, node 1)
+OTHER TYPES: ALL TAMPERINGS REJECTED
+10_delegation_without_delegate: REJECTED (expected) | VERIFIED (local) false.json: leaves 0, delegated 1, nodes 1, degrees [0], 0.0s
+11_empty_set: REJECTED (expected) | REJECTED (local) empty.json: invalid format: empty sufficient set
+12_composition_phi_altered: REJECTED (expected) | COMPOSITION: group3_I2_C2A: composition identities failed (P0 False, P1 False, g False)
+13_missing_delegate: REJECTED (expected) | COMPOSITION: group3_I2_main/C2: delegate group3_I2_C2B missing
+COUNTEREXAMPLES AND COMPOSITION: ALL REJECTED
+14_circular_delegation: REJECTED (expected) | OUTCOME: at least one certificate rejected or composition failed
+15_unknown_coverage: REJECTED (expected) | COMPOSITION: D: coverage value not allowed: 'affine_typo'
+CIRCULAR DELEGATION AND UNKNOWN COVERAGE: ALL REJECTED
+SUMMARY: 15/15 tamperings rejected

@@ -1,0 +1,20 @@
+symbolic: 3+1 Kerr threading
+  [PASS] g_Kerr = -f(d eta - beta)^2 + h
+  [PASS] h_phiphi = Delta sin^2/f
+  [PASS] rail + normalisation => w^2 = N h(u,u)/f  (null for g_opt)
+  [PASS] converse: rescaled g_opt-null vector is g-unit
+  [PASS] n^2 = N (Paper II Randers index)
+  [PASS] f g_phiphi + g_tphi^2 = Delta sin^2
+  [PASS] 1 - |beta|^2_h0 = f g_phiphi/(Delta sin^2)  (so |beta|_h0<1 iff f>0)
+  [PASS] g_opt^{eta eta} = -1 + |beta|^2_h0/N  (d eta timelike since N>=1>|beta|^2)
+
+symbolic: equatorial data agree with Paper II eq. (randers-data)
+  [PASS] h0_rr = r^2/(f Delta)
+  [PASS] h0_phiphi = Delta/f^2
+  [PASS] beta = -2Ma/(r f) dphi
+  [PASS] |beta|_h0 = 2M|a|/(r sqrt Delta) at equator
+
+numeric: Paper II H_eta + 1 is the support function of the g_opt cone
+  [PASS] g_opt^{-1}(P,P) = 0 for P = (-(H_eta+1), p_r, p_phi), 5000 random samples   max rel 2.2e-13
+
+all checks passed

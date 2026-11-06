@@ -1,0 +1,13 @@
+PASS rdot = 0 at p_r = p*
+PASS d_m rdot = -1/r at rdot = 0
+h_pp = ((-2*m + r)^(3/2)*Sqrt[2*m + (-1 + e^2)*r])/(e*J*r)
+p_r' = ((2*m*r)/e + (J*(-8*m^2 - 3*(-2 + e^2)*m*r + (-1 + e^2)*r^2))/(e*Sqrt[(-2*m + r)*(2*m + (-1 + e^2)*r)]))/r^3
+h_pp p_r' = ((-2*m + r)^(3/2)*Sqrt[2*m + (-1 + e^2)*r]*((2*m*r)/e + (J*(-8*m^2 - 3*(-2 + e^2)*m*r + (-1 + e^2)*r^2))/(e*Sqrt[(-2*m + r)*(2*m + (-1 + e^2)*r)])))/(e*J*r^4)
+PASS control: without the constraint h = omega - q, h_pp p_r' > 0 for all r > 2m, J > 0 is false (must fail)
+threshold m' < r h_pp p_r' : ((-2*m + r)^(3/2)*Sqrt[2*m + (-1 + e^2)*r]*((2*m*r)/e + (J*(-8*m^2 - 3*(-2 + e^2)*m*r + (-1 + e^2)*r^2))/(e*Sqrt[(-2*m + r)*(2*m + (-1 + e^2)*r)])))/(e*J*r^3)
+PASS h(p*) = sqrt(f w) J/(E r)
+h_pp p_r' on the constraint = ((2*m - r)*(8*m^3 + 2*m^2*(-6 + e^2 + 4*e*q)*r + 3*(-2 + e^2)*m*(-1 + e*q)*r^2 - (-1 + e^2)*(-1 + e*q)*r^3))/(e^2*r^4*(2*m + (-1 + e*q)*r))
+PASS q=0: h_pp p_r' > 0 for every r > 2m (E^2=2, m=1)
+PASS q in [0, omega): h_pp p_r' > 0 (E^2=2, m=1)
+PASS q=0, generic E>1, m=1
+threshold of m' for no apoapsis (q=0): m' < r h_pp p_r' = ((2*m - r)*(4*m^2 + (-4 + e^2)*m*r - (-1 + e^2)*r^2))/(e^2*r^3)

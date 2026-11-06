@@ -1,0 +1,8 @@
+b = 2: Ric free of q', q'' : True;  Ric(k,k) = Cr cos^2 + Cp sin^2 : True
+   Cr < 0 on r>2, Q >= 5/3 : True
+   Cp < 0 on r>2, Q >= 5/3 : True
+   control just outside: max Cp at Q=1.6 over r: 3.490806974495286*^-12;  at Q=1.66: 1.736470948607433*^-12
+b = 5/3: Ric free of q', q'' : True;  Ric(k,k) = Cr cos^2 + Cp sin^2 : True
+   Cr < 0 on r>2, 11/7 <= Q <= 2 : True
+   Cp < 0 on r>2, 11/7 <= Q <= 2 : True
+   control just outside: max Cp at Q=1.55 over r: 3.9504907409403777*^-16;  at Q=2.05: -6.691802300012613*^-15

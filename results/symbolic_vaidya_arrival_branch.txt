@@ -1,0 +1,52 @@
+== Ingoing Vaidya, arrival branch ==
+  [PASS] cor:vaidya: -w + E sqrt(w) = f sqrt(w)/(E + sqrt(w))
+  [PASS] cor:vaidya: f sqrt(w)/(E + sqrt(w)) < f/2 (sqrt(w) < E)
+  [PASS] cor:vaidya: L(rho, r_f) = int_rho^{r_f} dr/((1 - 2m/r)/2)
+  [PASS] cor:vaidya: L -> oo for rho -> 2m (L >= 4m log((r_f-2m)/eps) with rho = 2m + eps)
+  [PASS] eq:vaidya-G: G(1, s, zeta) = -w + (s+w)^2/E^2 + r^2 |zeta|^2
+  [PASS] eq:vaidya-G: det of the (v, r) block = -w/E^2
+  [PASS] eq:vaidya-G: G(d_v, d_v) = -w f/E^2
+  [PASS] eq:vaidya-G: G^{-1}(dv, dv) = -1/w
+  [PASS] eq:vaidya-G: constant mass => (t, r) block = (w f/E^2) diag(-1, N/f^2), N = E^2/w
+  [PASS] eq:vaidya-G: constant mass => angular part r^2 = (w f/E^2) N r^2/f
+  [PASS] thm:vaidya-arrival: f/2 = (r - 2m)/(2r)
+  [PASS] thm:vaidya-sturm: K_perp - K_par = L^2/(r^4 (E^2 r + 2m - r)^2)[m P/r + m' r (3(q-1)r + 4m)] (branch 1)
+  [PASS] thm:vaidya-sturm: K_perp - K_par = L^2/(r^4 (E^2 r + 2m - r)^2)[m P/r + m' r (3(q-1)r + 4m)] (branch 2)
+  [PASS] (fails as expected) control: without the m' term (must fail)
+  [PASS] s_+ = -w + sqrt(q w) = w f/(sqrt(q w) + w)
+  [PASS] s_+ <= f/2 (w <= q)
+  [PASS] null circle at constant r: r^2 phi'^2 = w f/q
+  [PASS] eq:vaidya-alpha: the direction is null
+  [PASS] lem:vaidya-direction: d(cos al)/dv = -sin^2(al) B(w, cos al)/r, arbitrary m(v) (root 1)
+  [PASS] lem:vaidya-direction: d(cos al)/dv = -sin^2(al) B(w, cos al)/r, arbitrary m(v) (root 2)
+  [PASS] lem:vaidya-direction: B(q, 1) = 1/2
+  [PASS] lem:vaidya-direction: B(q-1, c) = (q-1)c - sqrt(q(q-1))
+  [PASS] lem:vaidya-dec-boundary: G(X, X) = 4 m'(1 + m'/q) on r = 2m
+  [PASS] lem:vaidya-dec-boundary: (2m)^2 |k^Omega|^2 = -4 m'(1 + m'/q) (k^v = 1)
+  [PASS] lem:vaidya-dec-boundary: Hess_G(r - 2m)(k, k) = (k^v)^2 F(v) for null k tangent to the boundary
+  [PASS] (fails as expected) control: with 5/q -> 4/q in F (must fail)
+  [PASS] lem:vaidya-dec-sturm: m P/r + m' r (3(q-1)r + 4m) = r (3(q-1)r + 4m)[m' + H_q(m/r)]
+  [PASS] lem:vaidya-dec-sturm: H_q strictly increasing on z > 0 for q >= 3/2
+  [PASS] prop:vaidya-dec-count: s_- = -w - sqrt(q w) <= -(q-1) - sqrt(q(q-1))
+  [PASS] profile: -m' = d = s(1-s)/25
+  [PASS] profile: d <= 1/100
+  [PASS] profile: |m''| <= d/5
+  [PASS] profile: d <= e^{1 - v/5}/25
+  [PASS] profile: m'' as a function of s equals the derivative in v
+  [PASS] profile: F + d/60 <= 0 for s in (0,1), q = 3/2
+  [PASS] profile (stronger than needed): F <= -(13/30) d, sharp constant (sup as s -> 1), q = 3/2
+  [PASS] (fails as expected) control: F <= -(1/2) d does not hold (must fail), q = 3/2
+  [PASS] profile: -q < m' < 0 for s in (0,1), q = 3/2
+  [PASS] profile: F + d/60 <= 0 for s in (0,1), q = 2
+  [PASS] profile (stronger than needed): F <= -(13/30) d, sharp constant (sup as s -> 1), q = 2
+  [PASS] (fails as expected) control: F <= -(1/2) d does not hold (must fail), q = 2
+  [PASS] profile: -q < m' < 0 for s in (0,1), q = 2
+  [PASS] profile: H_2(z) = z + z^2(24 + 40 z)/(3 + 4z)
+  [PASS] profile: H_{3/2}(z) = 23/3 z^2 + 28/3 z^3/(3/2 + 4z)
+  [PASS] profile: R e^{-v/5} decreasing for v >= 0 (R = 6 + v/2)
+  [PASS] profile: R^2 e^{-v/5} decreasing for v >= 0
+  [PASS] profile: 6e/25 < 1 and 36e/25 < 23/3
+  [PASS] profile: Sturm condition checked directly: d < H_q(m/R) for q in {3/2, 2}, v in [0, 400]
+  [PASS] H_q(z) >= (2q-3) z for q >= 3/2, z > 0
+
+SUMMARY: 49 PASS, 0 FAIL

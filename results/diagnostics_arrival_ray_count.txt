@@ -1,0 +1,12 @@
+[const] q in [2.000, 2.000], r0 = 6.0, r_T = 6.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[up] q in [1.512, 2.000], r0 = 6.0, r_T = 6.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[down] q in [1.512, 2.000], r0 = 6.0, r_T = 6.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[osc] q in [1.512, 2.000], r0 = 6.0, r_T = 6.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[const] q in [2.000, 2.000], r0 = 6.0, r_T = 10.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[up] q in [1.512, 2.000], r0 = 6.0, r_T = 10.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[down] q in [1.512, 2.000], r0 = 6.0, r_T = 10.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[osc] q in [1.512, 2.000], r0 = 6.0, r_T = 10.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[const] q in [2.000, 2.000], r0 = 6.0, r_T = 4.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [0, 1] (at 0.438); realising rays with a zero of D_J: 0
+[up] q in [1.512, 2.000], r0 = 6.0, r_T = 4.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [0, 1] (at 0.414); realising rays with a zero of D_J: 0
+[down] q in [1.512, 2.000], r0 = 6.0, r_T = 4.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0
+[osc] q in [1.512, 2.000], r0 = 6.0, r_T = 4.0: counts of same-sense rays over 40 deltas in [0.02, 0.98] pi: [1]; realising rays with a zero of D_J: 0

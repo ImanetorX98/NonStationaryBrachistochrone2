@@ -1,0 +1,38 @@
+== Proper-time branch with A(eta) ==
+  [PASS] rail as a graph: |xdot|_h0 = N^{-1/2} (cone: d eta = sqrt(N)|dx|)
+  [PASS] lem:radial-red: the angular speed w = (sqrt f/r) sqrt(1/N - rdot^2/f^2) saturates the cone
+  [PASS] prop:tau-rail: d_r omega = 2 M A^2/(E r^2) > 0
+  [PASS] prop:tau-pmp: |p| = sqrt(N)(omega - q) on H = 0
+  [PASS] prop:tau-pmp: qdot = -d_eta H = (A A' f/E)[N(omega - q)/E + 2] on H = 0
+  [PASS] prop:tau-pmp: cos psi = f p_r/|p|, sin psi = sqrt(f) L/(r |p|) (velocity = normalised d H/d p)
+  [PASS] prop:tau-pmp: Clairaut rho_eff sin psi = L, rho_eff = r sqrt(N/f)(omega - q)
+  [PASS] prop:tau-pmp: constant A => rho_eff = (A^2/E) r sqrt(N f)
+  [PASS] prop:tau-pmp: cost of waiting: omega - q = |p|/sqrt(N)
+  [PASS] eq:Ra-barrier: f |dx|_h0 >= |dr| and density A^2 f sqrt(N)/E |dx| >= A^2 sqrt(N)/E |dr|
+  [PASS] eq:Ra-barrier: N increasing in A
+  [PASS] thm:tau-P(3): -d_eps H = (A0 f (N0 + 1)/E) alpha a eps = 0 (q = 0, |p| = sqrt(N0) omega0)
+  [PASS] thm:tau-P: N0 A0^2 f/E^2 = N0 - 1
+  [PASS] thm:escape: |rdot| <= f (v = f/sqrt(N) = f sqrt(1 - A^2 f/E^2) <= f)
+  [PASS] thm:escape: time to descend to 2M + eps >= r0 - r_eps + 2M log((r0-2M)/eps)
+== Proper-time branch of ingoing Vaidya ==
+  [PASS] R(r) = int ds/sqrt(E^2 - 1 + 2m0/s) equals c int sqrt(N) (A = 1, M = m0)
+  [PASS] lem:vaidya-rail: d tau/dv = (f - s)/E  (from E = f vdot - rdot)
+  [PASS] lem:vaidya-rail: r^2 |zeta|^2 = w - (s + w)^2/E^2 from the normalisation
+  [PASS] lem:vaidya-rail: on K, f - s >= E(E - sqrt w) (s <= s_+ = -w + E sqrt w)
+  [PASS] lem:vaidya-rail: d_r omega = 2m/(E r^2), omega = f/E
+  [PASS] lem:vaidya-rail: radial cost per unit radius = 1/sqrt(w) at the extreme speeds
+  [PASS] support function of K: h = -w p_r + sqrt(w) S, S = sqrt(E^2 p_r^2 + |p_Omega|^2/r^2) (numerical maximum)   (ScientificForm[5.551115123125783*^-17, 3])
+  [PASS] thm:vaidya-P: launch: det d(p_r0, L)/d(psi, q_in) = r0 S0/(E b(psi))
+  [PASS] thm:vaidya-P: with h = omega, bracket -d_eps H/beta = p_r/r - (E^2 + w)/(E r w)
+  [PASS] thm:vaidya-P: p_r >= 0 => p_r <= 1/E + 1/sqrt(w) (from omega = h >= (-w + E sqrt w) p_r)
+  [PASS] thm:vaidya-P: hence bracket <= (sqrt(w) - E)/(r w) < 0
+  [PASS] escape: c_- = E + sqrt(w) on the maximal infall
+  [PASS] escape: c_+ = E - sqrt(w) on the maximal rise
+  [PASS] escape: s_- <= -(E^2 - 1)
+  [PASS] lem:vaidya-calib: d_r sqrt(w) = -m/(r^2 sqrt w)
+  [PASS] lem:vaidya-calib: d_r s_- = (2m/r^2)(1 + E/(2 sqrt w))
+  [PASS] lem:vaidya-calib: contact: 2 sqrt(w) d_r v_c = xi/E with d_r v_c = xi/(s_+ - s_-)
+  [PASS] lem:vaidya-calib: final algebra d_r W - 1/E = (1/E) int (2m/rho^2) xi (pointwise integrands)
+  [PASS] lem:vaidya-calib: W_v + s W_r + (f-s)/E = (s - s_-)(W_r - 1/E) given W_v + s_- W_r + (f - s_-)/E = 0
+
+SUMMARY: 34 PASS, 0 FAIL

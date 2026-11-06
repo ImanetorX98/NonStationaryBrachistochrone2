@@ -1,0 +1,8 @@
+b_T(0) for T=100: 2.601441  (2m(0) = 2.000, h_inf = 3.0)
+b_T(0) for T=200: 2.601440  (2m(0) = 2.000, h_inf = 3.0)
+b_T(0) for T=400: 2.601440  (2m(0) = 2.000, h_inf = 3.0)
+contact with b_inf: v_c = 1.0182, r_c = 2.704764 (2m(v_c) = 2.200866); prefix cost D_c = 2.687341
+lower = |R_inf(r0)| + R_inf(r_f) = 4.622604;  upper = D_c + (h_inf - r_c)/sqrt(E^2-1) + R_inf(r_f) = 5.293879;  gap 0.671275
+  competitor gap=1e-02 eps=1e-02: cost 5.420012 (prefix 2.6801, chase 0.2150, arc 0.2207, rise 2.3042); times v1=1.0 v2=8.3 v3=84.4 arrival=125.5; within [lower, upper + O(sqrt eps)]: True
+  competitor gap=1e-04 eps=1e-03: cost 5.274229 (prefix 2.6873, chase 0.2150, arc 0.0614, rise 2.3106); times v1=1.0 v2=17.7 v3=274.2 arrival=329.1; within [lower, upper + O(sqrt eps)]: True
+  competitor gap=1e-06 eps=1e-04: cost 5.232192 (prefix 2.6873, chase 0.2144, arc 0.0192, rise 2.3112); times v1=1.0 v2=29.4 v3=845.5 arrival=914.2; within [lower, upper + O(sqrt eps)]: True

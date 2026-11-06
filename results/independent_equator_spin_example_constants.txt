@@ -1,0 +1,64 @@
+PASS B2 exact boundary sign
+PASS reference v squared
+PASS K lower
+PASS K upper
+PASS kappa K upper
+PASS sqrt(b) lower
+PASS sqrt(b) upper
+PASS abs(k) upper
+PASS shape square-root bound
+PASS D22 exact fraction
+PASS D11 exact fraction
+PASS D12 exact fraction
+PASS D21 exact fraction
+PASS reference E1 stronger
+PASS reference E2 stronger
+PASS reference E3 stronger
+PASS reference E4 stronger
+PASS reference determinant margin
+PASS conditional transfer E1
+PASS conditional transfer E2
+PASS conditional transfer E3
+PASS conditional transfer E4
+PASS requested determinant margin
+PASS kappa upper
+PASS normalized p bound
+PASS real a/sqrt(b) upper
+PASS real speed fraction
+PASS all Q radial shell
+PASS hr shell upper endpoint
+PASS hp shell lower
+PASS N shell upper
+PASS radial shape bound
+PASS radial square-root bound
+PASS weight fractions
+PASS weight ratio
+PASS weighted mean inequality
+PASS terminal p improved
+PASS return heading 0.11
+PASS return shell 0.02 squared
+PASS ref D22 identity s=-1
+PASS ref D12 identity s=-1
+PASS ref D11 integrand s=-1
+PASS ref D21 integrand s=-1
+PASS ref D22 identity s=1
+PASS ref D12 identity s=1
+PASS ref D11 integrand s=1
+PASS ref D21 integrand s=1
+PASS terminal log derivative
+PASS terminal log factor at 1/2
+PASS terminal log factor derivative identity
+PASS real Hpp
+PASS real HpJ
+PASS real HJJ
+PASS rank one cancellation
+PASS real projective radial force identity
+PASS real projective u source
+
+Exact analytic constants:
+q_ref 21364/409625 0.05215501983521514
+p_ref 1939954523/20978510000 0.09247341794054964
+e12_ref 24297/3070625 0.007912721351516385
+e21_ref 15509/50575 0.3066534849233811
+weight ratio 26937/12320 2.1864448051948053
+No real-model derivative budget established by this script.

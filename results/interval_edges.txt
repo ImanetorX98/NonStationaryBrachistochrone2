@@ -1,0 +1,27 @@
+python 3.13.2  mpmath 1.3.0  iv.dps 20
+sha256[:16] 851591f247d157d2  jets_nested.py
+sha256[:16] 603faf452f0920e7  jets_t.py
+sha256[:16] 14da77cd3a7dc738  unimodality.py
+sha256[:16] 673e88a8e3934b40  edges.py
+sha256[:16] a781d5d51d337f50  critical_separation.py
+sha256[:16] 7959ee10eeb4e067  critical_separation_estimate.py
+q= 1.2 r0=  4.0: lower edge (2, 2.0002] OK (Delta'/2 >= 4.143344), upper edge [3.9998, r0) OK (Delta'/2 <= -16.514679)
+q= 1.2 r0=  6.0: lower edge (2, 2.0004] OK (Delta'/2 >= 3.855530), upper edge [5.9996, r0) OK (Delta'/2 <= -8.079861)
+q= 1.2 r0= 10.0: lower edge (2, 2.0008] OK (Delta'/2 >= 3.502410), upper edge [9.9992, r0) OK (Delta'/2 <= -3.860245)
+q= 1.2 r0= 20.0: lower edge (2, 2.0018] OK (Delta'/2 >= 3.018412), upper edge [19.9982, r0) OK (Delta'/2 <= -1.662315)
+q= 1.5 r0=  4.0: lower edge (2, 2.0002] OK (Delta'/2 >= 4.660272), upper edge [3.9998, r0) OK (Delta'/2 <= -21.582268)
+q= 1.5 r0=  6.0: lower edge (2, 2.0004] OK (Delta'/2 >= 4.350068), upper edge [5.9996, r0) OK (Delta'/2 <= -11.302782)
+q= 1.5 r0= 10.0: lower edge (2, 2.0008] OK (Delta'/2 >= 3.966360), upper edge [9.9992, r0) OK (Delta'/2 <= -5.774239)
+q= 1.5 r0= 20.0: lower edge (2, 2.0018] OK (Delta'/2 >= 3.436640), upper edge [19.9982, r0) OK (Delta'/2 <= -2.621557)
+q=   2 r0=  4.0: lower edge (2, 2.0002] OK (Delta'/2 >= 5.412177), upper edge [3.9998, r0) OK (Delta'/2 <= -28.442832)
+q=   2 r0=  6.0: lower edge (2, 2.0004] OK (Delta'/2 >= 5.066072), upper edge [5.9996, r0) OK (Delta'/2 <= -15.486718)
+q=   2 r0= 10.0: lower edge (2, 2.0008] OK (Delta'/2 >= 4.634102), upper edge [9.9992, r0) OK (Delta'/2 <= -8.130584)
+q=   2 r0= 20.0: lower edge (2, 2.0018] OK (Delta'/2 >= 4.033549), upper edge [19.9982, r0) OK (Delta'/2 <= -3.739416)
+q=   4 r0=  4.0: lower edge (2, 2.0002] OK (Delta'/2 >= 7.716768), upper edge [3.9998, r0) OK (Delta'/2 <= -47.461410)
+q=   4 r0=  6.0: lower edge (2, 2.0004] OK (Delta'/2 >= 7.250349), upper edge [5.9996, r0) OK (Delta'/2 <= -26.642508)
+q=   4 r0= 10.0: lower edge (2, 2.0008] OK (Delta'/2 >= 6.659936), upper edge [9.9992, r0) OK (Delta'/2 <= -14.191403)
+q=   4 r0= 20.0: lower edge (2, 2.0018] OK (Delta'/2 >= 5.830839), upper edge [19.9982, r0) OK (Delta'/2 <= -6.543962)
+q=  10 r0=  4.0: lower edge (2, 2.0002] OK (Delta'/2 >= 12.258490), upper edge [3.9998, r0) OK (Delta'/2 <= -81.689272)
+q=  10 r0=  6.0: lower edge (2, 2.0004] OK (Delta'/2 >= 11.541015), upper edge [5.9996, r0) OK (Delta'/2 <= -46.292087)
+q=  10 r0= 10.0: lower edge (2, 2.0008] OK (Delta'/2 >= 10.624864), upper edge [9.9992, r0) OK (Delta'/2 <= -24.717939)
+q=  10 r0= 20.0: lower edge (2, 2.0018] OK (Delta'/2 >= 9.330811), upper edge [19.9982, r0) OK (Delta'/2 <= -11.385521)

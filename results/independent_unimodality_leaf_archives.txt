@@ -1,0 +1,21 @@
+PASS leaves q1.2_r010.json: 192 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q1.2_r020.json: 469 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q1.2_r04.json: 58 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q1.2_r06.json: 99 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q1.5_r010.json: 200 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q1.5_r020.json: 470 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q1.5_r04.json: 59 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q1.5_r06.json: 100 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q10_r010.json: 199 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q10_r020.json: 407 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q10_r04.json: 61 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q10_r06.json: 105 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q2_r010.json: 201 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q2_r020.json: 445 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q2_r04.json: 60 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q2_r06.json: 100 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q4_r010.json: 200 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q4_r020.json: 415 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q4_r04.json: 61 cells, complete tiling, strict printed bounds, pattern.
+PASS leaves q4_r06.json: 103 cells, complete tiling, strict printed bounds, pattern.
+SUMMARY: 20/20 archives PASS

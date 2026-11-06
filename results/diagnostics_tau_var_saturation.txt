@@ -1,0 +1,17 @@
+A' >= 0 (lemma): C - C_r must be >= 0
+  dive H=0.026 A0=0.58: C=7.094905 C_r=7.038886 diff=+5.602e-02 eta_end 148.413 >= 148.081
+  arc  H=0.021 A0=0.53: C=4.257813 C_r=4.146211 diff=+1.116e-01 eta_end 19.293 >= 18.879
+  dive H=0.038 A0=0.42: C=6.180287 C_r=6.140289 diff=+4.000e-02 eta_end 148.117 >= 147.598
+  arc  H=0.023 A0=0.25: C=0.875979 C_r=0.836501 diff=+3.948e-02 eta_end 17.639 >= 17.078
+  dive H=0.038 A0=0.31: C=5.812161 C_r=5.641548 diff=+1.706e-01 eta_end 148.322 >= 147.339
+  arc  H=0.036 A0=0.42: C=3.876992 C_r=3.479124 diff=+3.979e-01 eta_end 19.611 >= 18.518
+  min over 40 trials of C - C_r = +1.313e-02  -> PASS
+Control 1 (A' < 0 but drop before the waiting matters: no gain expected, not a test)
+  waiting weight   0.0: C=2.950472 C_r=2.950472 diff=+0.0000e+00 (eta_end 145.82 vs 145.82)
+  waiting weight  20.0: C=2.950504 C_r=2.950472 diff=+3.1888e-05 (eta_end 146.53 vs 145.82)
+  waiting weight  60.0: C=2.950568 C_r=2.950472 diff=+9.5665e-05 (eta_end 147.95 vs 145.82)
+  waiting weight 120.0: C=2.950664 C_r=2.950472 diff=+1.9133e-04 (eta_end 150.08 vs 145.82)
+Control 2 (A' < 0, must show C < C_r): 
+  r_b=2.05: rail eta bottom 17.17, end 34.34; W=0.0: C=9.2556 (C-C_r +0.0000), W=8.6: C=6.0592 (C-C_r -3.1964), W=18.2: C=5.3832 (C-C_r -3.8724), W=34.3: C=5.4191 (C-C_r -3.8365)
+  r_b=2.2: rail eta bottom 14.24, end 28.48; W=0.0: C=9.1919 (C-C_r +0.0000), W=7.1: C=6.7479 (C-C_r -2.4441), W=15.2: C=6.0612 (C-C_r -3.1307), W=28.5: C=6.1698 (C-C_r -3.0222)
+  r_b=3.0: rail eta bottom 10.89, end 21.78; W=0.0: C=8.9705 (C-C_r +0.0000), W=5.4: C=8.0109 (C-C_r -0.9596), W=11.9: C=7.8427 (C-C_r -1.1278), W=21.8: C=8.1392 (C-C_r -0.8312)

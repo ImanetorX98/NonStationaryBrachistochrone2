@@ -1,0 +1,22 @@
+PASS ZAMO frame of h orthonormal
+PASS Ric(e0, e1) = Ric(e1, e2) = 0
+PASS P_U = U R^3 w~ H/(x^3 D) is a polynomial in (x, R, u)
+PASS P_V = -V R^4 w~^2 H/x^3 is a polynomial in (x, R, u)
+PASS P_J^2 = J^2 R^7 w~^3 H^2/(4 x^8 (2-R) D) is a polynomial in (x, R, u)
+PASS P_U equals the formula of the text
+PASS P_J^2 equals the square of the formula of the text
+PASS conversion factors w~, D, H positive for (x, R, u) in (0,1) x (1,2) x [0,1)
+PASS V^2 - J^2 = x^6 P3/(R^8 w~^4 H^2)
+PASS -4U(U-V) - J^2 = 4 x^6 D P4/(R^7 w~^3 H^2)
+PASS V - U = x^3 P5/(R^4 w~^2 H)
+PASS U^2 - J^2 = x^6 D P6/(R^7 w~^3 H^2)
+PASS group2_Kinf, PV: JSON polynomial = derived one in the box map
+PASS group2_Kinf, P3: JSON polynomial = derived one in the box map
+PASS group2_Kinf, P4: JSON polynomial = derived one in the box map
+PASS group2_Kinf, P5: JSON polynomial = derived one in the box map
+PASS group2_Kinf, mPU: JSON polynomial = derived one in the box map
+PASS group2_Kinf, P6: JSON polynomial = derived one in the box map
+PASS set 0 (value at the vertex): J^2 <= -4U(U-V) => max_s N <= 0
+PASS set 1: V >= U => max_s N <= 0
+PASS set 2: U <= 0, J^2 <= U^2 => max_s N <= 0
+SUMMARY: 21 PASS, 0 FAIL

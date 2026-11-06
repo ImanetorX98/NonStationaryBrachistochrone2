@@ -1,0 +1,36 @@
+== Supplement: static frames ==
+  [PASS] lem:static-frame: Ric_{g_inf}(k,k) without derivatives of q
+  [PASS] Ric = C_r cos^2 + C_phi sin^2 (no mixed term)
+  [PASS] prop:certificates(1): C_r = -M{Mq + (2q-1)(r-2M)}/(q r^4)
+  [PASS] prop:certificates(1): C_phi = -M P/{q r^5 [2M + (q-1) r]} with the given P/M^3
+  [PASS] prop:certificates(2): b = 2, C_r = -P_r/[M^2 q R^5 (R+2)^2]
+  [PASS] prop:certificates(2): b = 2, C_phi = -P_phi/[M^2 q R^5 (R+2)((q-1)R+2)]
+  [PASS] prop:certificates(3): b = 5/3, C_r = -Q_r/[4 M^2 q R^5 (R+3)^2]
+  [PASS] prop:certificates(3): b = 5/3, C_phi = -Q_phi/[2 M^2 q R^5 (R+3)((q-1)R+2)]
+  [PASS] prop:certificates(4): b = q constant => Ric(k,k) isotropic (independent of alpha)
+   -K_t = (36 + 48*d$1377 + 16*d$1377^2 + 96*xx$1377 + 136*d$1377*xx$1377 + 48*d$1377^2*xx$1377 + 23*xx$1377^2 + 64*d$1377*xx$1377^2 + 36*d$1377^2*xx$1377^2 + 4*d$1377*xx$1377^3 + 8*d$1377^2*xx$1377^3)/((3 + 2*d$1377)*M^2*(2 + xx$1377)^5*(6 + 4*d$1377 + xx$1377 + 2*d$1377*xx$1377))
+   ratio numerator/P = 4   denominator = (3 + 2*d$1377)*M^2*(2 + xx$1377)^5*(6 + 4*d$1377 + xx$1377 + 2*d$1377*xx$1377)
+  [PASS] prop:certificates(4): numerator of -K_t proportional to the given polynomial (ratio constant in x, d and positive)
+  [PASS] prop:certificates: 20q^2 - 37q + 14 >= 0 for q >= 5/3
+  [PASS] prop:certificates: 47q^2 - 87q + 34 >= 0 for 11/7 <= q
+  [PASS] prop:certificates(3): 4(2-q) >= 0, 37q-3, 390q-210, 700q-200 > 0 on [11/7, 2]
+  [PASS] prop:certificates(2): (3q-5)(q-1) >= 0 and 48q^2 - 42q > 0 for q >= 5/3
+  [PASS] rmk:frames-sharp: lim r^3 C_phi (b = oo) = -2M(q-2)/q
+  [PASS] lem:hadamard: K_{h0} = M(3M - 2r)/r^4
+  [PASS] lem:hadamard: r^2/f - 27M^2 = (r - 3M)^2 (r + 6M)/(r - 2M)
+  [PASS] lem:hadamard: sqrt(N_b)/f ~ 2M/(r - 2M) as r -> 2M
+== Supplement: family of frames ==
+  [PASS] sec:family: C_r = -P_r/[q r^5 (2 + (b-1) r)^2] (M = 1, r = 2 + x)
+  [PASS] sec:family: C_phi = -P_phi/[q r^5 (2 + (b-1) r)(2 + (q-1) r)]
+  [PASS] prop:family: coefficients of x^0..x^3 positive for b, q >= 3/2
+  [PASS] prop:family: radial coefficient of x^3 in (u, v) = 13u^2 v + 27/2 u^2 + 15uv + 31/2 u + 5/4 v + 23/8
+  [PASS] prop:family: radial x^4 = (b-1)((2b-4)q + 3 - b), tangential x^4 = (q-1)((2b-1)q + 3 - 4b)
+  [PASS] prop:family: at q = q_-(b), (2b-4)q + 3 - b = 3(b-1)(2b-3)/(2b-1)
+  [PASS] prop:family: lim r^3 C_r = -(3 - b - 4q + 2bq)/((b-1)q)
+  [PASS] prop:family: lim r^3 C_phi = -(3 - 4b - q + 2bq)/((b-1)q)
+  [PASS] q_-'(b) = 2/(2b-1)^2, q_+'(b) = 2/(4-2b)^2
+  [PASS] best frame: q_-(b_*) = q_min with b_* = (3 - q_min)/(4 - 2 q_min)
+  [PASS] q_+(b_*) = (9 - 5 q_min)/(10 - 6 q_min)
+  [PASS] examples: q_min = 1.55 -> 1.786, 1.6 -> 2.5, 1.65 -> 7.5
+
+SUMMARY: 30 PASS, 0 FAIL

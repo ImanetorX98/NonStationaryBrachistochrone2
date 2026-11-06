@@ -1,0 +1,48 @@
+PASS primitive F_a derivative for r,a>0
+PASS Phi derivative for r>2
+PASS R-prime/rho at mass one
+PASS sextic discriminant factorization
+PASS quadratic discriminant factorization
+PASS entire periastro interval lies in (2,3)
+PASS discriminant signs bounded analytically on (2,3)
+PASS dip angle differential squared uses the sextic
+PASS rational radii strictly decrease and stay above 2
+PASS Machin tangent and positive branch
+PASS angle strictly exceeds pi/2
+PASS printed rational angle lower bound 1.57395 valid
+PASS length strictly below 5.8390
+PASS 5.8390 < 91/(11 sqrt2)
+PASS 91/(11 sqrt2) < Lambda
+PASS Lambda < escape price
+PASS Lambda > 5.94
+PASS corner radius safely exterior
+PASS exact squared duration inequality
+PASS desingularization exact divided difference
+PASS rho squared convex for r>2: exact second derivative
+PASS divided difference increasing in r: positive shifted numerator
+PASS prefix radial derivative of support, no m prime
+PASS angular speed outside small-costate strip identity
+PASS length integrand increasing at t=29/10: positive derivative coefficients
+PASS length integrand increasing at t=297/100: positive derivative coefficients
+PASS Delta(29/10) > 39/25
+PASS Delta(297/100) < 39/25
+PASS ell(297/100) > 2R(4)
+PASS rational angle bound 39/25 < pi/2 using pi>3.14
+PASS epsilon+eta1 = 1/1000
+PASS prefix radial shell [5,7] from |r prime|<4
+PASS prefix angular speed <3/10 from sqrt2<3/2 and r>=5
+PASS endpoint action Lipschitz bound: 1/(r sqrt(f))<1/3 on [5,7]
+PASS monotone frozen tail angle <pi/3: rho(5)/rho(7)>1/2
+PASS residual angle exceeds pi/3 using pi>3 and pi<22/7
+PASS residual angle exceeds perturbed critical threshold
+PASS strict early gap at h=1/1000 has rational margin
+angle [1.5739551443601454, 1.5739551443601454]
+length [5.838913347037726, 5.838913347037726]
+Lambda [5.941205302448013, 5.941205302448013]
+escape_2R6 [6.457214971437543, 6.457214971437543]
+threshold_91 [5.8497015534523475, 5.8497015534523475]
+Delta_29_10 [1.6056729011530158, 1.6057377054655966]
+Delta_297_100 [1.5586553656919526, 1.5587130528624817]
+ell_297_100 [3.0911800164622103, 3.0912732884081926]
+two_R4 [3.0817223772140867, 3.0817490837081642]
+SUMMARY: 38/38 PASS

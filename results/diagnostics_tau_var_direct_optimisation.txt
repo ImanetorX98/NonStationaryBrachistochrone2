@@ -1,0 +1,10 @@
+Control: A constant, q = 2, r0 = r_f = 6 (must reproduce the shallow dip, the global minimum)
+  delta=0.250pi: reduced cost 3.224696, dip length 3.224689 (periastron 5.5784), rel. diff +2.28e-06; min r 5.5784 (dip periastron 5.5784); T=7.014
+  delta=0.500pi: reduced cost 5.813089, dip length 5.813037 (periastron 4.3287), rel. diff +8.95e-06; min r 4.3287 (dip periastron 4.3287); T=13.964
+Decreasing A: A = 1 until eta_d, then 0.5 (tanh, width 1); delta = 0.5 pi, r0 = r_f = 6
+  eta_d=  4.0: cost 2.565319, T=13.150, min r 4.1139, angle budget 0.500pi (excess -0.000pi), time spent at r < 2.5: 0.00
+  eta_d=  8.0: cost 3.553715, T=17.744, min r 2.8620, angle budget 0.500pi (excess -0.000pi), time spent at r < 2.5: 0.00
+  eta_d= 15.0: no successful SLSQP run
+Increasing A: A = 1 until eta_d, then 1.3 (tanh), delta = 0.5 pi
+  eta_d=  4.0: cost 9.824110, T=15.938, min r 4.1771, excess -0.000pi
+  eta_d=  8.0: cost 8.305925, T=14.844, min r 4.5378, excess -0.000pi

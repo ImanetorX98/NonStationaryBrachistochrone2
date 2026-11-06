@@ -1,0 +1,63 @@
+== Conformal Schwarzschild ==
+  [PASS] lem:h0-complete: rho' = 1/f with rho = r - 3M + 2M ln((r-2M)/M)
+  [PASS] lem:h0-complete: rho(3M) = 0
+  [PASS] rmk:freezing: Z = 1 at the radius r_F = 2M/(1 - E^2/A^2)
+  [PASS] rmk:freezing: maximal radial speed f/sqrt(N) from the cone (h0_rr = 1/f^2)
+== Swept angle ==
+  [PASS] eq:tk-alpha: the direction (f V cos al, sqrt(f) V sin al / r) is null for g_inf
+  [PASS] lem:tk-sturm: K_perp - K_par = (dphi/dlam)^2 M P_q/(r(2M+(q-1)r)^2), any q(eta)
+  [PASS] lem:tk-sturm: no derivative of q in the result
+  [PASS] (fails as expected) control: P_q with the opposite sign of the 40M^2 term (must fail)
+  [PASS] lem:tk-sturm: q >= 3/2 => coefficients of P_q non-negative
+  [PASS] lem:tk-direction: d(cos al)/deta = -sin^2(al) V C (that is, d al/deta = V sin al C), any q(eta)
+  [PASS] lem:tk-direction: B(q,2M) = -2 q M^2
+  [PASS] lem:tk-direction: B(q,3M) = M^2
+  [PASS] lem:tk-direction: B_q = r(r - 3M)
+  [PASS] lem:tk-direction: C = f_r/2 - f f_r/(2(q-f)) - f/r
+  [PASS] lem:tk-direction: C <= 3M/r^2 - 1/r for q > 1, r > 2M
+  [PASS] lem:tk-direction: 3M/r^2 - 1/r <= -1/(2r) for r >= 6M
+  [PASS] lem:no-return: C <= -(r - 3M)/r^2 (same inequality)
+  [PASS] lem:no-return: V^2 > 2M/r for q > 1
+  [PASS] thm:angle: q >= 3/2 => V^2 >= 1/3 and N <= 3
+  [PASS] thm:angle: f V <= 1 (s_+ <= 1)
+  [PASS] lem:radius: P_q(R(q)) = 0
+  [PASS] lem:radius: R(1+) = 8M
+  [PASS] lem:radius: R(q) (3/2 - q) -> 23M/6
+  [PASS] lem:radius: R' > 0 on (1, 3/2) (Reduce on the rationalised numerator)
+  [PASS] lem:radius: d_q P = 3r[(4q-5)r + 11M]
+  [PASS] lem:radius: d_q^2 P = 12 r^2
+  [PASS] lem:radius: P_q(11M/(5-4q)) = -M^2(86q^2 - 72q + 1)/(4q-5)^2
+  [PASS] lem:radius: 86q^2 - 72q + 1 > 0 on (1, 5/4)
+  [PASS] lem:radius: d_r P at the zero = -M sqrt(b^2 + 160 a)
+  [PASS] Clairaut: C = -f rho_r/rho (constant q)
+  [PASS] eq:fermat-plane: w = x sqrt((1-2x)(q-1+2x))/sqrt(q), x = M/r
+  [PASS] eq:fermat-plane: F = 1 + A1 w + ..., A1 = sqrt(q)(2q-3)/(q-1)^(3/2)
+  [PASS] eq:fermat-plane: F(0) = 1
+  [PASS] rmk:sharp32: coefficient A2 = q(15q^2 - 42q + 35)/(2(q-1)^3)
+  [PASS] rmk:sharp32: q -> oo: A1 -> 2, A2 -> 15/2 (deflection 4M/b + 15 pi M^2/(4 b^2))
+  [PASS] rmk:sharp32: second-order deflection: 2 int_1^oo (A2 w^2)/(t sqrt(t^2-1)) = pi A2/2 (w = 1/(b t))
+  [PASS] prop:sharp32: 2 int_1^{D/b} dt/(t sqrt(t^2-1)) = 2 arccos(b/D)
+  [PASS] prop:sharp32: A1 term: 2 int (A1 M/(b t)) dt/(t sqrt(t^2-1)) = 2 A1 M sqrt(D^2-b^2)/(b D)
+  [PASS] prop:sharp32: int_1^oo dt/(t^3 sqrt(t^2-1)) = pi/4
+  [PASS] prop:sharp32: Phi_b (explicit part) = -2/sqrt(D^2-b^2) + 2cM sqrt(D^2-b^2)/(b^2 D) - 2cM/(D sqrt(D^2-b^2))
+   note: the term 2cM/(D sqrt(D^2-b^2)) is absorbed in -2F(D)/sqrt(D^2-b^2) with F(D) = 1 - cM/D + G(D)
+  [PASS] prop:sharp32: limit D Phi_b -> -2 + 2c/lambda^2 with b = lambda sqrt(M D)
+  [PASS] prop:sharp32: q = 6/5 => A1 = -3 sqrt(6)
+  [PASS] prop:sharp32: q = 6/5, F(x) = sqrt(1-2x)(1+10x)/(1+12x-40x^2)
+  [PASS] prop:sharp32: rational parametrisation of sqrt(1-2x), sqrt(1+10x) (same x)
+  [PASS] prop:sharp32: x(0) = 0, x(11/10) >= 1/10 (covers r >= 10M; reaches r ~ 9.71M)
+  [PASS] prop:sharp32: x(p) strictly increasing on [0, 11/10] (monotone covering)
+  [PASS] prop:sharp32: sqrt(1-2x) and sqrt(1+10x) positive on [0, 11/10]
+  [PASS] prop:sharp32: rho(8200M)^2 = 6 8200^4 M^2/(8198 8210) > (2 10^4 M)^2
+  [PASS] prop:sharp32 cert: rho^2 G >= 0 for p in [0, 11/10]
+  [PASS] prop:sharp32 cert: 465 M^2 - rho^2 G >= 0
+  [PASS] prop:sharp32 cert: -rho^3 G' >= 0
+  [PASS] prop:sharp32 cert: 930 M^2 + rho^3 G' >= 0
+  [PASS] (fails as expected) control: with K = 400 the first bound fails (must fail)
+   max rho^2 G/M^2 = 465.,  max(-rho^3 G'/M^2) = 930.
+   min_D D Phi_b(b_-) >= 0.1840223097126969919`8.;  max_D D Phi_b(b_+) <= -1.9262629335594017417`8.;  limits D -> oo: {1.265986323710904131`8., -1.9265153077165046571`8.}
+  [PASS] prop:sharp32: D Phi_b(b_-) > 0.18 for every D >= D0
+  [PASS] prop:sharp32: D Phi_b(b_+) < -1.9 for every D >= D0
+  [PASS] prop:sharp32: Phi < pi on [b_-, b_+] (b <= D/2): -sqrt(3) c/b + pi K/(2 b^2) < 0 for b >= 300
+
+SUMMARY: 56 PASS, 0 FAIL

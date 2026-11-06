@@ -1,0 +1,13 @@
+PASS group4_B1_S: F > 0 on the box (X > 0); factors: const +1, const +1, +^4, +^2, X^-3 (+, X > 0), -^1, -^2, -^1
+PASS group4_B1_I2: F > 0 on the box (X > 0); factors: const +1, const +1, +^4, +^2, X^-3 (+, X > 0), -^1, +^1, -^2, -^1
+PASS group4_B1_I1: F > 0 on the box (X > 0); factors: const +1, const +1, +^8, +^4, X^-6 (+, X > 0), -^2, +^2, -^4, -^2
+PASS group4_B2_S: F > 0 on the box (X > 0); factors: const +1, +^4, +^2, X^-3 (+, X > 0), -^1, -^2, -^1
+PASS group4_B2_I2: F > 0 on the box (X > 0); factors: const +1, +^4, +^2, X^-3 (+, X > 0), -^1, +^1, -^2, -^1
+PASS group4_B2_I1: F > 0 on the box (X > 0); factors: const +1, +^8, +^4, X^-6 (+, X > 0), -^2, +^2, -^4, -^2
+PASS group4_B3_S: F > 0 on the box (X > 0); factors: const +1, +^4, +^2, X^-3 (+, X > 0), -^1, -^2, -^1
+PASS group4_B3_I2: F > 0 on the box (X > 0); factors: const +1, +^4, +^2, X^-3 (+, X > 0), -^1, +^1, -^2, -^1
+PASS group4_B3_I1: F > 0 on the box (X > 0); factors: const +1, +^8, +^4, X^-6 (+, X > 0), -^2, +^2, -^4, -^2
+PASS group4_B4_S: F > 0 on the box (X > 0); factors: const +1, +^4, +^2, X^-3 (+, X > 0), -^1, -^2, -^1
+PASS group4_B4_I2: F > 0 on the box (X > 0); factors: const +1, +^4, +^2, X^-3 (+, X > 0), -^1, +^1, -^2, -^1
+PASS group4_B4_I1: F > 0 on the box (X > 0); factors: const +1, +^8, +^4, X^-6 (+, X > 0), -^2, +^2, -^4, -^2
+SUMMARY: all 12 factors F are positive on their boxes

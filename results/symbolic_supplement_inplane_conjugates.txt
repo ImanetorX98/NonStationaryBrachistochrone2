@@ -1,0 +1,15 @@
+PASS  1. ghat = g_opt/N: Ric(k,k) free of A', A''
+PASS  2. e^{2w(r)} ghat: Ric(k,k) free of A', A''
+PASS  3. CONTROL: in g_opt itself A' or A'' appear
+PASS  4. constant A, ultrastatic frame: Ric(k,k) = K_t (optical Gauss curvature of Paper II)
+PASS  5a. ghat: Ric(k,k) is affine in sin^2(al) (extremes at radial/tangential)
+PASS  5b. ghat: radial direction Ric(k,k) < 0 for all r > 2M, Ee > 1
+PASS  5c. ghat: tangential Ric(k,k) <= 0 for all r > 2M  <=>  Ee^2 >= 2
+PASS  6a. sanity: reference frame at Ee = Ee*, Ee^2 = 1.4 has Ric(k,k) > 0 somewhere
+      diagnostic: Ee*^2 = 1.5625 -> window E_eff^2 in {1.5376, 1.6384} (grid top 9)
+      diagnostic: Ee*^2 = 1.6900000000000002 -> window E_eff^2 in {1.5876000000000001, 2.1025} (grid top 9)
+      diagnostic: Ee*^2 = 2 -> window E_eff^2 in {1.6900000000000002, 9.} (grid top 9)
+      diagnostic: Ee*^2 = 2.25 -> window E_eff^2 in {1.7161000000000002, 9.} (grid top 9)
+      diagnostic: Ee*^2 = 4. -> window E_eff^2 in {1.8769000000000002, 9.} (grid top 9)
+
+ALL CHECKS PASSED

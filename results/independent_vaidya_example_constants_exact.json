@@ -1,0 +1,228 @@
+{
+ "angle": {
+  "lower": "393488786090036353277006780409/250000000000000000000000000000",
+  "upper": "1573955144360145413108027121681/1000000000000000000000000000000",
+  "decimal_diagnostic": [
+   1.5739551443601454,
+   1.5739551443601454
+  ]
+ },
+ "length": {
+  "lower": "5838913347037726520841326713551/1000000000000000000000000000000",
+  "upper": "5838913347037726520841326713599/1000000000000000000000000000000",
+  "decimal_diagnostic": [
+   5.838913347037726,
+   5.838913347037726
+  ]
+ },
+ "Lambda": {
+  "lower": "594120530244801344899983428171/100000000000000000000000000000",
+  "upper": "1485301325612003362249958570429/250000000000000000000000000000",
+  "decimal_diagnostic": [
+   5.941205302448013,
+   5.941205302448013
+  ]
+ },
+ "escape_2R6": {
+  "lower": "1614303742859385854860766936473/250000000000000000000000000000",
+  "upper": "6457214971437543419443067745897/1000000000000000000000000000000",
+  "decimal_diagnostic": [
+   6.457214971437543,
+   6.457214971437543
+  ]
+ },
+ "threshold_91": {
+  "lower": "2924850776726173850930765315979/500000000000000000000000000000",
+  "upper": "5849701553452347701861530631959/1000000000000000000000000000000",
+  "decimal_diagnostic": [
+   5.8497015534523475,
+   5.8497015534523475
+  ]
+ },
+ "Delta_29_10": {
+  "lower": "5261468962498202174565363080359211/3276800000000000000000000000000000",
+  "upper": "26308406566348333046391409473727693/16384000000000000000000000000000000",
+  "decimal_diagnostic": [
+   1.6056729011530158,
+   1.6057377054655966
+  ]
+ },
+ "Delta_297_100": {
+  "lower": "1021480380459877999146716735572249/655360000000000000000000000000000",
+  "upper": "399030541532795306640408575936649/256000000000000000000000000000000",
+  "decimal_diagnostic": [
+   1.5586553656919526,
+   1.5587130528624817
+  ]
+ },
+ "ell_297_100": {
+  "lower": "50645893389716855453979574996779843/16384000000000000000000000000000000",
+  "upper": "25323710778639915167072781250719197/8192000000000000000000000000000000",
+  "decimal_diagnostic": [
+   3.0911800164622103,
+   3.0912732884081926
+  ]
+ },
+ "two_R4": {
+  "lower": "25245469714137797989452800538148207/8192000000000000000000000000000000",
+  "upper": "5049137698747456069293892741098037/1638400000000000000000000000000000",
+  "decimal_diagnostic": [
+   3.0817223772140867,
+   3.0817490837081642
+  ]
+ },
+ "checks": [
+  {
+   "name": "primitive F_a derivative for r,a>0",
+   "pass": true
+  },
+  {
+   "name": "Phi derivative for r>2",
+   "pass": true
+  },
+  {
+   "name": "R-prime/rho at mass one",
+   "pass": true
+  },
+  {
+   "name": "sextic discriminant factorization",
+   "pass": true
+  },
+  {
+   "name": "quadratic discriminant factorization",
+   "pass": true
+  },
+  {
+   "name": "entire periastro interval lies in (2,3)",
+   "pass": true
+  },
+  {
+   "name": "discriminant signs bounded analytically on (2,3)",
+   "pass": true
+  },
+  {
+   "name": "dip angle differential squared uses the sextic",
+   "pass": true
+  },
+  {
+   "name": "rational radii strictly decrease and stay above 2",
+   "pass": true
+  },
+  {
+   "name": "Machin tangent and positive branch",
+   "pass": true
+  },
+  {
+   "name": "angle strictly exceeds pi/2",
+   "pass": true
+  },
+  {
+   "name": "printed rational angle lower bound 1.57395 valid",
+   "pass": true
+  },
+  {
+   "name": "length strictly below 5.8390",
+   "pass": true
+  },
+  {
+   "name": "5.8390 < 91/(11 sqrt2)",
+   "pass": true
+  },
+  {
+   "name": "91/(11 sqrt2) < Lambda",
+   "pass": true
+  },
+  {
+   "name": "Lambda < escape price",
+   "pass": true
+  },
+  {
+   "name": "Lambda > 5.94",
+   "pass": true
+  },
+  {
+   "name": "corner radius safely exterior",
+   "pass": true
+  },
+  {
+   "name": "exact squared duration inequality",
+   "pass": true
+  },
+  {
+   "name": "desingularization exact divided difference",
+   "pass": true
+  },
+  {
+   "name": "rho squared convex for r>2: exact second derivative",
+   "pass": true
+  },
+  {
+   "name": "divided difference increasing in r: positive shifted numerator",
+   "pass": true
+  },
+  {
+   "name": "prefix radial derivative of support, no m prime",
+   "pass": true
+  },
+  {
+   "name": "angular speed outside small-costate strip identity",
+   "pass": true
+  },
+  {
+   "name": "length integrand increasing at t=29/10: positive derivative coefficients",
+   "pass": true
+  },
+  {
+   "name": "length integrand increasing at t=297/100: positive derivative coefficients",
+   "pass": true
+  },
+  {
+   "name": "Delta(29/10) > 39/25",
+   "pass": true
+  },
+  {
+   "name": "Delta(297/100) < 39/25",
+   "pass": true
+  },
+  {
+   "name": "ell(297/100) > 2R(4)",
+   "pass": true
+  },
+  {
+   "name": "rational angle bound 39/25 < pi/2 using pi>3.14",
+   "pass": true
+  },
+  {
+   "name": "epsilon+eta1 = 1/1000",
+   "pass": true
+  },
+  {
+   "name": "prefix radial shell [5,7] from |r prime|<4",
+   "pass": true
+  },
+  {
+   "name": "prefix angular speed <3/10 from sqrt2<3/2 and r>=5",
+   "pass": true
+  },
+  {
+   "name": "endpoint action Lipschitz bound: 1/(r sqrt(f))<1/3 on [5,7]",
+   "pass": true
+  },
+  {
+   "name": "monotone frozen tail angle <pi/3: rho(5)/rho(7)>1/2",
+   "pass": true
+  },
+  {
+   "name": "residual angle exceeds pi/3 using pi>3 and pi<22/7",
+   "pass": true
+  },
+  {
+   "name": "residual angle exceeds perturbed critical threshold",
+   "pass": true
+  },
+  {
+   "name": "strict early gap at h=1/1000 has rational margin",
+   "pass": true
+  }
+ ]
+}

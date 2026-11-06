@@ -1,0 +1,18 @@
+== Auxiliary metric: the rail as the null cone of g_opt ==
+  [PASS] eq:threading: g_Kerr = -f(dt - beta)^2 + h (components tt, t phi, phi phi)
+  [PASS] beta = -2 M a r sin^2/(Sigma f) dphi
+  [PASS] identity f g_phiphi + g_tphi^2 = Delta sin^2
+  [PASS] eq:h: h_phiphi = Delta sin^2/f
+  [PASS] (fails as expected) control: h_phiphi != g_phiphi (must fail)
+  [PASS] h0_rr on the equator = r^2/(f Delta)
+  [PASS] h0_phiphi on the equator = Delta/f^2
+  [PASS] beta on the equator = -2 M a/(r f)
+  [PASS] lem:gopt-basic(1): 1 - |beta|^2_h0 = f g_phiphi/(Delta sin^2)
+  [PASS] lem:gopt-basic(1): |beta|^2_h0 = 4 M^2 a^2 r^2 sin^2/(Sigma^2 Delta)
+  [PASS] lem:gopt-basic(2): g_opt^{eta eta} = -1 + |beta|^2/N
+  [PASS] lem:gopt-basic(3): g_opt(v,v) = -(v^eta - beta(v))^2 + N |v|^2
+  [PASS] prop:rail-null(1): h(u,u)/(f w^2) = 1 - Z = 1/N
+  [PASS] prop:rail-null(2): g(lambda v, lambda v) = -1 with w_v^2 = N h0(v,v)
+  [PASS] prop:rail-null: N = n^2 with n = E/sqrt(E^2 - A^2 f)
+
+SUMMARY: 15 PASS, 0 FAIL

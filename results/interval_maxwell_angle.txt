@@ -1,0 +1,23 @@
+python 3.13.2  mpmath 1.3.0  iv.dps 20
+sha256[:16] 851591f247d157d2  jets_nested.py
+sha256[:16] 603faf452f0920e7  jets_t.py
+sha256[:16] 14da77cd3a7dc738  unimodality.py
+sha256[:16] 673e88a8e3934b40  edges.py
+sha256[:16] a781d5d51d337f50  critical_separation.py
+sha256[:16] 7959ee10eeb4e067  critical_separation_estimate.py
+sha256[:16] f02c301f838efe8a  maxwell_angle.py  (this generator)
+q interval [1.000999999999999889865876, 1.001000000000000000000488], r0 = 1500.0
+A: N=[21.3298461438805, 30.0]: Delta' <= -0.000089048, Delta(a) - delta_b >= 0.002233503, delta_a - Delta(b) >= 0.000835861: OK
+A: N=[105.0, 140.0]: Delta' <= -0.000001928, Delta(a) - delta_b >= 0.000668053, delta_a - Delta(b) >= 0.001895000: OK
+B: ell_1(delta_a) in [45817.373137618, 45817.375505602]  (crossing t in [26.361329472981097, 26.36344620976238])
+B: ell_1(delta_b) in [45817.374118412, 45817.378131067]  (crossing t in [26.29571063276145, 26.299944106324006])
+B: ell_2(delta_a) in [45817.365982361, 45817.366629520]  (crossing t in [119.7271728515625, 119.72930908203125])
+B: ell_2(delta_b) in [45817.383630664, 45817.384618438]  (crossing t in [119.423828125, 119.4281005859375])
+B: G(delta_a) <= -0.006508098, G(delta_b) >= 0.005499598: OK
+C: 2R0 - U >= 0.638826 OK; edge (2, 2.01]: 2R0 - pi L - U >= 0.192541 OK; far [1300.0, r0): delta_a L - U >= 9026.798 OK
+C0: (2, 2.15]: (2R0 - U) - (pi - delta_a) L(t_e) >= 0.041866: OK
+C: 626 chunks
+C: 1086 accepted leaves tile [2.15, 21.3298461438805] u [30.0, 105.0] u [140.0, 1300.0]: OK
+C: middle cover OK, 1546 boxes visited (incl. split), smallest margin F - ell_k >= 0.000031
+archive: leaves_maxwell/maxwell_q1.001_r01500.json, sha256[:16] 433188fd23d280ad
+RESULT: CERTIFIED interior Maxwell angle delta* in [0.677106398319, 0.677112764518] pi; 4432s

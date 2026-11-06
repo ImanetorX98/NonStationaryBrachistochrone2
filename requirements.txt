@@ -1,0 +1,8 @@
+# Versions used for the runs whose logs are in results/ (Python 3.13.2, macOS on Apple silicon).
+# The certificate verifier (certificates/verify_certificate.py) needs only the Python standard library.
+# The Wolfram Language scripts need wolframscript with Wolfram Engine or Mathematica (our runs: Mathematica 13.3.1).
+numpy==2.2.2
+scipy==1.17.1
+sympy==1.13.3
+mpmath==1.3.0
+matplotlib==3.10.0

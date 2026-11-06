@@ -1,0 +1,6 @@
+q=1.05 r0=600 rT=537 tol=1e-10: interior extrema (pi-a0, phi): (2.051e-02, 2.601288), (7.277e-02, 2.636658); zero of u on the ray pi-a0c=7.277e-02
+q=1.05 r0=600 rT=537 tol=1e-12: interior extrema (pi-a0, phi): (2.051e-02, 2.601288), (7.277e-02, 2.636658); zero of u on the ray pi-a0c=7.277e-02
+q=1.2 r0=1280 rT=1258 tol=1e-10: interior extrema (pi-a0, phi): (1.444e-02, 2.977465), (2.882e-02, 2.982257); zero of u on the ray pi-a0c=1.444e-02
+q=1.2 r0=1280 rT=1258 tol=1e-12: interior extrema (pi-a0, phi): (1.444e-02, 2.977465), (2.882e-02, 2.982257); zero of u on the ray pi-a0c=1.444e-02
+q=1.4 r0=40000 rT=152793 tol=1e-10: interior extrema (pi-a0, phi): (1.240e-03, 3.129723), (3.495e-03, 3.131370); zero of u on the ray pi-a0c=1.240e-03
+q=1.4 r0=40000 rT=152793 tol=1e-12: interior extrema (pi-a0, phi): (1.240e-03, 3.129723), (3.495e-03, 3.131370); zero of u on the ray pi-a0c=1.240e-03

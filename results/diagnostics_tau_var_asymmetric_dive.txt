@@ -1,0 +1,7 @@
+limit: D_down = 3.209879 (descent to 2+1e-9 reached at eta 49.4), R_Ainf(r_f) = 0.728057, sum 3.937936
+  eps=1e-01: down to eta   12.47 (3.157326); arc to eta     27.65 (1.88e-01, sqrt f = 2.2e-01); up to eta     39.19 (0.710353); total 4.055273  (excess +1.17e-01)
+  eps=1e-02: down to eta   17.18 (3.208102); arc to eta     61.96 (3.94e-02, sqrt f = 7.1e-02); up to eta     78.19 (0.726289); total 3.973783  (excess +3.58e-02)
+  eps=1e-03: down to eta   21.80 (3.209703); arc to eta    162.40 (1.24e-02, sqrt f = 2.2e-02); up to eta    183.25 (0.727880); total 3.950005  (excess +1.21e-02)
+  eps=1e-04: down to eta   26.40 (3.209862); arc to eta    470.73 (3.93e-03, sqrt f = 7.1e-03); up to eta    496.18 (0.728039); total 3.941828  (excess +3.89e-03)
+  eps=1e-05: down to eta   31.01 (3.209878); arc to eta   1435.98 (1.24e-03, sqrt f = 2.2e-03); up to eta   1466.04 (0.728055); total 3.939175  (excess +1.24e-03)
+  eps=1e-06: down to eta   35.61 (3.209879); arc to eta   4478.50 (3.93e-04, sqrt f = 7.1e-04); up to eta   4513.17 (0.728057); total 3.938329  (excess +3.92e-04)

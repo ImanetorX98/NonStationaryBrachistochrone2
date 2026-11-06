@@ -1,0 +1,36 @@
+[frozen m = 1] r0 = 6.0, r_t = 6.0
+    Maxwell candidates before pi (previous realising family still exists but another arrives earlier): 0
+    zeros of D (in-plane conjugate points) before arrival on the realising extremal: none
+    deltas with no arrival found: none
+    smallest gap between the two earliest arrivals for delta < pi: 0.9553 (at delta/pi = 0.976); at pi: [np.float64(0.0)]
+    integration check at delta = pi/2: max |H| = 3.5e-11, min dv/dlambda = 1.103e+00
+[m = 1 + 0.5 tanh(v/5)] r0 = 6.0, r_t = 6.0
+    Maxwell candidates before pi (previous realising family still exists but another arrives earlier): 0
+    zeros of D (in-plane conjugate points) before arrival on the realising extremal: none
+    deltas with no arrival found: none
+    smallest gap between the two earliest arrivals for delta < pi: 1.3330 (at delta/pi = 0.976); at pi: [np.float64(0.0)]
+    integration check at delta = pi/2: max |H| = 2.5e-11, min dv/dlambda = 1.132e+00
+[rapid jump m = 1 + (1 + tanh((v - 4)/0.3))/2] r0 = 6.0, r_t = 6.0
+    Maxwell candidates before pi (previous realising family still exists but another arrives earlier): 0
+    zeros of D (in-plane conjugate points) before arrival on the realising extremal: none
+    deltas with no arrival found: none
+    smallest gap between the two earliest arrivals for delta < pi: 1.7347 (at delta/pi = 0.976); at pi: [np.float64(0.0)]
+    integration check at delta = pi/2: max |H| = 4.4e-10, min dv/dlambda = 1.158e+00
+[frozen m = 1] r0 = 6.0, r_t = 10.0
+    Maxwell candidates before pi (previous realising family still exists but another arrives earlier): 0
+    zeros of D (in-plane conjugate points) before arrival on the realising extremal: none
+    deltas with no arrival found: none
+    smallest gap between the two earliest arrivals for delta < pi: 1.0032 (at delta/pi = 0.976); at pi: [np.float64(0.0)]
+    integration check at delta = pi/2: max |H| = 1.4e-11, min dv/dlambda = 1.138e+00
+[m = 1 + 0.5 tanh(v/5)] r0 = 6.0, r_t = 10.0
+    Maxwell candidates before pi (previous realising family still exists but another arrives earlier): 0
+    zeros of D (in-plane conjugate points) before arrival on the realising extremal: none
+    deltas with no arrival found: none
+    smallest gap between the two earliest arrivals for delta < pi: 1.3735 (at delta/pi = 0.976); at pi: [np.float64(0.0)]
+    integration check at delta = pi/2: max |H| = 3.1e-11, min dv/dlambda = 1.165e+00
+[rapid jump m = 1 + (1 + tanh((v - 4)/0.3))/2] r0 = 6.0, r_t = 10.0
+    Maxwell candidates before pi (previous realising family still exists but another arrives earlier): 0
+    zeros of D (in-plane conjugate points) before arrival on the realising extremal: none
+    deltas with no arrival found: none
+    smallest gap between the two earliest arrivals for delta < pi: 1.7564 (at delta/pi = 0.976); at pi: [np.float64(0.0)]
+    integration check at delta = pi/2: max |H| = 3.4e-10, min dv/dlambda = 1.184e+00

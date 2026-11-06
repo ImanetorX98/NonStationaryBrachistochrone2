@@ -1,0 +1,55 @@
+certificate group4_B1_I1  degrees {21, 17, 8, 8}
+nodes read 95 of 95; leaves 48; delegations 0; total volume 1
+PASS cell InputForm[{{0, 1/2}, {0, 1/2}, {0, 1/2}, {0, 1/2}}]  min coefficient (chord, tangent) {16346.0340908593001071078`3., 16346.0340908593001071078`3.}
+PASS cell InputForm[{{0, 1/4}, {0, 1/4}, {3/4, 1}, {0, 1/4}}]  min coefficient (chord, tangent) {911.9205578913547183718`3., 911.9205578913547183718`3.}
+PASS cell InputForm[{{0, 1/2}, {0, 1/2}, {0, 1/2}, {0, 1/2}}]  min coefficient (chord, tangent) {16346.0340908593001071078`3., 16346.0340908593001071078`3.}
+PASS cell InputForm[{{0, 1/2}, {0, 1/2}, {0, 1/2}, {1/2, 1}}]  min coefficient (chord, tangent) {9872.2976161981231319992`3., 9487.5401332166333219704`3.}
+PASS cell InputForm[{{0, 1/4}, {0, 1/4}, {1/2, 3/4}, {0, 1/2}}]  min coefficient (chord, tangent) {9460.440368318054110593`3., 9460.440368318054110593`3.}
+PASS cell InputForm[{{0, 1/4}, {0, 1/4}, {3/4, 1}, {0, 1/4}}]  min coefficient (chord, tangent) {911.9205578913547183718`3., 911.9205578913547183718`3.}
+PASS cell InputForm[{{0, 1/4}, {0, 1/4}, {3/4, 1}, {1/4, 1/2}}]  min coefficient (chord, tangent) {1972.5593429657081452953`3., 1972.5593429657081452953`3.}
+PASS cell InputForm[{{0, 1/4}, {1/4, 1/2}, {1/2, 3/4}, {0, 1/2}}]  min coefficient (chord, tangent) {16398.1914232130999835842`3., 16398.1914232130999835842`3.}
+PASS cell InputForm[{{0, 1/4}, {1/4, 1/2}, {3/4, 1}, {0, 1/4}}]  min coefficient (chord, tangent) {2756.5814366544523993008`3., 2756.5814366544523993008`3.}
+PASS cell InputForm[{{0, 1/4}, {1/4, 1/2}, {3/4, 1}, {1/4, 1/2}}]  min coefficient (chord, tangent) {4310.6663796220269944759`3., 4310.6663796220269944759`3.}
+PASS cell InputForm[{{1/4, 1/2}, {0, 1/2}, {1/2, 1}, {0, 1/2}}]  min coefficient (chord, tangent) {12430.5042521313163016419`3., 12430.5042521313163016419`3.}
+PASS cell InputForm[{{0, 1/4}, {0, 1/4}, {1/2, 3/4}, {1/2, 1}}]  min coefficient (chord, tangent) {9460.440368318054110593`3., 9460.440368318054110593`3.}
+PASS cell InputForm[{{0, 1/4}, {0, 1/4}, {3/4, 1}, {1/2, 3/4}}]  min coefficient (chord, tangent) {1972.5593429657081452953`3., 1972.5593429657081452953`3.}
+PASS cell InputForm[{{0, 1/4}, {0, 1/4}, {3/4, 1}, {3/4, 1}}]  min coefficient (chord, tangent) {911.9205578913547183718`3., 911.9205578913547183718`3.}
+PASS cell InputForm[{{0, 1/4}, {1/4, 1/2}, {1/2, 3/4}, {1/2, 1}}]  min coefficient (chord, tangent) {16398.1914232130999835842`3., 16398.1914232130999835842`3.}
+PASS cell InputForm[{{0, 1/4}, {1/4, 1/2}, {3/4, 1}, {1/2, 3/4}}]  min coefficient (chord, tangent) {4310.6663796220269944759`3., 4310.6663796220269944759`3.}
+PASS cell InputForm[{{0, 1/4}, {1/4, 1/2}, {3/4, 1}, {3/4, 1}}]  min coefficient (chord, tangent) {2756.5814366544523993008`3., 2756.5814366544523993008`3.}
+PASS cell InputForm[{{1/4, 1/2}, {0, 1/2}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {7292.0405075010262669252`3., 7184.8458318273793483297`3.}
+PASS cell InputForm[{{0, 1/2}, {1/2, 1}, {0, 1/2}, {0, 1}}]  min coefficient (chord, tangent) {0, 0}
+PASS cell InputForm[{{0, 1/4}, {1/2, 3/4}, {1/2, 3/4}, {0, 1/2}}]  min coefficient (chord, tangent) {27446.2148385689847300484`3., 27446.2148385689847300484`3.}
+PASS cell InputForm[{{0, 1/4}, {1/2, 3/4}, {3/4, 1}, {0, 1/4}}]  min coefficient (chord, tangent) {5874.5105568494396909068`3., 5874.5105568494396909068`3.}
+PASS cell InputForm[{{0, 1/4}, {1/2, 3/4}, {3/4, 1}, {1/4, 1/2}}]  min coefficient (chord, tangent) {8308.3329593519255392517`3., 8308.3329593519255392517`3.}
+PASS cell InputForm[{{0, 1/4}, {3/4, 1}, {1/2, 3/4}, {0, 1/2}}]  min coefficient (chord, tangent) {44674.1291672382279974109`3., 44674.1291672382279974109`3.}
+PASS cell InputForm[{{0, 1/4}, {3/4, 1}, {3/4, 1}, {0, 1/4}}]  min coefficient (chord, tangent) {11100.6128680885586323337`3., 11100.6128680885586323337`3.}
+PASS cell InputForm[{{0, 1/4}, {3/4, 1}, {3/4, 1}, {1/4, 1/2}}]  min coefficient (chord, tangent) {14888.1075351184781710425`3., 14888.1075351184781710425`3.}
+PASS cell InputForm[{{1/4, 1/2}, {1/2, 1}, {1/2, 1}, {0, 1/2}}]  min coefficient (chord, tangent) {27468.2303189292433585298`3., 27468.2303189292433585298`3.}
+PASS cell InputForm[{{0, 1/4}, {1/2, 3/4}, {1/2, 3/4}, {1/2, 1}}]  min coefficient (chord, tangent) {27446.2148385689847300484`3., 27446.2148385689847300484`3.}
+PASS cell InputForm[{{0, 1/4}, {1/2, 3/4}, {3/4, 1}, {1/2, 3/4}}]  min coefficient (chord, tangent) {8308.3329593519255392517`3., 8308.3329593519255392517`3.}
+PASS cell InputForm[{{0, 1/4}, {1/2, 3/4}, {3/4, 1}, {3/4, 1}}]  min coefficient (chord, tangent) {5874.5105568494396909068`3., 5874.5105568494396909068`3.}
+PASS cell InputForm[{{0, 1/4}, {3/4, 1}, {1/2, 3/4}, {1/2, 1}}]  min coefficient (chord, tangent) {44674.1291672382279974109`3., 44674.1291672382279974109`3.}
+PASS cell InputForm[{{0, 1/4}, {3/4, 1}, {3/4, 1}, {1/2, 3/4}}]  min coefficient (chord, tangent) {14888.1075351184781710425`3., 14888.1075351184781710425`3.}
+PASS cell InputForm[{{0, 1/4}, {3/4, 1}, {3/4, 1}, {3/4, 1}}]  min coefficient (chord, tangent) {11100.6128680885586323337`3., 11100.6128680885586323337`3.}
+PASS cell InputForm[{{1/4, 1/2}, {1/2, 1}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {17609.1784876372726234953`3., 17367.4484073091812156769`3.}
+PASS cell InputForm[{{1/2, 3/4}, {0, 1/2}, {0, 1/2}, {0, 1/2}}]  min coefficient (chord, tangent) {8044.2387266252722581453`3., 8044.2387266252722581453`3.}
+PASS cell InputForm[{{3/4, 1}, {0, 1/4}, {0, 1/4}, {0, 1/4}}]  min coefficient (chord, tangent) {13071.2522651654928693782`3., 14354.9889544560349142939`3.}
+PASS cell InputForm[{{3/4, 1}, {0, 1/4}, {0, 1/4}, {1/4, 1/2}}]  min coefficient (chord, tangent) {328.5481678510716154758`3., 32.2885562608564157097`3.}
+PASS cell InputForm[{{3/4, 1}, {0, 1/4}, {1/4, 1/2}, {0, 1/4}}]  min coefficient (chord, tangent) {16203.0830956897509901095`3., 17818.3011606811265243891`3.}
+PASS cell InputForm[{{3/4, 1}, {0, 1/4}, {1/4, 1/2}, {1/4, 1/2}}]  min coefficient (chord, tangent) {726.0422549475686734181`3., 449.8143779905169665465`3.}
+PASS cell InputForm[{{3/4, 1}, {1/4, 1/2}, {0, 1/2}, {0, 1/2}}]  min coefficient (chord, tangent) {2544.6394742028466328301`3., 2410.9127971667637858191`3.}
+PASS cell InputForm[{{1/2, 3/4}, {0, 1/2}, {0, 1/2}, {1/2, 1}}]  min coefficient (chord, tangent) {5088.6931203330573900213`3., 5016.2600189593389358035`3.}
+PASS cell InputForm[{{3/4, 1}, {0, 1/2}, {0, 1/2}, {1/2, 1}}]  min coefficient (chord, tangent) {1021.3888384411727237452`3., 1021.3888384411727237452`3.}
+PASS cell InputForm[{{1/2, 1}, {0, 1/2}, {1/2, 1}, {0, 1/2}}]  min coefficient (chord, tangent) {873.5515794318348156367`3., 86.8658845928544921909`3.}
+PASS cell InputForm[{{1/2, 3/4}, {0, 1/2}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {4736.8001592313007963634`3., 4669.908431169637955222`3.}
+PASS cell InputForm[{{3/4, 1}, {0, 1/2}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {1654.9615115239085330255`3., 1040.828331443830560357`3.}
+PASS cell InputForm[{{1/2, 1}, {1/2, 1}, {0, 1/2}, {0, 1/2}}]  min coefficient (chord, tangent) {6154.9448228788652569294`3., 6154.9448228788652569294`3.}
+PASS cell InputForm[{{1/2, 3/4}, {1/2, 1}, {0, 1/2}, {1/2, 1}}]  min coefficient (chord, tangent) {14104.6585541454587068553`3., 13898.4003552406816540982`3.}
+PASS cell InputForm[{{3/4, 1}, {1/2, 1}, {0, 1/2}, {1/2, 1}}]  min coefficient (chord, tangent) {6112.2283672466852347706`3., 6098.3814811240506760147`3.}
+PASS cell InputForm[{{1/2, 1}, {1/2, 1}, {1/2, 1}, {0, 1/2}}]  min coefficient (chord, tangent) {7649.2595240288557513618`3., 7649.2595240288557513618`3.}
+PASS cell InputForm[{{1/2, 3/4}, {1/2, 1}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {12456.057413459681933648`3., 12278.0651692899093591272`3.}
+PASS cell InputForm[{{3/4, 1}, {1/2, 1}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {7304.0499105031191502137`3., 7198.7657284588717012152`3.}
+leaves checked 50, PASS 50, time 15287 s
+tampered P0 - 1/10 on the first leaf, still accepted: True
+RESULT: PASS (whole tree read and unit volume: True; all checked leaves pass: True)

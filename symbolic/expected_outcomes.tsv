@@ -1,0 +1,51 @@
+# Expected outcome of each script, checked by run_symbolic.sh after every run; this file is also the list of the
+# scripts (each listed script must exist and every .wls of this folder must be listed). A run is accepted only if:
+#  - wolframscript and the capture both exit with status 0;
+#  - the number of lines starting with PASS or [PASS] equals the second column (summary lines such as
+#    "PASS 39  FAIL 2" are not counted);
+#  - the FAIL lines are exactly those listed for the script in expected_failures.txt (none for most scripts);
+#  - the last line of the log (ignoring blank lines and Wolfram messages such as NIntegrate::precw:) equals the third
+#    column, after removing leading blanks and writing timings {0.12, False} as {T, False} and Wolfram temporaries
+#    d$1377 as d$K; a truncated or empty log is therefore rejected.
+# Columns are separated by tabs.
+# script	PASS lines	last line
+aux_metric_rail_cone	15	SUMMARY: 15 PASS, 0 FAIL
+bridge_group4_group5	47	SUMMARY: 47 PASS, 0 FAIL
+conformal_kerr_excursion	14	SUMMARY: 14 PASS, 0 FAIL
+drop_large_separation	69	PASS R_1' = rho_1/(r sqrt f)
+hand_reductions	39	PASS 39  FAIL 2  (2 FAIL expected: the checks that must fail)
+kerr_equator_curvature	16	SUMMARY: 16 PASS, 0 FAIL
+kerr_equator_structure	34	SUMMARY: 34 PASS, 0 FAIL
+pulse_drop_constants	17	PASS strict triangular margin: 9/100 - (21/500)(21/50) > 7/100
+pulse_drop_examples	104	PASS drop: density of R_{1/2} <= (1/4) density of R_1
+supplement_bands_direct_ricci	0	control just outside: max Cp at Q=1.55 over r: 3.9504907409403777*^-16;  at Q=2.05: -6.691802300012613*^-15
+supplement_frame_family_positivity	0	C_phi >= 0 somewhere in the family band? {T, False}
+supplement_frame_family	5	ALL CHECKS PASSED
+supplement_frozen_slice	7	ALL CHECKS PASSED
+supplement_inplane_conjugates	8	ALL CHECKS PASSED
+supplement_static_frames	30	SUMMARY: 30 PASS, 0 FAIL
+swept_angle_conformal_schwarzschild	56	SUMMARY: 56 PASS, 0 FAIL
+tau_branch_constant_factor	18	SUMMARY: 18 PASS, 0 FAIL
+tau_branch_general_bounds	3	PASS R_Ainf' <= (Ainf/A0)^2 R_A0' (N increasing in A)
+tau_branch_numerical_recheck	25	SUMMARY: 25 PASS, 0 FAIL
+tau_branch_variable_factor_vaidya	34	SUMMARY: 34 PASS, 0 FAIL
+tau_equator_angular_motion	0	positive for r > 2M (a < M): True  (check at fixed parameters)
+tau_equator_hjb	9	PASS density ratio = (a^2/A^2) Sqrt[(EE^2-A^2 f)/(EE^2-a^2 f)] (squares, both positive)
+tau_equator_identities	14	constraint multiplied by f, order s (w > 0): (s*(-1 + (2*M^2*u^2)/(a^3*w) + (2*M^2*w)/a + a*(w + (A^2*w)/(2*E^2))))/(2*M)
+tau_equator_rational_constants	52	PASS 1 - b+ w* > 0
+tau_equator_uniqueness_sector	139	PASS denominators and lower bounds positive
+tau_equator_warp	7	PASS V_a(2M) = a^2/Q (ring)
+tau_metric_perlick	2	limit at the boundary f -> 0 (a = 0): h_C,pp = 0
+vaidya_arrival_branch	49	SUMMARY: 49 PASS, 0 FAIL
+vaidya_arrival_chord	6	PASS max_q mu* = 1/28
+vaidya_arrival_low_energy	6	PASS P(r; m) = m^2 P_q(r/m; 1) (scaling)
+vaidya_example_closed_forms	1	2R(4), M=1 = 3.08173573059614892291124407920791162647`15.   (Riemann-sum enclosure: 3.081722, 3.081750)
+vaidya_example_discriminant	4	PASS 91^2 - 2 (11*5839/1000)^2 = 15135559/500000
+vaidya_example_early_window	8	PASS [N] (real part) Delta(29/10) > 39/25 > Delta(297/100), l(297/100) > 2R(4)
+vaidya_example_genus_competitor	4	thresholds: Lambda(11/5) = 5.9412053, 91/(11 sqrt2) = 5.8497015534523471833`10., C0 [N] = 5.8130366
+vaidya_example_numbers	4	PASS sextic: rho^2(r)-rho^2(t) = (r-t)((t+2)r^2+(t^2-4)r+2t^2-4t)/((r+2)(t+2))
+vaidya_example_rational_competitor	4	exact expression of the length: 2*((13*Sqrt[509]*(-1/100*Sqrt[274089] + Sqrt[284849]/100 + 2*ArcSinh[Sqrt[433/2]/10] - 2*ArcSinh[Sqrt[443/2]/10]))/50 + (Sqrt[18629]*((3*Sqrt[57])/4 - Sqrt[284849]/100 - 2*ArcSinh[Sqrt[19/2]/2] + 2*ArcSinh[Sqrt[443/2]/10]))/50 + (Sqrt[2069]*((-3*Sqrt[57])/4 + Sqrt[383129]/100 + 2*ArcSinh[Sqrt[19/2]/2] - 2*ArcSinh[Sqrt[527/2]/10]))/25 + (Sqrt[1301]*(4*Sqrt[3] - Sqrt[383129]/100 - 2*ArcSinh[Sqrt[3]] + 2*ArcSinh[Sqrt[527/2]/10]))/25)
+vaidya_tau_apoapsis_and_late_constants	11	polynomial competitor [N]: length = 5.81397617319999869608518486828223805683`15.
+vaidya_tau_kinematics	5	PASS 0 interior to K iff 0 < f < E^2 (w < E^2 and w > 0): (0+w)^2/E^2 < w
+vaidya_tau_pmp_structure	5	PASS p_r'(p_r=0) > 0
+vaidya_tau_turning_points	7	threshold of m' for no apoapsis (q=0): m' < r h_pp p_r' = ((2*m - r)*(4*m^2 + (-4 + e^2)*m*r - (-1 + e^2)*r^2))/(e^2*r^3)

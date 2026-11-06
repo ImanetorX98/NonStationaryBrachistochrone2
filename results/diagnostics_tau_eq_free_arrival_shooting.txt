@@ -1,0 +1,50 @@
+Negative test and scan 0.14 < tau < 0.20 (free-arrival shooting, all branches found):
+prograde   tau=0.120: 1 branches
+     T=0.164144 [crossing] cost=0.05600942 p0=(-0.00799,+4.26447) res=1.7e-16 rail=6.7e-16 chi_min=4.147 r_min=5.9998
+prograde   tau=0.140: 1 branches
+     T=0.162179 [crossing] cost=0.05112902 p0=(-0.00790,+4.26448) res=7.9e-16 rail=5.6e-16 chi_min=4.147 r_min=5.9998
+prograde   tau=0.145: 1 branches
+     T=0.161688 [crossing] cost=0.04990892 p0=(-0.00788,+4.26449) res=3.9e-15 rail=4.4e-16 chi_min=4.147 r_min=5.9998
+prograde   tau=0.150: 1 branches
+     T=0.161197 [crossing] cost=0.04868881 p0=(-0.00787,+4.26449) res=3.7e-16 rail=6.7e-16 chi_min=4.147 r_min=5.9998
+prograde   tau=0.155: 1 branches
+     T=0.160705 [crossing] cost=0.04746871 p0=(-0.00786,+4.26450) res=9.2e-16 rail=6.7e-16 chi_min=4.147 r_min=5.9998
+prograde   tau=0.160: 1 branches
+     T=0.160214 [crossing] cost=0.04624860 p0=(-0.00786,+4.26450) res=4.6e-15 rail=6.7e-16 chi_min=4.147 r_min=5.9998
+prograde   tau=0.165: 1 branches
+     T=0.159727 [early] cost=0.04503918 p0=(-0.00778,+4.21125) res=2.2e-14 rail=6.7e-16 chi_min=4.093 r_min=5.9998
+prograde   tau=0.170: 1 branches
+     T=0.159267 [early] cost=0.04389246 p0=(-0.00756,+4.06169) res=1.4e-14 rail=5.6e-16 chi_min=3.944 r_min=5.9998
+prograde   tau=0.175: 1 branches
+     T=0.158853 [early] cost=0.04285422 p0=(-0.00725,+3.84700) res=8.3e-16 rail=6.7e-16 chi_min=3.729 r_min=5.9998
+prograde   tau=0.180: 1 branches
+     T=0.158494 [early] cost=0.04195025 p0=(-0.00689,+3.59574) res=2.5e-16 rail=6.7e-16 chi_min=3.478 r_min=5.9998
+prograde   tau=0.190: 1 branches
+     T=0.157955 [early] cost=0.04057468 p0=(-0.00615,+3.06664) res=2.3e-16 rail=6.7e-16 chi_min=2.949 r_min=5.9998
+prograde   tau=0.200: 1 branches
+     T=0.157636 [early] cost=0.03973984 p0=(-0.00546,+2.58017) res=4.5e-16 rail=6.7e-16 chi_min=2.462 r_min=5.9998
+retrograde tau=0.120: 1 branches
+     T=0.174861 [crossing] cost=0.05779059 p0=(-0.00757,-4.26447) res=9.0e-16 rail=5.6e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.140: 1 branches
+     T=0.173016 [crossing] cost=0.05320706 p0=(-0.00745,-4.26449) res=5.6e-15 rail=5.6e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.145: 1 branches
+     T=0.172554 [crossing] cost=0.05206118 p0=(-0.00743,-4.26450) res=9.5e-16 rail=5.6e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.150: 1 branches
+     T=0.172093 [crossing] cost=0.05091529 p0=(-0.00742,-4.26450) res=2.2e-15 rail=5.6e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.155: 1 branches
+     T=0.171631 [crossing] cost=0.04976940 p0=(-0.00740,-4.26451) res=4.9e-16 rail=6.7e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.160: 1 branches
+     T=0.171170 [crossing] cost=0.04862351 p0=(-0.00740,-4.26451) res=3.9e-16 rail=6.7e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.165: 1 branches
+     T=0.170709 [crossing] cost=0.04747761 p0=(-0.00739,-4.26452) res=1.9e-15 rail=7.8e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.170: 1 branches
+     T=0.170247 [crossing] cost=0.04633172 p0=(-0.00739,-4.26452) res=2.1e-15 rail=6.7e-16 chi_min=4.294 r_min=5.9998
+retrograde tau=0.175: 1 branches
+     T=0.169790 [early] cost=0.04519450 p0=(-0.00734,-4.21824) res=8.9e-16 rail=6.7e-16 chi_min=4.248 r_min=5.9998
+retrograde tau=0.180: 1 branches
+     T=0.169354 [early] cost=0.04410928 p0=(-0.00719,-4.08581) res=2.6e-16 rail=5.6e-16 chi_min=4.115 r_min=5.9998
+retrograde tau=0.190: 1 branches
+     T=0.168608 [early] cost=0.04223690 p0=(-0.00670,-3.66314) res=1.7e-15 rail=6.7e-16 chi_min=3.693 r_min=5.9998
+retrograde tau=0.200: 1 branches
+     T=0.168067 [early] cost=0.04085937 p0=(-0.00613,-3.16751) res=1.9e-15 rail=5.6e-16 chi_min=3.197 r_min=5.9998
+total time 2337s

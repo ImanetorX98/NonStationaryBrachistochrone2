@@ -1,0 +1,9 @@
+PASS R'/rho = 1/sqrt(r(r-2))
+rho^2(r) - rho^2(t) = ((r - t)*(-4*r + 2*r^2 - 4*t + r^2*t + 2*t^2 + r*t^2))/((2 + r)*(2 + t))
+radicand (up to squares) = (-2 + r)*r*(2 + r)*(r - t)*(-4*r + 2*r^2 - 4*t + r^2*t + 2*t^2 + r*t^2)   degree in r: 6
+   => degree 6 in r without generic double roots: hyperelliptic integral of genus 2, not elliptic
+PASS discriminant non-zero for t = 3 (simple roots)
+PASS dA/dr = 1/sqrt(r(r-2))
+PASS dF/dr = R'
+competitor with constant direction: minimal length = 6.01146728586844357815475437135694123991`12. at r1 = 4.3337228190771702357`10.
+   thresholds: Lambda(11/5) = 5.9412053, 91/(11 sqrt2) = 5.8497015534523471833`10., C0 [N] = 5.8130366

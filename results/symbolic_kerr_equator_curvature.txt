@@ -1,0 +1,21 @@
+== Kerr equator, curvature ==
+  [PASS] curvature machinery: Kerr Ricci-flat (point a = 0.7, r = 3.3, theta = 1.1)   (ScientificForm[4.440892098500626*^-16, 3])
+  [PASS] ZAMO: e0 unit timelike, e0 _|_ e2
+  [PASS] Ric_h(k,k) = U c^2 + V s^2 + J s: Ric_01 = Ric_12 = 0 (constant A)
+  [PASS] structure: U R^3 w~ H/(x^3 D) is a polynomial in (x, R, u)
+  [PASS] structure: -V R^4 w~^2 H/x^3 is a polynomial in (x, R, u)
+  [PASS] structure: J^2 R^7 w~^3 H^2/(4 x^8 (2-R) D) is the square of a polynomial
+  [PASS] structure: w~, D, H positive on (x, R, u) in (0,1) x (1,2) x [0,1)
+  [PASS] asymptotics: U ~ -u z^3/(1-u)
+  [PASS] asymptotics: U, V without terms z^0, z^1, z^2
+  [PASS] asymptotics: V ~ z^3 (5u - 3)/(1-u)
+   max r^3 Ric_h(k,k) over 2e5 random points, u <= 3/5: {-6.541488245799376*^-7, {0.9986718968379145, 1.0517688726439303, 0.012835232858131373, 0.0027730136335120115}}
+   max r^3 Ric_h(k,k) over 2e5 random points, u <= 2/3: {0.6485891295400265, {0.976704917039547, 302.1008536756407, 0.6620730864500793, 0.9677004225982406}}
+  [PASS] prop:kerr-Kinf (numerical, not certified): Ric_h(k,k) <= 0 for u <= 3/5
+  [PASS] prop:kerr-Kinf (control): for u up to 2/3 positive values appear
+  [PASS] Ric_h jets: Ric_h = R_stat + D1 u' - C c^2[u'' + f u'^2/(2w)], no other terms in u'^2, u''
+  [PASS] Ric_h jets: D1 proportional to c (D1 = 0 for c = 0)
+  [PASS] Ric_h jets: static part = U c^2 + V s^2 + J s
+  [PASS] conformal formula: Ric_{e^{2 sig} h}(k,k) = Ric_h(k,k) - sig' Hess_h r(k,k) + (sig'^2 - sig'')(k^r)^2 (null k)
+
+SUMMARY: 16 PASS, 0 FAIL

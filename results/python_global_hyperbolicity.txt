@@ -1,0 +1,18 @@
+symbolic
+  [PASS] a=0: P0 = 1/f^2
+  [PASS] a=0: Q0 = r^2/f
+  [PASS] N - 1 = Z/(1-Z) >= 0 where Z<1
+  [PASS] null: vt = sqrt(N)|vx|_h0 >= |vx|_h0 for N>=1
+  [PASS] a=0: radial h0 distance to 2M diverges
+  [PASS] a!=0: sqrt(P0) ~ C/sqrt(r-2M), C finite and nonzero (integrable)   C = 2*sqrt(2)*M**(3/2)/a
+  [PASS] a!=0: |beta|/sqrt(Q0) -> 1 at 2M
+  [PASS] N -> 1 at 2M
+  [PASS] freezing front: Z(rF) = 1
+
+numerical diagnostic (not a proof)
+  short (+): arrival eta = 22.99965574638524
+  long (-): arrival eta = 26.886065591276548
+  [PASS] first arrival = short arc; the long arc beyond the antipode is beaten
+  [PASS] sup A on the interval used < Ehat
+
+all checks passed

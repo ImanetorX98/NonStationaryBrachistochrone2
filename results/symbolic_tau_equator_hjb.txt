@@ -1,0 +1,15 @@
+
+FindMaximum::sszero: The step size in the search has become less than the tolerance prescribed by the PrecisionGoal option, but the gradient is larger than the tolerance specified by the AccuracyGoal option. There is a possibility that the method has stalled at a point that is not a local maximum.
+
+FindMaximum::bddir: The search direction {-0.0001593295602209499573460423091450914055958} is not an ascent direction for the function. Typically this occurs when the function is not smooth or the values of the function are much less accurate than the WorkingPrecision.
+
+FindMaximum::bddir: The search direction {-0.00007936132598076740547651490269711557767152} is not an ascent direction for the function. Typically this occurs when the function is not smooth or the values of the function are much less accurate than the WorkingPrecision.
+PASS sigma_K = [sqrt((xi.b)^2 + (n-|b|^2)|xi|^2) - xi.b]/(n-|b|^2)  (40 random cases, refined maximum on the boundary)
+PASS |xi - sigma b|^2 = n sigma^2
+PASS xi - (om+Ve) b = -(gradV + Ve b) with xi = om b - gradV
+PASS n * cov = |gradV + Ve b|^2 - n (om+Ve)^2 (covariant form)
+PASS inverse of gopt
+PASS gopt^{-1}(theta+dV, theta+dV) = cov
+PASS frozen: Ve = 0, |grad d| = om Sqrt[n]  =>  sigma(om b - grad d) = om  (exact in 64 directions)
+PASS tau density increasing in A: d/dA [A^2/Sqrt[EE^2-A^2 f]] > 0
+PASS density ratio = (a^2/A^2) Sqrt[(EE^2-A^2 f)/(EE^2-a^2 f)] (squares, both positive)

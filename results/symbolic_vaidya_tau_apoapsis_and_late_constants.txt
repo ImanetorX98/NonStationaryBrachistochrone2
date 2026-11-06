@@ -1,0 +1,12 @@
+PASS turning point: h_pp p_r' = (r-2m) P/(E^2 r^4 [r(1-Eq)-2m])
+PASS turning point: P(0)/m^3 = a u^3 + 3(a+1)u^2 + 2(a+1)u
+PASS turning point: P(omega) = 2m(r-2m)[(E^2-1)r+2m]
+PASS turning point: P affine in q
+PASS turning point: d_q (r h_pp p_r') formula
+PASS turning point: example r h_pp p_r' = 2/9 (m=5/4, r=3, q=omega/2)
+PASS turning point: r'' = 2/9/3 - (3/2)/3 = -23/54
+PASS late change: (r sqrt f/(r-M))^2 = 1 - M^2/(r-M)^2
+PASS late change: b(r_s)^2 <= al^2/2 + al^4/16 < al^2 for 0<al<1
+PASS late change: 4(pi al/2 + al) = g/2
+PASS T0 bound: 11 sqrt2 582/100 < 91
+polynomial competitor [N]: length = 5.81397617319999869608518486828223805683`15.

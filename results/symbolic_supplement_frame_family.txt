@@ -1,0 +1,23 @@
+PASS  1. sample (q,b) =     7
+{2, -}
+    4: formula = direct Ricci (radial and tangential)
+PASS  1. sample (q,b) =  17
+{--, 2}
+ 10: formula = direct Ricci (radial and tangential)
+PASS  2. q = b: C_r = C_phi = K_t
+      lim r^3 C_r   = -((3 - b - 4*q + 2*b*q)/((-1 + b)*q))
+      lim r^3 C_phi = -((3 - 4*b - q + 2*b*q)/((-1 + b)*q))
+      C_r(r->2M) = -1/16;   C_phi(r->2M) = -1/16
+PASS  5a. q = b > 3/2: lim r^3 C < 0 at infinity
+PASS  5b. q = b > 3/2: C < 0 at r = 2M
+      b = 1.52: band (grid) = {1.511, 1.541}
+      b = 1.55: band (grid) = {1.525, 1.611}
+      b = 1.6: band (grid) = {1.547, 1.7489999999999999}
+      b = 1.65: band (grid) = {1.567, 1.9269999999999998}
+      b = 1.6666666666666665: band (grid) = {1.573, 1.9989999999999999}
+      b = 1.75: band (grid) = {1.601, 2.4989999999999997}
+      b = 2.: band (grid) = {1.6669999999999998, 3.999}
+      b = 2.5: band (grid) = {1.751, 3.999}
+      b = 3.: band (grid) = {1.801, 3.999}
+
+ALL CHECKS PASSED

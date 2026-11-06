@@ -1,0 +1,27 @@
+(1) d s_-/dr - (2m/r^2)(1 + E/(2 sqrt w)) = 0 ; d sqrt(w)/dr + m/(r^2 sqrt w) = 0
+  [tanh] v= 0.0 r=  2.6514: W_r FD 0.70984825, formula 0.70984825; sigma = 0.00274147 (>0: True)
+  [tanh] v= 0.0 r=  6.0014: W_r FD 0.80880975, formula 0.80880975; sigma = 0.10170296 (>0: True)
+  [tanh] v= 2.0 r=  3.2842: W_r FD 0.73232001, formula 0.73232001; sigma = 0.02521322 (>0: True)
+  [tanh] v= 3.9 r=  3.8884: W_r FD 0.75413958, formula 0.75413958; sigma = 0.04703280 (>0: True)
+  [tanh] v= 4.1 r=  2.9063: W_r FD 0.70768034, formula 0.70768034; sigma = 0.00057356 (>0: True)
+  [tanh] v=10.0 r=  4.9893: W_r FD 0.79020571, formula 0.79020571; sigma = 0.08309892 (>0: True)
+  [tanh] v= 0.5 r=  8.6549: W_r FD 0.84553005, formula 0.84553005; sigma = 0.13842327 (>0: True)
+(2) [tanh] max |formula - FD| = 9.7e-11;  (4) without contact term, max |error| = 2.17e-01 (must be large: FAILS as required)
+  [jump] v= 0.0 r=  6.7551: W_r FD 0.70759141, formula 0.70759141; sigma = 0.00048463 (>0: True)
+  [jump] v= 0.0 r= 10.1051: W_r FD 0.72920464, formula 0.72920464; sigma = 0.02209786 (>0: True)
+  [jump] v= 2.0 r=  7.8413: W_r FD 0.71096580, formula 0.71096580; sigma = 0.00385902 (>0: True)
+  [jump] v= 3.9 r=  8.9533: W_r FD 0.72249994, formula 0.72249994; sigma = 0.01539316 (>0: True)
+  [jump] v= 4.1 r=  7.9985: W_r FD 0.70729348, formula 0.70729348; sigma = 0.00018669 (>0: True)
+  [jump] v=10.0 r= 10.0000: W_r FD 0.74535599, formula 0.74535599; sigma = 0.03824921 (>0: True)
+  [jump] v= 0.5 r= 12.8623: W_r FD 0.73659679, formula 0.73659679; sigma = 0.02949001 (>0: True)
+(2) [jump] max |formula - FD| = 7.5e-11;  (4) without contact term, max |error| = 5.79e-02 (must be large: FAILS as required)
+  [const] v= 0.0 r=  2.0500: W_r FD 0.71145825, formula 0.71145825; sigma = 0.00435147 (>0: True), exact const 1/sqrt(w) - 1/E = 0.00435147
+  [const] v= 0.0 r=  5.4000: W_r FD 0.85424220, formula 0.85424220; sigma = 0.14713541 (>0: True), exact const 1/sqrt(w) - 1/E = 0.14713541
+  [const] v= 2.0 r=  2.5000: W_r FD 0.74535599, formula 0.74535599; sigma = 0.03824921 (>0: True), exact const 1/sqrt(w) - 1/E = 0.03824921
+  [const] v= 3.9 r=  3.0000: W_r FD 0.77459667, formula 0.77459667; sigma = 0.06748989 (>0: True), exact const 1/sqrt(w) - 1/E = 0.06748989
+  [const] v= 4.1 r=  2.0100: W_r FD 0.70798791, formula 0.70798791; sigma = 0.00088113 (>0: True), exact const 1/sqrt(w) - 1/E = 0.00088113
+  [const] v=10.0 r=  4.0000: W_r FD 0.81649658, formula 0.81649658; sigma = 0.10938980 (>0: True), exact const 1/sqrt(w) - 1/E = 0.10938980
+  [const] v= 0.5 r=  8.0000: W_r FD 0.89442719, formula 0.89442719; sigma = 0.18732041 (>0: True), exact const 1/sqrt(w) - 1/E = 0.18732041
+(2) [const] max |formula - FD| = 9.7e-11;  (4) without contact term, max |error| = 2.92e-01 (must be large: FAILS as required)
+(5) tanh example: B_V = W(0,6) + R_inf(6) = 5.212950
+    shallow branch cost = B_V at delta = 0.522447 pi: minimum attained without deadline for delta < 0.5224 pi (not certified)

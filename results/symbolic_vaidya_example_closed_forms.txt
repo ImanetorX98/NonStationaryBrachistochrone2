@@ -1,0 +1,3 @@
+PASS d/dr [sqrt(r(r+a)) - a arcsinh(sqrt(r/a))] = sqrt(r/(r+a))
+Lambda(11/5) in closed form = 5.94120530244801344899983428171291824108`15.   (Riemann-sum enclosure: 5.94106, 5.94135)
+2R(4), M=1 = 3.08173573059614892291124407920791162647`15.   (Riemann-sum enclosure: 3.081722, 3.081750)

@@ -1,0 +1,18 @@
+PASS rho^2 = r^2 f/(E^2-f) with E^2=2, M=1
+PASS rho(5)^2/rho(7)^2 = 125/392 > 1/4 (m1=3/2)
+PASS arccos(sqrt(125/392)) < pi/3
+PASS a^2 f = a(a-3) >= 10 on [5,7]
+PASS R'/rho' = ... : R'/rho <= 1/(a sqrt f) (m1=3/2)
+PASS final margin 157/100 - 3h/10 - (39/25 + 4h/3) = 251/30000 at h=1/1000
+PASS |r'| < 2E^2: s+ and s- in [-2E^2, E^2/4]
+
+NIntegrate::slwcon: Numerical integration converging too slowly; suspect one of the following: singularity, value of the integration is 0, highly oscillatory integrand, or WorkingPrecision too small.
+
+NIntegrate::slwcon: Numerical integration converging too slowly; suspect one of the following: singularity, value of the integration is 0, highly oscillatory integrand, or WorkingPrecision too small.
+[N] Delta(29/10) = 1.60570530365325962746328148179281411698`15.15051499783199 + 0``28.807814981810605*I   Delta(297/100) = 1.5586842096018978405632229224037184945`15.15051499783199 + 0``29.075037026951502*I
+
+NIntegrate::slwcon: Numerical integration converging too slowly; suspect one of the following: singularity, value of the integration is 0, highly oscillatory integrand, or WorkingPrecision too small.
+
+General::stop: Further output of NIntegrate::slwcon will be suppressed during this calculation.
+[N] l(297/100) = 3.09122665157645280311518398237871654276`15.15051499783199 + 0``28.956389349597444*I   2R(4) = 3.08173573059614892291124407920791162645`15.
+PASS [N] (real part) Delta(29/10) > 39/25 > Delta(297/100), l(297/100) > 2R(4)

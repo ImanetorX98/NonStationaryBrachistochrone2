@@ -1,0 +1,20 @@
+[tanh] b_inf(0) = 2.601440, 2m(0) = 2.0000, h_inf = 3.0; contact v_c = 1.0182, r_c = 2.704764; Ch(v_c) = 0.214307 (tail 0.0e+00); W(0, r0) = 2.901648; R_inf(r_f) = 2.311302; B_V (if sigma >= 0) = 5.212950
+    frontier bracket b_lo <= b_inf <= b_hi on v in [0, 30]: max width 1.8e-15; tail beyond Tb in [0, 0.0e+00]
+    sigma (analytic sensitivity) on 256 points: min 5.554e-05 at v = 0.00, r = 2.6024; negative: 0;  FD estimate vs analytic: max |diff| 1.5e-10, FD negative points: 0 (FD is a secondary estimate)
+    best over multi-switch families: 2.901648 (single switch (field)); field W(0, r0) = 2.901648; field beaten: False
+[const m=1] b_inf(0) = 2.000000, 2m(0) = 2.0000, h_inf = 2.0; contact v_c = 1.2177, r_c = 2.000000; Ch(v_c) = 0.000000 (tail 0.0e+00); W(0, r0) = 3.228607; R_inf(r_f) = 3.228607; B_V (if sigma >= 0) = 6.457215
+    frontier bracket b_lo <= b_inf <= b_hi on v in [0, 30]: max width 4.4e-14; tail beyond Tb in [0, 0.0e+00]
+    sigma (analytic sensitivity) on 256 points: min 8.836e-05 at v = 8.00, r = 2.0010; negative: 0;  FD estimate vs analytic: max |diff| 1.3e-10, FD negative points: 0 (FD is a secondary estimate)
+    exact constant-mass W(0, 6) = R(6) = 3.228607
+[jump v_s=2.0 width=0.3 dm=2.0 r0=r_f=12.0] b_inf(0) = 5.409942, 2m(0) = 2.0000, h_inf = 6.0; contact v_c = 2.0981, r_c = 5.979641; Ch(v_c) = 0.014855 (tail 0.0e+00); W(0, r0) = 5.347811; R_inf(r_f) = 4.622604; B_V (if sigma >= 0) = 9.970415
+    frontier bracket b_lo <= b_inf <= b_hi on v in [0, 30]: max width 2.7e-13; tail beyond Tb in [0, 0.0e+00]
+    sigma (analytic sensitivity) on 256 points: min 1.459e-05 at v = 0.00, r = 5.4109; negative: 0;  FD estimate vs analytic: max |diff| 2.1e-10, FD negative points: 0 (FD is a secondary estimate)
+    best over multi-switch families: 5.347811 (single switch (field)); field W(0, r0) = 5.347811; field beaten: False
+[jump v_s=4.0 width=0.2 dm=3.0 r0=r_f=14.0] b_inf(0) = 6.705075, 2m(0) = 2.0000, h_inf = 8.0; contact v_c = 2.3884, r_c = 7.466992; Ch(v_c) = 0.467238 (tail 0.0e+00); W(0, r0) = 6.451869; R_inf(r_f) = 4.548634; B_V (if sigma >= 0) = 11.000503
+    frontier bracket b_lo <= b_inf <= b_hi on v in [0, 30]: max width 4.2e-10; tail beyond Tb in [0, 0.0e+00]
+    sigma (analytic sensitivity) on 256 points: min 8.223e-06 at v = 2.00, r = 7.3423; negative: 0;  FD estimate vs analytic: max |diff| 3.9e-10, FD negative points: 0 (FD is a secondary estimate)
+    best over multi-switch families: 6.451869 (single switch (field)); field W(0, r0) = 6.451869; field beaten: False
+[jump v_s=1.0 width=0.5 dm=1.0 r0=r_f=8.0] b_inf(0) = 3.771443, 2m(0) = 2.0360, h_inf = 4.0; contact v_c = 1.2762, r_c = 3.982797; Ch(v_c) = 0.012363 (tail 0.0e+00); W(0, r0) = 3.350446; R_inf(r_f) = 3.081736; B_V (if sigma >= 0) = 6.432182
+    frontier bracket b_lo <= b_inf <= b_hi on v in [0, 30]: max width 1.8e-13; tail beyond Tb in [0, 0.0e+00]
+    sigma (analytic sensitivity) on 256 points: min 2.883e-05 at v = 0.00, r = 3.7724; negative: 0;  FD estimate vs analytic: max |diff| 1.6e-10, FD negative points: 0 (FD is a secondary estimate)
+    best over multi-switch families: 3.350446 (single switch (field)); field W(0, r0) = 3.350446; field beaten: False

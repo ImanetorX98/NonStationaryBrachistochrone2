@@ -1,0 +1,5 @@
+tau cost per radian: A^2*Sqrt[(r*(a^2 + r*(-2*M + r)))/(A^2*(2*M - r) + E^2*r)]   limit r -> 2M: (a*A^2)/E
+prograde clock at the limit: a + (a*A^2)/(2*E^2) + (2*M^2)/a
+retrograde clock at the limit: Infinity
+d/dr (angular cost)^2 = (-2*A^4*(-(a^2*A^2*M) + 4*A^2*M^2*r - 4*A^2*M*r^2 + E^2*M*r^2 + A^2*r^3 - E^2*r^3))/(2*A^2*M - A^2*r + E^2*r)^2
+positive for r > 2M (a < M): True  (check at fixed parameters)

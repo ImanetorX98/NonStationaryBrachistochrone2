@@ -1,0 +1,15 @@
+q=1.05 R=8.811 r0=6.0: rays with a zero of u before pi: 0/400 None; reaching pi: 18, min u(pi)=121.7
+q=1.05 R=8.811 r0=15.0: rays with a zero of u before pi: 0/400 None; reaching pi: 9, min u(pi)=279.3
+q=1.05 R=8.811 r0=40.0: rays with a zero of u before pi: 0/400 None; reaching pi: 3, min u(pi)=874.8
+q=1.05 R=8.811 r0=150.0: rays with a zero of u before pi: 0/400 None; reaching pi: 1, min u(pi)=4937
+q=1.05 R=8.811 r0=600.0: rays with a zero of u before pi: 15/400 (np.float64(3.013774401816769), (np.float64(3095.180985212338), np.float64(2.724904713953761))); reaching pi: 0, min u(pi)=inf
+q=1.2 R=12.995 r0=6.0: rays with a zero of u before pi: 0/400 None; reaching pi: 25, min u(pi)=99.99
+q=1.2 R=12.995 r0=15.0: rays with a zero of u before pi: 0/400 None; reaching pi: 16, min u(pi)=191.3
+q=1.2 R=12.995 r0=40.0: rays with a zero of u before pi: 0/400 None; reaching pi: 8, min u(pi)=463.8
+q=1.2 R=12.995 r0=150.0: rays with a zero of u before pi: 0/400 None; reaching pi: 3, min u(pi)=1879
+q=1.2 R=12.995 r0=600.0: rays with a zero of u before pi: 1/400 (np.float64(3.100274449910723), (np.float64(3112.2785813770947), np.float64(2.9691229882234618))); reaching pi: 0, min u(pi)=inf
+q=1.4 R=38.496 r0=6.0: rays with a zero of u before pi: 0/400 None; reaching pi: 30, min u(pi)=85.21
+q=1.4 R=38.496 r0=15.0: rays with a zero of u before pi: 0/400 None; reaching pi: 23, min u(pi)=146.3
+q=1.4 R=38.496 r0=40.0: rays with a zero of u before pi: 0/400 None; reaching pi: 14, min u(pi)=318.8
+q=1.4 R=38.496 r0=150.0: rays with a zero of u before pi: 0/400 None; reaching pi: 6, min u(pi)=1036
+q=1.4 R=38.496 r0=600.0: rays with a zero of u before pi: 0/400 None; reaching pi: 2, min u(pi)=3899

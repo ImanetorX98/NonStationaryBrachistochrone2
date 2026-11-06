@@ -1,0 +1,11 @@
+PASS  1. K(N h0) = K_t (optical Gauss curvature of Paper II, M = 1)
+PASS  2a. K_t < 0 for all r > 2 when q >= 3/2
+PASS  2b. for 1 < q < 3/2, K_t > 0 somewhere
+PASS  3a. radial integrand ~ c/(r-2), c > 0: log divergence at r -> 2 (c = 2)
+PASS  3b. radial integrand -> positive constant at infinity: linear divergence (       q
+Sqrt[------]
+     -1 + q)
+PASS  3c. angular radius bounded below by a positive constant (q = 3/2, r > 2)
+PASS  4. CONTROL: q = 1.4, r = 100: K_t > 0
+
+ALL CHECKS PASSED

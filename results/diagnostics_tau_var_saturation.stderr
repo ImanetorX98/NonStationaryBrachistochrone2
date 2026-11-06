@@ -1,0 +1,2 @@
+diagnostics/tau_var_saturation.py:54: RuntimeWarning: overflow encountered in exp
+  Afun = lambda e: 0.3 + 0.6/(1 + np.exp(20*(e - 5)))

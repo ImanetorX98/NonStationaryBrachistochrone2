@@ -1,0 +1,18 @@
+[frozen] r0 = 6.0, r_T = 6.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [1]; deltas with count != 1: none
+[tanh] r0 = 6.0, r_T = 6.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [1]; deltas with count != 1: none
+[jump] r0 = 6.0, r_T = 6.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [1]; deltas with count != 1: none
+[frozen] r0 = 6.0, r_T = 10.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [1]; deltas with count != 1: none
+[tanh] r0 = 6.0, r_T = 10.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [1]; deltas with count != 1: none
+[jump] r0 = 6.0, r_T = 10.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [1]; deltas with count != 1: none
+[frozen] r0 = 6.0, r_T = 4.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [0, 1]; deltas with count != 1: 0.434 (0: v = [])
+[tanh] r0 = 6.0, r_T = 4.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [1]; deltas with count != 1: none
+[jump] r0 = 6.0, r_T = 4.0, Ehat^2 = 2.000: delta/pi in [0.02, 1.9], 60 values
+    same-sense geodesics found: counts [0, 1]; deltas with count != 1: 0.371 (0: v = []), 0.402 (0: v = []), 0.434 (0: v = []), 0.466 (0: v = []), 0.498 (0: v = []), 0.530 (0: v = []), 0.562 (0: v = []), 0.594 (0: v = []), 0.625 (0: v = []), 0.657 (0: v = []), 0.689 (0: v = []), 0.721 (0: v = []) ...

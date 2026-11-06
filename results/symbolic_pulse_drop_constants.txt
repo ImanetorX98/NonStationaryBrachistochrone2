@@ -1,0 +1,17 @@
+PASS e^(3/100) <= 100/97
+PASS (1/4)e^(3/100) <= 25/97 < 1/3
+PASS uniform corrected coefficient: (1/4)(100/97) = 25/97 < 1/3
+PASS (d/4)e^(3d/25) <= 25 d/97 for 0<=d<=1/4
+PASS 4(e^(300h)-1) <= 12/97 for 0<=h<=1e-4
+PASS w(rbar,1/2) > 1302/10^4
+PASS w(rbar,1) > 1110/10^4
+PASS Jensen upper bound < 61/500
+PASS w decreasing in r on [ru,rb]
+PASS w concave in A^2
+PASS int alpha^2 = 19/32
+PASS chord combination is an equality: (13/24)(1302/10^4) + (11/24)(1110/10^4) = 607/5000
+PASS upper switch enclosure: (1/50)/(607/5000 - 27/200000) = 4000/24253
+PASS drop is non-increasing
+PASS drop joins C1 to both plateaus
+PASS terminal derivative margin: (21/100)(46/11)(1100/147) = 46/7
+PASS strict triangular margin: 9/100 - (21/500)(21/50) > 7/100

@@ -1,0 +1,12 @@
+diagnostics/tau_var_fold.py:11: RuntimeWarning: overflow encountered in scalar power
+  return (lambda e: (0.75 + 0.25*np.tanh(-(e - ed)))/n), (lambda e: (-0.25/np.cosh(e - ed)**2)/n)
+diagnostics/tau_var_fold.py:11: RuntimeWarning: overflow encountered in cosh
+  return (lambda e: (0.75 + 0.25*np.tanh(-(e - ed)))/n), (lambda e: (-0.25/np.cosh(e - ed)**2)/n)
+<lambdifygenerated-1>:2: RuntimeWarning: invalid value encountered in sqrt
+  return p_r*(1 - 2/r)**2/(sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0)))
+<lambdifygenerated-2>:2: RuntimeWarning: invalid value encountered in sqrt
+  return L*(1 - 2/r)/(r**2*sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0)))
+<lambdifygenerated-3>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -(-L**2*(1 - 2/r)/r**3 + L**2/r**4 + 2*p_r**2*(1 - 2/r)/r**2)/(sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0))) + 2*a**2/(E*r**2) + a**2*sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)/(E**2*r**2*(1 - a**2*(1 - 2/r)/E**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0)))
+<lambdifygenerated-4>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -ad*(-2*a*(1 - 2/r)/E - a*(1 - 2/r)*sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)/(E**2*(1 - a**2*(1 - 2/r)/E**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0))))

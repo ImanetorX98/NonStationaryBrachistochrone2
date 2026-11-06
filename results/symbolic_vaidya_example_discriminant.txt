@@ -1,0 +1,4 @@
+PASS Disc_r H = 2^24 t^10 (t-2)^5 (t+2)^3 (t^2-8t-4)(t^2+2t-4)^2
+PASS no factor vanishes on [29/10, 297/100]
+PASS angular differential = t sqrt(t-2) (r+2)/sqrt(H)
+PASS 91^2 - 2 (11*5839/1000)^2 = 15135559/500000

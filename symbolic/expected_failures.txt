@@ -1,0 +1,5 @@
+# FAIL lines that must appear (deliberate negative controls whose expected outcome is a FAIL), one per line:
+# script<TAB>exact text of the line, without leading spaces. Any other FAIL line makes the run fail, and so does a
+# missing line of this list.
+hand_reductions	FAIL  H_q: control that must fail, c1 < 0 at q = 11/10 (FAIL expected)
+hand_reductions	FAIL  S6: control that must fail, lower bound > 19/100 (FAIL expected)

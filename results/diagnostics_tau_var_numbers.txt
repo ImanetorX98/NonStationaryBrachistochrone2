@@ -1,0 +1,15 @@
+(1) shooting vs direct optimisation, same raw A
+  decreasing A, eta_d = 4.0: A(0) = 0.9998323249; shooting 2.5653050385 (T 13.150011, residual 6.7e-16, max|H*| 3.8e-11); direct 2.565319; relative difference +5.4e-06 PASS
+  decreasing A, eta_d = 8.0: A(0) = 0.9999999437; shooting 3.5537168874 (T 17.741325, residual 1.5e-14, max|H*| 1.8e-11); direct 3.553715; relative difference -5.3e-07 PASS
+  increasing A, eta_d = 4.0: A(0) = 1.0001006050; shooting 9.8240006920 (T 15.938002, residual 5.3e-15, max|H*| 5.3e-11); direct 9.824110; relative difference +1.1e-05 PASS
+(2) crossing with the radial-descent dive, A normalised to A(0) = 1
+  eta_d = 8.0: C_ext 3.5537173203, U_rad 3.5545917903, difference -8.745e-04
+  eta_d = 8.25: C_ext 3.5957802423, U_rad 3.5886399317, difference +7.140e-03
+  crossing eta_d* = 8.02649838 (T 17.7945, q0 +0.17255) PASS (main text: near 8.03)
+(3) fold of the family continued in eta_d (arclength, fixed step)
+  eta_d turns back after 2 steps of 0.01: maximum eta_d = 10.34962 (T 25.614, min r 2.2034, cost 3.844251, min(omega - q) +0.01631) PASS (main text: near 10.35)
+(4) domains of the semi-Lagrangian programme
+  frozen: candidate 5.813037; r1 = 2.4442, r2 = 9.2696, H = 45.24
+  drop  : candidate 2.566213; r1 = 2.3971, r2 = 12.8938, H = 87.60
+  up    : candidate 9.821112; r1 = 2.3519, r2 = 11.4590, H = 92.83
+SUMMARY: all checks PASS

@@ -1,0 +1,13 @@
+PASS group 1: U = x^3 nU/(32(1-x)w)
+PASS group 1: V0 = x^3 nV/(64(1-x)w^2)
+PASS group 1: J^2 = z x^8 S L^2/(1024(1-x)^2 w)
+PASS group 2: U = x^3 D P_U/(R^3 wt H)
+PASS group 2: V = -x^3 P_V/(R^4 wt^2 H)
+PASS group 2: J^2 = 4 x^8 (2-R) D P_J^2/(R^7 wt^3 H^2)
+PASS group 2: H R/x^4 = r^4 + a^2 r^2 + 2 a^2 r + 4 a^2 u (so H > 0)
+PASS group 3: Ric(K,K) is R_stat + D1 u' + D3 u'^2 + D2 u'' exactly (no other jet monomials)
+PASS group 3: R_stat = wN/w (40 rational points, max relative residual 0.0e+00 < 1e-35)
+PASS group 3: D1 = c (al0 + al1 s)/w (40 rational points, max relative residual 0.0e+00 < 1e-35)
+PASS group 3: D2 = -c^2 be/w (40 rational points, max relative residual 0.0e+00 < 1e-35)
+PASS group 3: D3 = D2 f/(2w) (40 rational points, max relative residual 0.0e+00 < 1e-35)
+SUMMARY: 12/12 PASS

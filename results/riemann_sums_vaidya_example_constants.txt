@@ -1,0 +1,29 @@
+PASS competitor sweeps at least pi/2: angle > pi/2
+PASS competitor length < 5.8390
+PASS 5.8390 < 91/(11 sqrt 2)
+PASS 91/(11 sqrt 2) < Lambda(11/5)
+PASS Lambda(11/5) < 2R(6)
+PASS T0 < 11 sqrt(2) * 5.8390 < 91
+PASS B_t > 0 on [t, 4] at both periastra (interval evaluation on the whole range)
+  Delta(29/10)  in ['1.605336929464949303601783675386877673843', '1.606073710839365100173503230276189462718']
+  Delta(297/100) in ['1.55833906648857803750201483905164273969', '1.559029379860198163825580718738237817743']
+  ell(297/100)  in ['3.090373410517499454180363646459534827563', '3.092080029717511328639127657937025841611']
+  2R(4)         in ['3.081595634395996929921151170415588371128', '3.08187583085989509488108453003984738457'] (cells), ['3.081735730596148922911244079207911609541', '3.08173573059614892291124407920791165468'] (closed form); 2s
+PASS Delta(29/10) > 39/25
+PASS Delta(297/100) < 39/25
+PASS ell(297/100) > 2R(4)
+PASS 39/25 < pi/2
+PASS cell enclosure of 2R(4) contains the closed form
+PASS Delta_ta: enclosure meets the interval printed in the supplement
+PASS Delta_tb: enclosure meets the interval printed in the supplement
+PASS ell_tb: enclosure meets the interval printed in the supplement
+PASS dive: enclosure meets the interval printed in the supplement
+PASS layer keeps r in [5, 7]: |rdot| < 4
+PASS angular speed sqrt(2)/r <= sqrt(2)/5 < 3/10
+PASS monotone frozen geodesic between radii in [5,7] sweeps < pi/3: sqrt(125/392) > 1/2
+PASS rho(5)^2/rho(7)^2 = 125/392 at mass 3/2
+PASS 1/(a sqrt(f(a))) < 1/3 on [5,7] (worst case a = 5, f = 1 - 3/a)
+PASS 157/100 < pi/2
+PASS gap at h = 1/1000 equals 251/30000 > 0
+PASS translated step: d <= 1/2000 and epsilon = 1/2000 end the accretion by 1/1000
+SUMMARY: 24/24 PASS

@@ -1,0 +1,44 @@
+PASS  radius: zeros of 86q^2-72q+1
+PASS  radius: (36+sqrt(1210))/86 < 1
+PASS  radius: positive on (1,5/4) (Reduce, control)
+PASS  tk-direction: f_r/2 - f/r = 3M/r^2 - 1/r
+PASS  tk-direction: f f_r/(2(q-f)) >= 0 for r > 2M, q > 1
+PASS  no-return: 1 - f = 2M/r
+PASS  no-return: 1 - f/q > 1 - f for q > 1, 0 < f < 1
+PASS  angle: 1/(1-1/q) <= 3 for q >= 3/2
+PASS  excursion: d/dr (r^2 Delta) > 0 for r > 2M, 0 < a <= M
+PASS  excursion: theta(2M) = 0
+PASS  kerr-G: a^2(1+2/r) + u Delta/(1-fu) >= 0 (r > r_+, 0 <= u < 1)
+PASS  kerr-G: 2a/r^3 <= 2 and sqrt(Delta)/r^2 <= 1 (r > r_+ >= 1, a <= 1)
+PASS  H_q: N'D - ND' = c0 c2 + 2 c1 c2 z + (4c1 + 120 c2) z^2 + 320 z^3
+PASS  H_q: c0 >= 0, c1 > 0, c2 > 0 for q >= 3/2
+FAIL  H_q: control that must fail, c1 < 0 at q = 11/10 (FAIL expected)
+PASS  -f/(2w) <= 1/2: f > -1, 0 <= u < 1, w > 0
+PASS  f = 1 - 2/r > -1 for r > 1
+PASS  shell: h_r = r^2/(f Delta) = r^3/((r-2)Delta)
+PASS  shell: d log h_r = 3/r - 1/(r-2) - 2(r-1)/Delta
+PASS  shell: 3/r - 1/(r-2) - 2/(r-1) = (6-4r)/(r(r-1)(r-2))
+PASS  shell: Delta < (r-1)^2
+PASS  shell: d log h_phi = 2(r-1)/Delta - 4/(r(r-2))
+PASS  shell: 2/(r-1) - 4/(r(r-2)) = 2(r^2-4r+2)/(r(r-1)(r-2))
+PASS  shell: 23/4 > 2 + sqrt(2)
+PASS  shell: h_r decreasing, h_phi increasing on [23/4,25/4] (direct check)
+PASS  S6: K M^2/D^2 <= c M/D for D >= D0 (D0 > K/c, M = 1)
+PASS  S6: F_min = 1 - c/D0 - K/D0^2 > 0
+   lower bound = 0.18328970536723664068883994260275428356`12.;  upper bound = -1.92212603433387156898490946960334906719`12.
+PASS  S6: lower bound > 1832/10000 (printed margin)
+PASS  S6: upper bound < -1922/1000 (printed margin)
+FAIL  S6: control that must fail, lower bound > 19/100 (FAIL expected)
+PASS  S6: 1/sqrt(1 - beta^2/(D0^2 t)) decreasing in t
+PASS  S6: 1/sqrt(t) <= 1 for t >= 1
+PASS  S6: b_+ = 2000 sqrt(t) <= D/2 = 10^4 t for t >= 1
+PASS  S6: 300 > pi K/(2 sqrt(3) c)
+PASS  S6: rho(8200)^2 = 6 8200^4/(8198 8210) > D0^2
+PASS  S6: rho^2 = 6R^4/((R-2)(R+10)) for q = 6/5 (rho = r/(sqrt(f) V))
+PASS  S6: rho(10M)^2 = 375, rho_* = 5 sqrt(15) M
+PASS  S6: sign of (rho^2)' = sign of R^2 + 12R - 40
+PASS  S6: positive zero of R^2 + 12R - 40 = 2 sqrt(19) - 6
+PASS  S6: rho(3M)^2 = 486/13 < 49
+PASS  S6: 300 > 5 sqrt(15)
+
+PASS 39  FAIL 2  (2 FAIL expected: the checks that must fail)

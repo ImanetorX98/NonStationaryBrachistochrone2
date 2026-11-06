@@ -1,0 +1,21 @@
+== Proper-time branch, constant A ==
+  [PASS] lem:tau-density: (A^2 f sqrt(N)/E)^2 h0 = (A^4 N/E^2)(dr^2 + f r^2 dOmega^2) (radial and angular)
+  [PASS] lem:tau-density: limits as r -> 2M (radial -> A^4/E^2, angular -> 0)
+  [PASS] thm:dive: cost of the arc = A^2 sqrt(N) sqrt(f) r pi/E
+  [PASS] conformal time of the arc ~ eps^(-1/2): sqrt(N) r/sqrt(f) * sqrt(eps) -> finite constant
+  [PASS] acceleration of the circle: |a| f^{3/2} -> E^2/(4 A^3 M) as r -> 2M
+  [PASS] prop:completion: h_tau = dR^2 + rho^2 dOmega^2 with R' = c sqrt(N), rho = c r sqrt(N f)
+  [PASS] prop:completion: rho^2 ~ 2 M c R near 2M (R ~ c (r - 2M))
+  [PASS] thm:antipodal: d rho/dR = (r - M)/(r sqrt f) + M sqrt(f)/(r (q - f))
+  [PASS] thm:antipodal: (r - M)^2 - r(r - 2M) = M^2
+  [PASS] rho^2 = A^2 V (potential of Paper II)
+  [PASS] c sqrt(N)/rho = 1/sqrt(r(r-2M))
+  [PASS] w(A sqrt V) = 2 V W, W = K/V'
+  [PASS] half angle: L w/(rho sqrt(rho^2 - L^2)) d rho = sqrt(V_t) dr/(sqrt(r(r-2M)) sqrt(V - V_t)), L = A sqrt(V_t)
+  [PASS] prop:certified: rho^2(r) - rho^2(t) = (r - t) W/D
+  [PASS] lem:dips: 2 int_L^rho0 L/(rho sqrt(rho^2 - L^2)) = 2 arccos(L/rho0)
+  [PASS] rmk spin: Sigma - 2Mr = eps(2 r_s - 2M + eps) on r = r_s + eps
+  [PASS] rmk spin: Delta >= a^2 sin^2 on r >= r_s
+  [PASS] rmk spin: r_s'^2/Delta <= a^2/(M^2 - a^2)  (with Delta >= a^2 sin^2)
+
+SUMMARY: 18 PASS, 0 FAIL

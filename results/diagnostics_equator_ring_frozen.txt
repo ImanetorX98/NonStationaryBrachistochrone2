@@ -1,0 +1,86 @@
+== shape of Delta(L) and Maxwell rule, equal radii ==
+a=0.100 q=1.200 r0=3.00: rho0=0.100 Phi_t=0.23875 delta_ring=0.47751 Phi_max=1.44477 (periastron 2.2194) sign changes of dDelta=1 deep>=W:True delta_c=1.2775849808056812 cont(ring)=1.2e-03,1.2e-04
+a=0.100 q=1.200 r0=6.00: rho0=0.100 Phi_t=0.26547 delta_ring=0.53094 Phi_max=1.98483 (periastron 2.5738) sign changes of dDelta=1 deep>=W:True delta_c=1.8042700247545367 cont(ring)=4.6e-03,4.6e-04
+a=0.100 q=1.200 r0=12.00: rho0=0.100 Phi_t=0.27231 delta_ring=0.54463 Phi_max=2.20983 (periastron 3.0172) sign changes of dDelta=1 deep>=W:True delta_c=2.0628769493884667 cont(ring)=1.1e-02,1.1e-03
+a=0.100 q=1.500 r0=3.00: rho0=0.100 Phi_t=0.24024 delta_ring=0.48048 Phi_max=1.46469 (periastron 2.2226) sign changes of dDelta=1 deep>=W:True delta_c=1.291999408171906 cont(ring)=1.2e-03,1.2e-04
+a=0.100 q=1.500 r0=6.00: rho0=0.100 Phi_t=0.26872 delta_ring=0.53744 Phi_max=2.04742 (periastron 2.6044) sign changes of dDelta=1 deep>=W:True delta_c=1.85347037575044 cont(ring)=4.6e-03,4.6e-04
+a=0.100 q=1.500 r0=12.00: rho0=0.100 Phi_t=0.27662 delta_ring=0.55324 Phi_max=2.31305 (periastron 3.1037) sign changes of dDelta=1 deep>=W:True delta_c=2.1491127115917217 cont(ring)=1.1e-02,1.1e-03
+a=0.100 q=2.000 r0=3.00: rho0=0.100 Phi_t=0.24170 delta_ring=0.48340 Phi_max=1.48419 (periastron 2.2289) sign changes of dDelta=1 deep>=W:True delta_c=1.3059027803776224 cont(ring)=1.2e-03,1.2e-04
+a=0.100 q=2.000 r0=6.00: rho0=0.100 Phi_t=0.27184 delta_ring=0.54367 Phi_max=2.10504 (periastron 2.6252) sign changes of dDelta=1 deep>=W:True delta_c=1.897044524874708 cont(ring)=4.6e-03,4.6e-04
+a=0.100 q=2.000 r0=12.00: rho0=0.100 Phi_t=0.28066 delta_ring=0.56133 Phi_max=2.40151 (periastron 3.1259) sign changes of dDelta=1 deep>=W:True delta_c=2.2183334726698014 cont(ring)=1.1e-02,1.1e-03
+a=0.100 q=4.000 r0=3.00: rho0=0.100 Phi_t=0.24385 delta_ring=0.48771 Phi_max=1.51264 (periastron 2.2321) sign changes of dDelta=1 deep>=W:True delta_c=1.325842648896749 cont(ring)=1.3e-03,1.3e-04
+a=0.100 q=4.000 r0=6.00: rho0=0.100 Phi_t=0.27630 delta_ring=0.55260 Phi_max=2.18327 (periastron 2.6358) sign changes of dDelta=1 deep>=W:True delta_c=1.9539387843982412 cont(ring)=4.7e-03,4.7e-04
+a=0.100 q=4.000 r0=12.00: rho0=0.100 Phi_t=0.28636 delta_ring=0.57272 Phi_max=2.51247 (periastron 3.1259) sign changes of dDelta=1 deep>=W:True delta_c=2.300682640831049 cont(ring)=1.1e-02,1.1e-03
+a=0.300 q=1.200 r0=3.00: rho0=0.300 Phi_t=0.40463 delta_ring=0.80927 Phi_max=1.40804 (periastron 2.2226) sign changes of dDelta=1 deep>=W:True delta_c=1.304846030523632 cont(ring)=4.1e-04,1.2e-04
+a=0.300 q=1.200 r0=6.00: rho0=0.300 Phi_t=0.48354 delta_ring=0.96709 Phi_max=1.97074 (periastron 2.5839) sign changes of dDelta=1 deep>=W:True delta_c=1.8418233125561534 cont(ring)=1.5e-03,4.6e-04
+a=0.300 q=1.200 r0=12.00: rho0=0.300 Phi_t=0.50402 delta_ring=1.00805 Phi_max=2.20274 (periastron 3.0385) sign changes of dDelta=1 deep>=W:True delta_c=2.0910277139892224 cont(ring)=3.5e-03,1.1e-03
+a=0.300 q=1.500 r0=3.00: rho0=0.300 Phi_t=0.40902 delta_ring=0.81804 Phi_max=1.42928 (periastron 2.2257) sign changes of dDelta=1 deep>=W:True delta_c=1.3224577699869502 cont(ring)=4.1e-04,1.2e-04
+a=0.300 q=1.500 r0=6.00: rho0=0.300 Phi_t=0.49320 delta_ring=0.98640 Phi_max=2.03477 (periastron 2.6147) sign changes of dDelta=1 deep>=W:True delta_c=1.8958136132997825 cont(ring)=1.5e-03,4.6e-04
+a=0.300 q=1.500 r0=12.00: rho0=0.300 Phi_t=0.51684 delta_ring=1.03368 Phi_max=2.30731 (periastron 3.1259) sign changes of dDelta=1 deep>=W:True delta_c=2.1819364657307547 cont(ring)=3.6e-03,1.1e-03
+a=0.300 q=2.000 r0=3.00: rho0=0.300 Phi_t=0.41335 delta_ring=0.82671 Phi_max=1.45007 (periastron 2.2289) sign changes of dDelta=1 deep>=W:True delta_c=1.339603336752894 cont(ring)=4.1e-04,1.2e-04
+a=0.300 q=2.000 r0=6.00: rho0=0.300 Phi_t=0.50247 delta_ring=1.00494 Phi_max=2.09367 (periastron 2.6252) sign changes of dDelta=1 deep>=W:True delta_c=1.9444035869768548 cont(ring)=1.5e-03,4.6e-04
+a=0.300 q=2.000 r0=12.00: rho0=0.300 Phi_t=0.52890 delta_ring=1.05779 Phi_max=2.39670 (periastron 3.1483) sign changes of dDelta=1 deep>=W:True delta_c=2.256434960948708 cont(ring)=3.6e-03,1.1e-03
+a=0.300 q=4.000 r0=3.00: rho0=0.300 Phi_t=0.41976 delta_ring=0.83951 Phi_max=1.48045 (periastron 2.2321) sign changes of dDelta=1 deep>=W:True delta_c=1.3644847969296816 cont(ring)=4.2e-04,1.3e-04
+a=0.300 q=4.000 r0=6.00: rho0=0.300 Phi_t=0.51579 delta_ring=1.03159 Phi_max=2.17358 (periastron 2.6358) sign changes of dDelta=1 deep>=W:True delta_c=2.0090506479790777 cont(ring)=1.6e-03,4.7e-04
+a=0.300 q=4.000 r0=12.00: rho0=0.300 Phi_t=0.54591 delta_ring=1.09182 Phi_max=2.50873 (periastron 3.1483) sign changes of dDelta=1 deep>=W:True delta_c=2.3470578225960685 cont(ring)=3.6e-03,1.1e-03
+a=0.500 q=1.200 r0=3.00: rho0=0.500 Phi_t=0.45760 delta_ring=0.91519 Phi_max=1.34202 (periastron 2.2257) sign changes of dDelta=1 deep>=W:True delta_c=1.269294578755354 cont(ring)=2.4e-04,1.2e-04
+a=0.500 q=1.200 r0=6.00: rho0=0.500 Phi_t=0.58519 delta_ring=1.17039 Phi_max=1.94383 (periastron 2.6044) sign changes of dDelta=1 deep>=W:True delta_c=1.8435348040432042 cont(ring)=9.0e-04,4.5e-04
+a=0.500 q=1.200 r0=12.00: rho0=0.500 Phi_t=0.61917 delta_ring=1.23833 Phi_max=2.18916 (periastron 3.0818) sign changes of dDelta=1 deep>=W:True delta_c=2.097816838885499 cont(ring)=2.1e-03,1.0e-03
+a=0.500 q=1.500 r0=3.00: rho0=0.500 Phi_t=0.46469 delta_ring=0.92938 Phi_max=1.36546 (periastron 2.2289) sign changes of dDelta=1 deep>=W:True delta_c=1.290221757375915 cont(ring)=2.4e-04,1.2e-04
+a=0.500 q=1.500 r0=6.00: rho0=0.500 Phi_t=0.60097 delta_ring=1.20193 Phi_max=2.01049 (periastron 2.6252) sign changes of dDelta=1 deep>=W:True delta_c=1.9024682416906002 cont(ring)=9.1e-04,4.6e-04
+a=0.500 q=1.500 r0=12.00: rho0=0.500 Phi_t=0.64019 delta_ring=1.28039 Phi_max=2.29621 (periastron 3.1483) sign changes of dDelta=1 deep>=W:True delta_c=2.1935342655126178 cont(ring)=2.1e-03,1.1e-03
+a=0.500 q=2.000 r0=3.00: rho0=0.500 Phi_t=0.47174 delta_ring=0.94348 Phi_max=1.38848 (periastron 2.2321) sign changes of dDelta=1 deep>=W:True delta_c=1.3107453194145244 cont(ring)=2.5e-04,1.2e-04
+a=0.500 q=2.000 r0=6.00: rho0=0.500 Phi_t=0.61618 delta_ring=1.23235 Phi_max=2.07170 (periastron 2.6358) sign changes of dDelta=1 deep>=W:True delta_c=1.9560180144721577 cont(ring)=9.2e-04,4.6e-04
+a=0.500 q=2.000 r0=12.00: rho0=0.500 Phi_t=0.66003 delta_ring=1.32006 Phi_max=2.38729 (periastron 3.1710) sign changes of dDelta=1 deep>=W:True delta_c=2.272917882148218 cont(ring)=2.1e-03,1.1e-03
+a=0.500 q=4.000 r0=3.00: rho0=0.500 Phi_t=0.48224 delta_ring=0.96449 Phi_max=1.42227 (periastron 2.2353) sign changes of dDelta=1 deep>=W:True delta_c=1.3408325686272433 cont(ring)=2.5e-04,1.2e-04
+a=0.500 q=4.000 r0=6.00: rho0=0.500 Phi_t=0.63815 delta_ring=1.27631 Phi_max=2.15478 (periastron 2.6464) sign changes of dDelta=1 deep>=W:True delta_c=2.0281600772003845 cont(ring)=9.3e-04,4.7e-04
+a=0.500 q=4.000 r0=12.00: rho0=0.500 Phi_t=0.68815 delta_ring=1.37630 Phi_max=2.50136 (periastron 3.1483) sign changes of dDelta=1 deep>=W:True delta_c=2.3710072562685607 cont(ring)=2.2e-03,1.1e-03
+a=0.700 q=1.200 r0=3.00: rho0=0.700 Phi_t=0.46382 delta_ring=0.92764 Phi_max=1.25730 (periastron 2.2321) sign changes of dDelta=1 deep>=W:True delta_c=1.201354712500503 cont(ring)=1.7e-04,1.2e-04
+a=0.700 q=1.200 r0=6.00: rho0=0.700 Phi_t=0.63486 delta_ring=1.26971 Phi_max=1.90622 (periastron 2.6358) sign changes of dDelta=1 deep>=W:True delta_c=1.8230318432934103 cont(ring)=6.3e-04,4.4e-04
+a=0.700 q=1.200 r0=12.00: rho0=0.700 Phi_t=0.68208 delta_ring=1.36415 Phi_max=2.17014 (periastron 3.1259) sign changes of dDelta=1 deep>=W:True delta_c=2.091052192759877 cont(ring)=1.5e-03,1.0e-03
+a=0.700 q=1.500 r0=3.00: rho0=0.700 Phi_t=0.47332 delta_ring=0.94663 Phi_max=1.28330 (periastron 2.2321) sign changes of dDelta=1 deep>=W:True delta_c=1.2255505570159406 cont(ring)=1.7e-04,1.2e-04
+a=0.700 q=1.500 r0=6.00: rho0=0.700 Phi_t=0.65630 delta_ring=1.31261 Phi_max=1.97624 (periastron 2.6464) sign changes of dDelta=1 deep>=W:True delta_c=1.887044811511582 cont(ring)=6.4e-04,4.5e-04
+a=0.700 q=1.500 r0=12.00: rho0=0.700 Phi_t=0.71085 delta_ring=1.42169 Phi_max=2.28038 (periastron 3.1938) sign changes of dDelta=1 deep>=W:True delta_c=2.19178813455467 cont(ring)=1.5e-03,1.0e-03
+a=0.700 q=2.000 r0=3.00: rho0=0.700 Phi_t=0.48284 delta_ring=0.96569 Phi_max=1.30901 (periastron 2.2353) sign changes of dDelta=1 deep>=W:True delta_c=1.249498969968844 cont(ring)=1.7e-04,1.2e-04
+a=0.700 q=2.000 r0=6.00: rho0=0.700 Phi_t=0.67711 delta_ring=1.35421 Phi_max=2.04049 (periastron 2.6571) sign changes of dDelta=1 deep>=W:True delta_c=1.9456245980260434 cont(ring)=6.5e-04,4.6e-04
+a=0.700 q=2.000 r0=12.00: rho0=0.700 Phi_t=0.73810 delta_ring=1.47621 Phi_max=2.37372 (periastron 3.1938) sign changes of dDelta=1 deep>=W:True delta_c=2.2759745578727575 cont(ring)=1.5e-03,1.1e-03
+a=0.700 q=4.000 r0=3.00: rho0=0.700 Phi_t=0.49722 delta_ring=0.99444 Phi_max=1.34705 (periastron 2.2353) sign changes of dDelta=1 deep>=W:True delta_c=1.2850093599594559 cont(ring)=1.8e-04,1.2e-04
+a=0.700 q=4.000 r0=6.00: rho0=0.700 Phi_t=0.70740 delta_ring=1.41480 Phi_max=2.12784 (periastron 2.6571) sign changes of dDelta=1 deep>=W:True delta_c=2.025374795502739 cont(ring)=6.6e-04,4.6e-04
+a=0.700 q=4.000 r0=12.00: rho0=0.700 Phi_t=0.77698 delta_ring=1.55396 Phi_max=2.49058 (periastron 3.1710) sign changes of dDelta=1 deep>=W:True delta_c=2.381251727443507 cont(ring)=1.5e-03,1.1e-03
+a=0.900 q=1.200 r0=3.00: rho0=0.900 Phi_t=0.44757 delta_ring=0.89514 Phi_max=1.16358 (periastron 2.2385) sign changes of dDelta=1 deep>=W:True delta_c=1.117890746660992 cont(ring)=1.3e-04,1.2e-04
+a=0.900 q=1.200 r0=6.00: rho0=0.900 Phi_t=0.65574 delta_ring=1.31148 Phi_max=1.86039 (periastron 2.6679) sign changes of dDelta=1 deep>=W:True delta_c=1.7877995717577722 cont(ring)=4.8e-04,4.3e-04
+a=0.900 q=1.200 r0=12.00: rho0=0.900 Phi_t=0.71588 delta_ring=1.43175 Phi_max=2.14683 (periastron 3.2169) sign changes of dDelta=1 deep>=W:True delta_c=2.0750866887212074 cont(ring)=1.1e-03,1.0e-03
+a=0.900 q=1.500 r0=3.00: rho0=0.900 Phi_t=0.45910 delta_ring=0.91820 Phi_max=1.19212 (periastron 2.2385) sign changes of dDelta=1 deep>=W:True delta_c=1.1450767587475061 cont(ring)=1.3e-04,1.2e-04
+a=0.900 q=1.500 r0=6.00: rho0=0.900 Phi_t=0.68230 delta_ring=1.36461 Phi_max=1.93404 (periastron 2.6788) sign changes of dDelta=1 deep>=W:True delta_c=1.8567898878080726 cont(ring)=4.9e-04,4.4e-04
+a=0.900 q=1.500 r0=12.00: rho0=0.900 Phi_t=0.75180 delta_ring=1.50360 Phi_max=2.26062 (periastron 3.2637) sign changes of dDelta=1 deep>=W:True delta_c=2.1808660170246967 cont(ring)=1.1e-03,1.0e-03
+a=0.900 q=2.000 r0=3.00: rho0=0.900 Phi_t=0.47081 delta_ring=0.94161 Phi_max=1.22057 (periastron 2.2385) sign changes of dDelta=1 deep>=W:True delta_c=1.1722667714020434 cont(ring)=1.3e-04,1.2e-04
+a=0.900 q=2.000 r0=6.00: rho0=0.900 Phi_t=0.70826 delta_ring=1.41651 Phi_max=2.00168 (periastron 2.6788) sign changes of dDelta=1 deep>=W:True delta_c=1.9203379923712778 cont(ring)=5.0e-04,4.5e-04
+a=0.900 q=2.000 r0=12.00: rho0=0.900 Phi_t=0.78601 delta_ring=1.57203 Phi_max=2.35653 (periastron 3.2402) sign changes of dDelta=1 deep>=W:True delta_c=2.2697325089809106 cont(ring)=1.2e-03,1.0e-03
+a=0.900 q=4.000 r0=3.00: rho0=0.900 Phi_t=0.48874 delta_ring=0.97748 Phi_max=1.26316 (periastron 2.2385) sign changes of dDelta=1 deep>=W:True delta_c=1.2131637547771137 cont(ring)=1.4e-04,1.2e-04
+a=0.900 q=4.000 r0=6.00: rho0=0.900 Phi_t=0.74643 delta_ring=1.49286 Phi_max=2.09400 (periastron 2.6571) sign changes of dDelta=1 deep>=W:True delta_c=2.0077520790857184 cont(ring)=5.1e-04,4.6e-04
+a=0.900 q=4.000 r0=12.00: rho0=0.900 Phi_t=0.83519 delta_ring=1.67038 Phi_max=2.47670 (periastron 3.1938) sign changes of dDelta=1 deep>=W:True delta_c=2.382062130551089 cont(ring)=1.2e-03,1.1e-03
+a=0.990 q=1.200 r0=3.00: rho0=0.990 Phi_t=0.43631 delta_ring=0.87263 Phi_max=1.12049 (periastron 2.2418) sign changes of dDelta=1 deep>=W:True delta_c=1.0781718273693888 cont(ring)=1.2e-04,1.1e-04
+a=0.990 q=1.200 r0=6.00: rho0=0.990 Phi_t=0.65902 delta_ring=1.31803 Phi_max=1.83770 (periastron 2.6788) sign changes of dDelta=1 deep>=W:True delta_c=1.7685104736181856 cont(ring)=4.3e-04,4.3e-04
+a=0.990 q=1.200 r0=12.00: rho0=0.990 Phi_t=0.72483 delta_ring=1.44966 Phi_max=2.13526 (periastron 3.2402) sign changes of dDelta=1 deep>=W:True delta_c=2.065702628848514 cont(ring)=1.0e-03,1.0e-03
+a=0.990 q=1.500 r0=3.00: rho0=0.990 Phi_t=0.44863 delta_ring=0.89726 Phi_max=1.15007 (periastron 2.2418) sign changes of dDelta=1 deep>=W:True delta_c=1.1065632286070661 cont(ring)=1.2e-04,1.2e-04
+a=0.990 q=1.500 r0=6.00: rho0=0.990 Phi_t=0.68768 delta_ring=1.37536 Phi_max=1.91299 (periastron 2.6898) sign changes of dDelta=1 deep>=W:True delta_c=1.839639549925115 cont(ring)=4.4e-04,4.4e-04
+a=0.990 q=1.500 r0=12.00: rho0=0.990 Phi_t=0.76376 delta_ring=1.52752 Phi_max=2.25067 (periastron 3.2874) sign changes of dDelta=1 deep>=W:True delta_c=2.173699628768512 cont(ring)=1.0e-03,1.0e-03
+a=0.990 q=2.000 r0=3.00: rho0=0.990 Phi_t=0.46121 delta_ring=0.92241 Phi_max=1.17971 (periastron 2.2418) sign changes of dDelta=1 deep>=W:True delta_c=1.1351076226854797 cont(ring)=1.2e-04,1.2e-04
+a=0.990 q=2.000 r0=6.00: rho0=0.990 Phi_t=0.71579 delta_ring=1.43157 Phi_max=1.98219 (periastron 2.6898) sign changes of dDelta=1 deep>=W:True delta_c=1.9053577717474013 cont(ring)=4.5e-04,4.5e-04
+a=0.990 q=2.000 r0=12.00: rho0=0.990 Phi_t=0.80093 delta_ring=1.60187 Phi_max=2.34776 (periastron 3.2637) sign changes of dDelta=1 deep>=W:True delta_c=2.2646086847432714 cont(ring)=1.1e-03,1.0e-03
+a=0.990 q=4.000 r0=3.00: rho0=0.990 Phi_t=0.48063 delta_ring=0.96126 Phi_max=1.22435 (periastron 2.2385) sign changes of dDelta=1 deep>=W:True delta_c=1.1783496051594446 cont(ring)=1.2e-04,1.2e-04
+a=0.990 q=4.000 r0=6.00: rho0=0.990 Phi_t=0.75734 delta_ring=1.51467 Phi_max=2.07688 (periastron 2.6679) sign changes of dDelta=1 deep>=W:True delta_c=1.9961877787143338 cont(ring)=4.6e-04,4.6e-04
+a=0.990 q=4.000 r0=12.00: rho0=0.990 Phi_t=0.85457 delta_ring=1.70914 Phi_max=2.46955 (periastron 3.1938) sign changes of dDelta=1 deep>=W:True delta_c=2.3800486976149684 cont(ring)=1.1e-03,1.1e-03
+== independent check (Dijkstra on the completion) ==
+a=0.5 q=2.0 r0=6.0 (grid r=6.020) delta=0.5061: Dijkstra=3.03091 formula min(shallow=3.01157, deep=inf, W=inf) = 3.01157
+a=0.5 q=2.0 r0=6.0 (grid r=6.020) delta=0.9948: Dijkstra=5.72480 formula min(shallow=5.68958, deep=inf, W=inf) = 5.68958
+a=0.5 q=2.0 r0=6.0 (grid r=6.020) delta=2.0071: Dijkstra=9.60028 formula min(shallow=9.56224, deep=9.60670, W=9.47389) = 9.47389
+a=0.5 q=2.0 r0=6.0 (grid r=6.020) delta=3.0020: Dijkstra=10.09769 formula min(shallow=inf, deep=inf, W=9.97130) = 9.97130
+a=0.9 q=1.5 r0=4.0 (grid r=4.000) delta=0.5061: Dijkstra=1.81109 formula min(shallow=1.80900, deep=inf, W=inf) = 1.80900
+a=0.9 q=1.5 r0=4.0 (grid r=4.000) delta=0.9948: Dijkstra=3.38573 formula min(shallow=3.38124, deep=inf, W=inf) = 3.38124
+a=0.9 q=1.5 r0=4.0 (grid r=4.000) delta=2.0071: Dijkstra=5.22683 formula min(shallow=inf, deep=inf, W=5.11445) = 5.11445
+a=0.9 q=1.5 r0=4.0 (grid r=4.000) delta=3.0020: Dijkstra=6.12219 formula min(shallow=inf, deep=inf, W=6.00980) = 6.00980
+a=0.3 q=2.0 r0=6.0 (grid r=6.020) delta=0.5061: Dijkstra=3.02110 formula min(shallow=3.00165, deep=inf, W=inf) = 3.00165
+a=0.3 q=2.0 r0=6.0 (grid r=6.020) delta=0.9948: Dijkstra=5.70665 formula min(shallow=5.67120, deep=inf, W=inf) = 5.67120
+a=0.3 q=2.0 r0=6.0 (grid r=6.020) delta=2.0071: Dijkstra=9.50885 formula min(shallow=9.54066, deep=9.61041, W=9.41609) = 9.41609
+a=0.3 q=2.0 r0=6.0 (grid r=6.020) delta=3.0020: Dijkstra=9.80730 formula min(shallow=inf, deep=inf, W=9.71454) = 9.71454

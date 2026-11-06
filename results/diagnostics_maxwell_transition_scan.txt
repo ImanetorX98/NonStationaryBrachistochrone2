@@ -1,0 +1,40 @@
+q=1.001 r0=200: maxima 1 [0.70149] pi; delta_c ~ 0.678329 pi; interior bridges 0
+q=1.001 r0=300: maxima 1 [0.70187] pi; delta_c ~ 0.679643 pi; interior bridges 0
+q=1.001 r0=400: maxima 1 [0.70195] pi; delta_c ~ 0.680202 pi; interior bridges 0
+q=1.001 r0=500: maxima 1 [0.70203] pi; delta_c ~ 0.680516 pi; interior bridges 0
+q=1.001 r0=700: maxima 1 [0.70206] pi; delta_c ~ 0.68084 pi; interior bridges 0
+q=1.001 r0=1000: maxima 1 [0.70215] pi; delta_c ~ 0.681053 pi; interior bridges 0
+q=1.001 r0=1500: maxima 2 [0.70223, 0.67737] pi; delta_c ~ 0.681218 pi; interior bridges 1 [angle 0.67711 pi, t 25.685-120.71]
+q=1.001 r0=2000: maxima 2 [0.7022, 0.68235] pi; delta_c ~ 0.681269 pi; interior bridges 1 [angle 0.681111 pi, t 14.577-252.94]
+q=1.001 r0=3000: maxima 2 [0.70226, 0.69368] pi; delta_c ~ 0.690697 pi; interior bridges 0
+q=1.001 r0=5000: maxima 2 [0.70223, 0.71544] pi; delta_c ~ 0.709358 pi; interior bridges 0
+q=1.003 r0=200: maxima 1 [0.70267] pi; delta_c ~ 0.680802 pi; interior bridges 0
+q=1.003 r0=300: maxima 1 [0.70305] pi; delta_c ~ 0.682298 pi; interior bridges 0
+q=1.003 r0=400: maxima 1 [0.70318] pi; delta_c ~ 0.683118 pi; interior bridges 0
+q=1.003 r0=500: maxima 1 [0.70328] pi; delta_c ~ 0.683616 pi; interior bridges 0
+q=1.003 r0=700: maxima 2 [0.70323, 0.68526] pi; delta_c ~ 0.684703 pi; interior bridges 0
+q=1.003 r0=1000: maxima 2 [0.70343, 0.69474] pi; delta_c ~ 0.692272 pi; interior bridges 0
+q=1.003 r0=1500: maxima 2 [0.70347, 0.71095] pi; delta_c ~ 0.705839 pi; interior bridges 0
+q=1.003 r0=2000: maxima 2 [0.70349, 0.7252] pi; delta_c ~ 0.718306 pi; interior bridges 0
+q=1.003 r0=3000: maxima 2 [0.70352, 0.74839] pi; delta_c ~ 0.7386 pi; interior bridges 0
+q=1.003 r0=5000: maxima 2 [0.70353, 0.78109] pi; delta_c ~ 0.76748 pi; interior bridges 0
+q=1.01 r0=200: maxima 1 [0.70665] pi; delta_c ~ 0.69028 pi; interior bridges 0
+q=1.01 r0=300: maxima 2 [0.707, 0.69828] pi; delta_c ~ 0.696659 pi; interior bridges 0
+q=1.01 r0=400: maxima 2 [0.70733, 0.70777] pi; delta_c ~ 0.70463 pi; interior bridges 0
+q=1.01 r0=500: maxima 2 [0.70744, 0.71763] pi; delta_c ~ 0.712623 pi; interior bridges 0
+q=1.01 r0=700: maxima 2 [0.70762, 0.73485] pi; delta_c ~ 0.727561 pi; interior bridges 0
+q=1.01 r0=1000: maxima 2 [0.70768, 0.75575] pi; delta_c ~ 0.745737 pi; interior bridges 0
+q=1.01 r0=1500: maxima 2 [0.70769, 0.78161] pi; delta_c ~ 0.768494 pi; interior bridges 0
+q=1.01 r0=2000: maxima 2 [0.70779, 0.80034] pi; delta_c ~ 0.785331 pi; interior bridges 0
+q=1.01 r0=3000: maxima 2 [0.70777, 0.82573] pi; delta_c ~ 0.80899 pi; interior bridges 0
+q=1.01 r0=5000: maxima 2 [0.70785, 0.85609] pi; delta_c ~ 0.836996 pi; interior bridges 0
+q=1.02 r0=200: maxima 2 [0.71232, 0.71136] pi; delta_c ~ 0.707911 pi; interior bridges 0
+q=1.02 r0=300: maxima 2 [0.71301, 0.72855] pi; delta_c ~ 0.722746 pi; interior bridges 0
+q=1.02 r0=400: maxima 2 [0.71335, 0.74386] pi; delta_c ~ 0.736051 pi; interior bridges 0
+q=1.02 r0=500: maxima 2 [0.71354, 0.75691] pi; delta_c ~ 0.747399 pi; interior bridges 0
+q=1.02 r0=700: maxima 2 [0.71373, 0.77791] pi; delta_c ~ 0.765803 pi; interior bridges 0
+q=1.02 r0=1000: maxima 2 [0.71392, 0.80084] pi; delta_c ~ 0.786294 pi; interior bridges 0
+q=1.02 r0=1500: maxima 2 [0.71398, 0.82599] pi; delta_c ~ 0.809667 pi; interior bridges 0
+q=1.02 r0=2000: maxima 2 [0.71411, 0.84332] pi; delta_c ~ 0.825644 pi; interior bridges 0
+q=1.02 r0=3000: maxima 2 [0.71412, 0.86606] pi; delta_c ~ 0.847121 pi; interior bridges 0
+q=1.02 r0=5000: maxima 2 [0.71421, 0.89141] pi; delta_c ~ 0.872107 pi; interior bridges 0

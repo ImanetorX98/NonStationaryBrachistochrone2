@@ -1,0 +1,28 @@
+PASS h_tau = A^4/(E^2-A^2 f)[f r^2/Dl dr^2 + Dl dphi^2]
+PASS rho^2 increasing: d(N Dl)/dr = N' Dl + N Dl' with N' > 0, Dl' > 0
+rho at the boundary r=2M: (a*A^2)/E
+sqrt(h_tau,rr) near the boundary: (Sqrt[2]*A^2*Sqrt[M]*Sqrt[s])/(a*E)
+rho near the boundary: (a*A^2)/E + (a*A^4*s)/(4*E^3*M) + (A^2*M*s)/(a*E)
+PASS tau cost per radian = rho
+
+Limit::alimv: Warning: Assumptions that involve the limit variable are ignored.
+prograde clock per radian at the boundary: a + (a*A^2)/(2*E^2) + (2*M^2)/a
+PASS kappa = a + a A^2/(2E^2) + 2M^2/a
+retrograde clock per radian, coefficient of 1/s: 4*a*M
+PASS |beta|^2 = 4M^2a^2/(r^2 Dl)
+PASS 1-|beta|^2 = f g_phiphi/Dl
+PASS Y* = b/(n-b^2) and Xmax^2 = 1/(n-b^2)
+PASS constraint saturated at Y*: 1 + b Y* >= 0
+
+Limit::alimv: Warning: Assumptions that involve the limit variable are ignored.
+maximal |rdot| at the boundary: (a*E)/(2*M*Sqrt[A^2 + 2*E^2*(1 + (2*M^2)/a^2)])
+purely radial |rdot| (Y=0) near the boundary, coefficient of Sqrt[s]: a/(2*Sqrt[2]*M^(3/2))
+singular arc: {{phd -> a^(-1), rd -> (2*rr*Derivative[1][Af][et])/Af[et]}}
+PASS singular arc: phidot = 1/a, rdot = 2 r A'/A
+PASS with phidot = 1/a: bp phidot + Sqrt[Dl]/(f a) - 1 = r (Sqrt[Dl] - a)/((r-2M) a) > 0
+PASS component r = eqr
+PASS component phi = eqp
+PASS p_phi = J (Clairaut of h_tau)
+PASS q' = (1-beta(v)) (A A' f/E)[2 + N(omega - q)/E]
+omega at the boundary: 0
+constraint multiplied by f, order s (w > 0): (s*(-1 + (2*M^2*u^2)/(a^3*w) + (2*M^2*w)/a + a*(w + (A^2*w)/(2*E^2))))/(2*M)

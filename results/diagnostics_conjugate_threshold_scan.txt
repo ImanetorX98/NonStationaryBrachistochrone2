@@ -1,0 +1,90 @@
+q=1.05 R=8.81 d=10.0: none
+q=1.05 R=8.81 d=20.0: none
+q=1.05 R=8.81 d=40.0: none
+q=1.05 R=8.81 d=80.0: none
+q=1.05 R=8.81 d=160.0: none
+q=1.05 R=8.81 d=320.0: r_conj=431.4 phi=2.5748 a0=3.08216
+q=1.05 R=8.81 d=640.0: r_conj=637.7 phi=2.6058 a0=3.12392
+q=1.05 R=8.81 d=1280.0: r_conj=1076.9 phi=2.6209 a0=3.13372
+q=1.05 R=8.81 d=2560.0: r_conj=1184.5 phi=2.6256 a0=3.13779
+q=1.05 R=8.81 d=5120.0: r_conj=2222.8 phi=2.6313 a0=3.13976
+q=1.1 R=9.85 d=10.0: none
+q=1.1 R=9.85 d=20.0: none
+q=1.1 R=9.85 d=40.0: none
+q=1.1 R=9.85 d=80.0: none
+q=1.1 R=9.85 d=160.0: none
+q=1.1 R=9.85 d=320.0: r_conj=720.1 phi=2.7580 a0=3.07971
+q=1.1 R=9.85 d=640.0: r_conj=627.2 phi=2.7785 a0=3.12082
+q=1.1 R=9.85 d=1280.0: r_conj=857.5 phi=2.7937 a0=3.13234
+q=1.1 R=9.85 d=2560.0: r_conj=2301.9 phi=2.8065 a0=3.13730
+q=1.1 R=9.85 d=5120.0: r_conj=1309.7 phi=2.8050 a0=3.13943
+q=1.2 R=12.99 d=10.0: none
+q=1.2 R=12.99 d=20.0: none
+q=1.2 R=12.99 d=40.0: none
+q=1.2 R=12.99 d=80.0: none
+q=1.2 R=12.99 d=160.0: none
+q=1.2 R=12.99 d=320.0: none
+q=1.2 R=12.99 d=640.0: r_conj=2338.0 phi=2.9691 a0=3.10350
+q=1.2 R=12.99 d=1280.0: r_conj=1258.3 phi=2.9775 a0=3.12715
+q=1.2 R=12.99 d=2560.0: r_conj=1604.7 phi=2.9872 a0=3.13516
+q=1.2 R=12.99 d=5120.0: r_conj=3908.0 phi=2.9961 a0=3.13861
+q=1.3 R=19.35 d=10.0: none
+q=1.3 R=19.35 d=20.0: none
+q=1.3 R=19.35 d=40.0: none
+q=1.3 R=19.35 d=80.0: none
+q=1.3 R=19.35 d=160.0: none
+q=1.3 R=19.35 d=320.0: none
+q=1.3 R=19.35 d=640.0: none
+q=1.3 R=19.35 d=1280.0: none
+q=1.3 R=19.35 d=2560.0: r_conj=5959.5 phi=3.0776 a0=3.12773
+q=1.3 R=19.35 d=5120.0: r_conj=4635.6 phi=3.0819 a0=3.13634
+q=1.4 R=38.50 d=10.0: none
+q=1.4 R=38.50 d=20.0: none
+q=1.4 R=38.50 d=40.0: none
+q=1.4 R=38.50 d=80.0: none
+q=1.4 R=38.50 d=160.0: none
+q=1.4 R=38.50 d=320.0: none
+q=1.4 R=38.50 d=640.0: none
+q=1.4 R=38.50 d=1280.0: none
+q=1.4 R=38.50 d=2560.0: none
+q=1.4 R=38.50 d=5120.0: none
+q=1.45 R=76.82 d=10.0: none
+q=1.45 R=76.82 d=20.0: none
+q=1.45 R=76.82 d=40.0: none
+q=1.45 R=76.82 d=80.0: none
+q=1.45 R=76.82 d=160.0: none
+q=1.45 R=76.82 d=320.0: none
+q=1.45 R=76.82 d=640.0: none
+q=1.45 R=76.82 d=1280.0: none
+q=1.45 R=76.82 d=2560.0: none
+q=1.45 R=76.82 d=5120.0: none
+q=1.5 R=inf d=10.0: none
+q=1.5 R=inf d=20.0: none
+q=1.5 R=inf d=40.0: none
+q=1.5 R=inf d=80.0: none
+q=1.5 R=inf d=160.0: none
+q=1.5 R=inf d=320.0: none
+q=1.5 R=inf d=640.0: none
+q=1.5 R=inf d=1280.0: none
+q=1.5 R=inf d=2560.0: none
+q=1.5 R=inf d=5120.0: none
+q=1.6 R=inf d=10.0: none
+q=1.6 R=inf d=20.0: none
+q=1.6 R=inf d=40.0: none
+q=1.6 R=inf d=80.0: none
+q=1.6 R=inf d=160.0: none
+q=1.6 R=inf d=320.0: none
+q=1.6 R=inf d=640.0: none
+q=1.6 R=inf d=1280.0: none
+q=1.6 R=inf d=2560.0: none
+q=1.6 R=inf d=5120.0: none
+q=2.0 R=inf d=10.0: none
+q=2.0 R=inf d=20.0: none
+q=2.0 R=inf d=40.0: none
+q=2.0 R=inf d=80.0: none
+q=2.0 R=inf d=160.0: none
+q=2.0 R=inf d=320.0: none
+q=2.0 R=inf d=640.0: none
+q=2.0 R=inf d=1280.0: none
+q=2.0 R=inf d=2560.0: none
+q=2.0 R=inf d=5120.0: none

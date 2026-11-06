@@ -1,0 +1,63 @@
+(1) Shooting from the arrival (T, psi), all terminal directions; competitive filter C<=7/80, T<35/44, r in (23/4,25/4)
+prograde   tau=0.01   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [51s]
+     T=0.174951 T-tau=+0.164951 psi=1.55958 cost=0.08285158 COMP chi_h=0.5614 smin=9.834e-02 cond=1.16e+00 r=[5.9998,6.0000] res=3.6e-15
+prograde   tau=0.05   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [102s]
+     T=0.171021 T-tau=+0.121021 psi=1.55980 cost=0.07309074 COMP chi_h=0.5614 smin=9.798e-02 cond=1.17e+00 r=[5.9998,6.0000] res=1.8e-15
+prograde   tau=0.1    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [153s]
+     T=0.166109 T-tau=+0.066109 psi=1.56042 cost=0.06088980 COMP chi_h=0.5614 smin=9.749e-02 cond=1.17e+00 r=[5.9998,6.0000] res=1.8e-15
+prograde   tau=0.15   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [204s]
+     T=0.161197 T-tau=+0.011197 psi=1.56142 cost=0.04868881 COMP chi_h=0.5614 smin=9.697e-02 cond=1.18e+00 r=[5.9998,6.0000] res=8.9e-16
+prograde   tau=0.155  zeros found=1 (competitive 1), seeds=1, failed integrations=0 [255s]
+     T=0.160705 T-tau=+0.005705 psi=1.56155 cost=0.04746871 COMP chi_h=0.5614 smin=9.692e-02 cond=1.18e+00 r=[5.9998,6.0000] res=1.1e-15
+prograde   tau=0.16   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [306s]
+     T=0.160214 T-tau=+0.000214 psi=1.56167 cost=0.04624860 COMP chi_h=0.5614 smin=9.686e-02 cond=1.18e+00 r=[5.9998,6.0000] res=7.3e-15
+prograde   tau=0.165  zeros found=1 (competitive 1), seeds=1, failed integrations=0 [357s]
+     T=0.159727 T-tau=-0.005273 psi=1.56178 cost=0.04503918 COMP chi_h=0.5542 smin=9.699e-02 cond=1.18e+00 r=[5.9998,6.0000] res=1.3e-14
+prograde   tau=0.17   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [407s]
+     T=0.159267 T-tau=-0.010733 psi=1.56184 cost=0.04389246 COMP chi_h=0.5339 smin=9.713e-02 cond=1.19e+00 r=[5.9998,6.0000] res=2.3e-14
+prograde   tau=0.175  zeros found=1 (competitive 1), seeds=1, failed integrations=0 [458s]
+     T=0.158853 T-tau=-0.016147 psi=1.56187 cost=0.04285422 COMP chi_h=0.5049 smin=9.728e-02 cond=1.20e+00 r=[5.9998,6.0000] res=3.2e-14
+prograde   tau=0.18   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [508s]
+     T=0.158494 T-tau=-0.021506 psi=1.56186 cost=0.04195025 COMP chi_h=0.4709 smin=9.744e-02 cond=1.21e+00 r=[5.9998,6.0000] res=2.2e-14
+prograde   tau=0.2    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [559s]
+     T=0.157636 T-tau=-0.042364 psi=1.56158 cost=0.03973984 COMP chi_h=0.3334 smin=9.817e-02 cond=1.26e+00 r=[5.9998,6.0000] res=1.5e-14
+prograde   tau=0.5    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [609s]
+     T=0.165539 T-tau=-0.334461 psi=1.55750 cost=0.05984938 COMP chi_h=0.1836 smin=1.012e-01 cond=1.30e+00 r=[5.9996,6.0000] res=3.8e-14
+prograde   tau=1.0    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [659s]
+     T=0.172100 T-tau=-0.827900 psi=1.55906 cost=0.07611909 COMP chi_h=0.3940 smin=9.915e-02 cond=1.22e+00 r=[5.9997,6.0000] res=8.0e-15
+retrograde tau=0.01   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [710s]
+     T=0.185012 T-tau=+0.175012 psi=4.72363 cost=0.08300000 COMP chi_h=0.5813 smin=9.821e-02 cond=1.10e+00 r=[5.9998,6.0000] res=2.2e-18
+retrograde tau=0.05   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [761s]
+     T=0.181320 T-tau=+0.131320 psi=4.72343 cost=0.07383286 COMP chi_h=0.5813 smin=9.847e-02 cond=1.10e+00 r=[5.9998,6.0000] res=5.3e-15
+retrograde tau=0.1    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [812s]
+     T=0.176707 T-tau=+0.076707 psi=4.72274 cost=0.06237409 COMP chi_h=0.5813 smin=9.872e-02 cond=1.10e+00 r=[5.9998,6.0000] res=1.2e-14
+retrograde tau=0.15   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [863s]
+     T=0.172093 T-tau=+0.022093 psi=4.72158 cost=0.05091529 COMP chi_h=0.5813 smin=9.886e-02 cond=1.10e+00 r=[5.9998,6.0000] res=8.9e-16
+retrograde tau=0.155  zeros found=1 (competitive 1), seeds=1, failed integrations=0 [914s]
+     T=0.171631 T-tau=+0.016631 psi=4.72144 cost=0.04976940 COMP chi_h=0.5813 smin=9.887e-02 cond=1.10e+00 r=[5.9998,6.0000] res=2.6e-18
+retrograde tau=0.16   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [965s]
+     T=0.171170 T-tau=+0.011170 psi=4.72129 cost=0.04862351 COMP chi_h=0.5813 smin=9.888e-02 cond=1.10e+00 r=[5.9998,6.0000] res=1.8e-15
+retrograde tau=0.165  zeros found=1 (competitive 1), seeds=1, failed integrations=0 [1016s]
+     T=0.170709 T-tau=+0.005709 psi=4.72114 cost=0.04747761 COMP chi_h=0.5813 smin=9.889e-02 cond=1.10e+00 r=[5.9998,6.0000] res=7.1e-15
+retrograde tau=0.17   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [1067s]
+     T=0.170247 T-tau=+0.000247 psi=4.72098 cost=0.04633172 COMP chi_h=0.5813 smin=9.889e-02 cond=1.10e+00 r=[5.9998,6.0000] res=8.9e-16
+retrograde tau=0.175  zeros found=1 (competitive 1), seeds=1, failed integrations=0 [1117s]
+     T=0.169790 T-tau=-0.005210 psi=4.72085 cost=0.04519450 COMP chi_h=0.5751 smin=9.925e-02 cond=1.10e+00 r=[5.9998,6.0000] res=4.4e-15
+retrograde tau=0.18   zeros found=1 (competitive 1), seeds=1, failed integrations=0 [1168s]
+     T=0.169354 T-tau=-0.010646 psi=4.72076 cost=0.04410928 COMP chi_h=0.5571 smin=9.956e-02 cond=1.10e+00 r=[5.9998,6.0000] res=3.6e-15
+retrograde tau=0.2    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [1219s]
+     T=0.168067 T-tau=-0.031933 psi=4.72079 cost=0.04085937 COMP chi_h=0.4328 smin=9.994e-02 cond=1.13e+00 r=[5.9998,6.0000] res=2.7e-14
+retrograde tau=0.5    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [1269s]
+     T=0.174845 T-tau=-0.325155 psi=4.72640 cost=0.05808948 COMP chi_h=0.1889 smin=9.510e-02 cond=1.31e+00 r=[5.9996,6.0000] res=1.8e-15
+retrograde tau=1.0    zeros found=1 (competitive 1), seeds=1, failed integrations=0 [1319s]
+     T=0.181727 T-tau=-0.818273 psi=4.72436 cost=0.07521167 COMP chi_h=0.4068 smin=9.748e-02 cond=1.18e+00 r=[5.9997,6.0000] res=4.4e-15
+(2) Short-pulse limit (tau >= 1/5): max |E/delta - E_lim| and min |E_lim| over t in [5,16], psi in S^1
+   s=+1 tau=0.2: max deviation = 5.8693e-01   (min |E_lim| on the grid = 1.479e-02)
+   s=+1 tau=0.5: max deviation = 1.0482e+00   (min |E_lim| on the grid = 1.479e-02)
+   s=+1 tau=1.0: max deviation = 6.5063e-01   (min |E_lim| on the grid = 1.479e-02)
+   s=+1 tau=5.0: max deviation = 1.8818e-01   (min |E_lim| on the grid = 1.479e-02)
+   s=-1 tau=0.2: max deviation = 5.8693e-01   (min |E_lim| on the grid = 1.847e-02)
+   s=-1 tau=0.5: max deviation = 1.0482e+00   (min |E_lim| on the grid = 1.847e-02)
+   s=-1 tau=1.0: max deviation = 6.5063e-01   (min |E_lim| on the grid = 1.847e-02)
+   s=-1 tau=5.0: max deviation = 1.8818e-01   (min |E_lim| on the grid = 1.847e-02)
+total time 1924s

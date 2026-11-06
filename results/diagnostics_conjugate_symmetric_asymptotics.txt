@@ -1,0 +1,16 @@
+(1) r=50.0 b=30.0: dphi/dr formula 5.562235775935e-03 vs ODE 5.562235775935e-03
+(1) r=400.0 b=100.0: dphi/dr formula 2.597081466284e-04 vs ODE 2.597081466284e-04
+(1) r=3000.0 b=250.0: dphi/dr formula 1.136571176936e-05 vs ODE 1.136571176936e-05
+(2) d=1280.0 b=150.0: Phi direct 2.9731366992  decomposition 2.9731366979  (remainder 2.543e-02)
+(2) d=10000.0 b=400.0: Phi direct 3.0763112005  decomposition 3.0763112001  (remainder 4.130e-03)
+(3) d=1280 rho_d=3125.6: zeros of d_bPhi ['44.961', '90.865']; b=90.865 (predicted 151.554), Phi/pi=0.949441 (predicted 0.938264)
+(4)   u on return to r=d: -2.637e-06 (scale of u 2.986e+03), phi/pi on return 0.949441
+(3) d=5000 rho_d=12237.7: zeros of d_bPhi ['37.180', '247.471']; b=247.471 (predicted 299.880), Phi/pi=0.971472 (predicted 0.968800)
+(4)   u on return to r=d: -4.997e-06 (scale of u 1.195e+04), phi/pi on return 0.971472
+(3) d=20000 rho_d=48980.0: zeros of d_bPhi ['36.043', '549.162']; b=549.162 (predicted 599.940), Phi/pi=0.985060 (predicted 0.984405)
+(4)   u on return to r=d: 4.020e-04 (scale of u 4.839e+04), phi/pi on return 0.985060
+(3) d=100000 rho_d=244939.2: zeros of d_bPhi ['35.767', '1291.483']; b=1291.483 (predicted 1341.614), Phi/pi=0.993156 (predicted 0.993026)
+(4)   u on return to r=d: 1.352e-02 (scale of u 2.436e+05), phi/pi on return 0.993156
+(5) d=20000 b=549.16: Phi_b finite differences 3.228409e-10, main part 7.901163e-06, E*b^3 = -1308.49, (pi/2)K' = 207427512.33
+(5) d=20000 b=200.0: Phi_b finite differences 1.883146e-04, main part 3.265932e-04, E*b^3 = -1106.23, (pi/2)K' = 207427512.33
+(5) d=100000 b=1291.48: Phi_b finite differences 3.578281e-11, main part 6.462502e-07, E*b^3 = -1392.00, (pi/2)K' = 207427512.33

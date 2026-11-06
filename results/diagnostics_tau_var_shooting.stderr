@@ -1,0 +1,16 @@
+diagnostics/tau_var_shooting.py:79: RuntimeWarning: overflow encountered in scalar power
+  targets = {"decreasing, A -> 0.5 around eta_d = 4": (lambda e: 0.75 + 0.25*np.tanh(-(e - 4)), lambda e: -0.25/np.cosh(e - 4)**2),
+diagnostics/tau_var_shooting.py:79: RuntimeWarning: overflow encountered in cosh
+  targets = {"decreasing, A -> 0.5 around eta_d = 4": (lambda e: 0.75 + 0.25*np.tanh(-(e - 4)), lambda e: -0.25/np.cosh(e - 4)**2),
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in scalar multiply
+  return -(-L**2*(1 - 2/r)/r**3 + L**2/r**4 + 2*p_r**2*(1 - 2/r)/r**2)/(sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0))) + 2*a**2/(E*r**2) + a**2*sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)/(E**2*r**2*(1 - a**2*(1 - 2/r)/E**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0)))
+<lambdifygenerated-1>:2: RuntimeWarning: invalid value encountered in scalar divide
+  return p_r*(1 - 2/r)**2/(sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0)))
+<lambdifygenerated-3>:2: RuntimeWarning: invalid value encountered in scalar divide
+  return -(-L**2*(1 - 2/r)/r**3 + L**2/r**4 + 2*p_r**2*(1 - 2/r)/r**2)/(sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0))) + 2*a**2/(E*r**2) + a**2*sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)/(E**2*r**2*(1 - a**2*(1 - 2/r)/E**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0)))
+<lambdifygenerated-4>:2: RuntimeWarning: invalid value encountered in scalar multiply
+  return -ad*(-2*a*(1 - 2/r)/E - a*(1 - 2/r)*sqrt(L**2*(1 - 2/r)/r**2 + p_r**2*(1 - 2/r)**2)/(E**2*(1 - a**2*(1 - 2/r)/E**2)*sqrt((1 - a**2*(1 - 2/r)/E**2)**(-1.0))))
+diagnostics/tau_var_shooting.py:80: RuntimeWarning: overflow encountered in scalar power
+  "decreasing, A -> 0.5 around eta_d = 8": (lambda e: 0.75 + 0.25*np.tanh(-(e - 8)), lambda e: -0.25/np.cosh(e - 8)**2),
+diagnostics/tau_var_shooting.py:80: RuntimeWarning: overflow encountered in cosh
+  "decreasing, A -> 0.5 around eta_d = 8": (lambda e: 0.75 + 0.25*np.tanh(-(e - 8)), lambda e: -0.25/np.cosh(e - 8)**2),

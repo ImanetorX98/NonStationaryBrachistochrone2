@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, together with the paper it supports."
+title: "NonStationaryBrachistochrone2-Proof: computer-assisted steps for the global minimality of controlled-rail brachistochrones in conformal Kerr and Vaidya spacetimes"
+type: software
+authors:
+  - family-names: Rosignoli
+    given-names: Iman
+    orcid: "https://orcid.org/0009-0004-4536-0285"
+    affiliation: "University of Pavia"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/ImanetorX98/NonStationaryBrachistochrone2-Proof"
+keywords:
+  - general relativity
+  - brachistochrone
+  - Fermat principle
+  - computer-assisted proof
+  - interval arithmetic
+  - Bernstein certificates
+references:
+  - type: article
+    status: preprint
+    authors:
+      - family-names: Rosignoli
+        given-names: Iman
+        orcid: "https://orcid.org/0009-0004-4536-0285"
+    title: "Global minimality of controlled-rail brachistochrones in conformal Kerr and Vaidya spacetimes"
+  - type: article
+    status: preprint
+    authors:
+      - family-names: Rosignoli
+        given-names: Iman
+        orcid: "https://orcid.org/0009-0004-4536-0285"
+    title: "Controlled-rail brachistochrones in non-stationary spacetimes: conformal symmetry, Kodama energy, and Vaidya dynamics"
+    doi: 10.5281/zenodo.21739997
+  - type: article
+    status: preprint
+    authors:
+      - family-names: Rosignoli
+        given-names: Iman
+        orcid: "https://orcid.org/0009-0004-4536-0285"
+    title: "Brachistochrones in conformal Kerr spacetimes: control domain, exterior separatrices, and adiabatic response"
+    doi: 10.5281/zenodo.21739999

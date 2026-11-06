@@ -1,0 +1,140 @@
+{
+ "method": "outward-rounded interval arithmetic (mpmath.iv, 120 bits); cellwise range enclosure in theta, r = t + (4 - t) sin^2(theta)",
+ "cells": 6000,
+ "Delta_29_10": [
+  "1.605336929464949303601783675386877673843",
+  "1.606073710839365100173503230276189462718"
+ ],
+ "Delta_297_100": [
+  "1.55833906648857803750201483905164273969",
+  "1.559029379860198163825580718738237817743"
+ ],
+ "ell_297_100": [
+  "3.090373410517499454180363646459534827563",
+  "3.092080029717511328639127657937025841611"
+ ],
+ "two_R4_cells": [
+  "3.081595634395996929921151170415588371128",
+  "3.08187583085989509488108453003984738457"
+ ],
+ "two_R4_closed_form": [
+  "3.081735730596148922911244079207911609541",
+  "3.08173573059614892291124407920791165468"
+ ],
+ "competitor_angle": [
+  "1.573955144360145413108027121656681581569",
+  "1.573955144360145413108027121656681998353"
+ ],
+ "competitor_length": [
+  "5.838913347037726520841326713569802202759",
+  "5.838913347037726520841326713569803274057"
+ ],
+ "Lambda_11_5": [
+  "5.941205302448013448999834281712918202034",
+  "5.941205302448013448999834281712918286294"
+ ],
+ "two_R6": [
+  "6.457214971437543419443067745895482059131",
+  "6.457214971437543419443067745895482101261"
+ ],
+ "checks": [
+  {
+   "check": "competitor sweeps at least pi/2: angle > pi/2",
+   "pass": true
+  },
+  {
+   "check": "competitor length < 5.8390",
+   "pass": true
+  },
+  {
+   "check": "5.8390 < 91/(11 sqrt 2)",
+   "pass": true
+  },
+  {
+   "check": "91/(11 sqrt 2) < Lambda(11/5)",
+   "pass": true
+  },
+  {
+   "check": "Lambda(11/5) < 2R(6)",
+   "pass": true
+  },
+  {
+   "check": "T0 < 11 sqrt(2) * 5.8390 < 91",
+   "pass": true
+  },
+  {
+   "check": "B_t > 0 on [t, 4] at both periastra (interval evaluation on the whole range)",
+   "pass": true
+  },
+  {
+   "check": "Delta(29/10) > 39/25",
+   "pass": true
+  },
+  {
+   "check": "Delta(297/100) < 39/25",
+   "pass": true
+  },
+  {
+   "check": "ell(297/100) > 2R(4)",
+   "pass": true
+  },
+  {
+   "check": "39/25 < pi/2",
+   "pass": true
+  },
+  {
+   "check": "cell enclosure of 2R(4) contains the closed form",
+   "pass": true
+  },
+  {
+   "check": "Delta_ta: enclosure meets the interval printed in the supplement",
+   "pass": true
+  },
+  {
+   "check": "Delta_tb: enclosure meets the interval printed in the supplement",
+   "pass": true
+  },
+  {
+   "check": "ell_tb: enclosure meets the interval printed in the supplement",
+   "pass": true
+  },
+  {
+   "check": "dive: enclosure meets the interval printed in the supplement",
+   "pass": true
+  },
+  {
+   "check": "layer keeps r in [5, 7]: |rdot| < 4",
+   "pass": true
+  },
+  {
+   "check": "angular speed sqrt(2)/r <= sqrt(2)/5 < 3/10",
+   "pass": true
+  },
+  {
+   "check": "monotone frozen geodesic between radii in [5,7] sweeps < pi/3: sqrt(125/392) > 1/2",
+   "pass": true
+  },
+  {
+   "check": "rho(5)^2/rho(7)^2 = 125/392 at mass 3/2",
+   "pass": true
+  },
+  {
+   "check": "1/(a sqrt(f(a))) < 1/3 on [5,7] (worst case a = 5, f = 1 - 3/a)",
+   "pass": true
+  },
+  {
+   "check": "157/100 < pi/2",
+   "pass": true
+  },
+  {
+   "check": "gap at h = 1/1000 equals 251/30000 > 0",
+   "pass": true
+  },
+  {
+   "check": "translated step: d <= 1/2000 and epsilon = 1/2000 end the accretion by 1/1000",
+   "pass": true
+  }
+ ],
+ "passed": 24,
+ "total": 24
+}

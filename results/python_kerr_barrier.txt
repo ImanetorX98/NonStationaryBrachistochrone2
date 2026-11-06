@@ -1,0 +1,17 @@
+symbolic
+  [PASS] |beta|/sqrt(Q0) = 2Ma/(r sqrt(Delta))
+  [PASS] 2Ma/(r sqrt Delta) is decreasing in r (so theta increasing)   d/dr = -2Ma(2r^2-3Mr+a^2)/(r^2 Delta^{3/2}), and 2r^2-3Mr+a^2 > 0 for r>2M
+  [PASS] 2r^2-3Mr+a^2 > 0 for r>2M
+  [PASS] theta(2M+) = 0 (Finsler degeneracy)
+  [PASS] lapse^2 = N Q0/(N Q0 - beta^2)
+  [PASS] shift^Phi = beta/(N Q0 - beta^2) reproduces g_etaPhi
+
+numerical
+  a=0.5: r2=4: 10.34, r2=6: 16.68, r2=8: 22.15, r2=12: 32.06
+  a=0.9: r2=4: 7.01, r2=6: 12.95, r2=8: 18.26, r2=12: 28.04
+  a=0.99: r2=4: 6.52, r2=6: 12.37, r2=8: 17.64, r2=12: 27.39
+  [PASS] margins finite and positive for a != 0
+  [PASS] a=0: budget grows without bound as r1 -> 2M   [31.95, 50.39, 68.81]
+  [PASS] inequality (1): v^eta >= theta sqrt(P0)|v^r| on 20000 random null vectors   min slack 1.84e-03
+
+all checks passed
