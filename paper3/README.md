@@ -74,10 +74,11 @@ The folders `certificates/`, `certificate_generators/`, `interval_arithmetic/`, 
 
 ## Setting up
 
-From this folder, create an environment with the pinned packages:
+From this folder, create an environment with the pinned packages. Our logs were produced with Python 3.13; to
+recreate that environment, call that version explicitly:
 
 ```
-python3 -m venv .venv
+python3.13 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
@@ -90,13 +91,14 @@ PYTHON=/path/to/python3 ./run_all.sh
 WOLFRAMSCRIPT=/path/to/wolframscript ./run_all.sh
 ```
 
-Before running anything, `run_all.sh` prints the Python and the `wolframscript` it will use and checks that this Python
-imports every package of `requirements.txt`. If one is missing it stops at once, names the missing packages and the
-command that installs them, and leaves `results/` untouched.
+Before running anything, `run_all.sh` prints the Python and the `wolframscript` it will use and checks that all
+packages of `requirements.txt` are discoverable by this Python (it does not compare their versions with the pinned
+ones). If one is missing it stops at once, names the missing packages and the command that installs them, and leaves
+`results/` untouched.
 
 ## Running
 
-Everything at once, with an acceptance rule for each log:
+Everything at once, with acceptance checks on the recorded logs:
 
 ```
 ./run_all.sh            # the standard set, about one hour
@@ -106,7 +108,8 @@ Everything at once, with an acceptance rule for each log:
 ```
 
 It exits with status 0 only if every job passed (2 if some Wolfram jobs were skipped because `wolframscript` is
-missing). A failed job is reported as `FAIL`, with the exit status or the acceptance rule that was not met; its log in
+missing). With `--check` the status is 2 even when every log passes, because four jobs of the full set write no
+single log and are reported as skipped. A failed job is reported as `FAIL`, with the exit status or the acceptance rule that was not met; its log in
 `results/` contains the output of the failing script, and the summary lists the failed jobs. An interrupted run can be
 resumed with `--from K`; `./run_all.sh --list` prints the numbered jobs. Unknown or conflicting options (for example
 `--list` together with `--full`) are rejected.
