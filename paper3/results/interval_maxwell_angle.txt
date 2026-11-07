@@ -20,4 +20,4 @@ C: 626 chunks
 C: 1086 accepted leaves tile [2.15, 21.3298461438805] u [30.0, 105.0] u [140.0, 1300.0]: OK
 C: middle cover OK, 1546 boxes visited (incl. split), smallest margin F - ell_k >= 0.000031
 archive: leaves_maxwell/maxwell_q1.001_r01500.json, sha256[:16] 433188fd23d280ad
-RESULT: CERTIFIED interior Maxwell angle delta* in [0.677106398319, 0.677112764518] pi; 4432s
+RESULT: CERTIFIED interior Maxwell angle delta* in [0.677106398319, 0.677112764518] pi; 4494s

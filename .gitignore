@@ -9,3 +9,6 @@
 *.synctex.gz
 .DS_Store
 __pycache__/
+
+# Python environments created as in paper3/README.md
+.venv/

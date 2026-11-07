@@ -47,4 +47,4 @@ retrograde tau=0.190: 1 branches
      T=0.168608 [early] cost=0.04223690 p0=(-0.00670,-3.66314) res=1.7e-15 rail=6.7e-16 chi_min=3.693 r_min=5.9998
 retrograde tau=0.200: 1 branches
      T=0.168067 [early] cost=0.04085937 p0=(-0.00613,-3.16751) res=1.9e-15 rail=5.6e-16 chi_min=3.197 r_min=5.9998
-total time 2337s
+total time 2340s

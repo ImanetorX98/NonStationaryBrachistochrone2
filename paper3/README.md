@@ -65,10 +65,34 @@ The folders `certificates/`, `certificate_generators/`, `interval_arithmetic/`, 
 
 ## Requirements
 
-- Python 3 with NumPy, SciPy, SymPy, mpmath and Matplotlib; the versions of our runs are in
-  [`requirements.txt`](requirements.txt). The certificate verifier needs only the standard library.
+- Python 3 with NumPy, SciPy, SymPy, mpmath and Matplotlib. Our runs used Python 3.13.2 on macOS (Apple silicon) with
+  the versions pinned in [`requirements.txt`](requirements.txt). The certificate verifier needs only the standard
+  library.
 - Wolfram Language (`wolframscript` with Wolfram Engine or Mathematica) for `symbolic/` and the `wolfram_*.wls` files
-  of `independent_checks/`; our runs used Mathematica 13.3.1.
+  of `independent_checks/`; our runs used Mathematica 13.3.1. Without it the Python checks still run, and the Wolfram
+  jobs are reported as skipped.
+
+## Setting up
+
+From this folder, create an environment with the pinned packages:
+
+```
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+`run_all.sh` uses the first `python3` on the `PATH` (the one of the active environment) and the first `wolframscript`.
+Two environment variables select other ones:
+
+```
+PYTHON=/path/to/python3 ./run_all.sh
+WOLFRAMSCRIPT=/path/to/wolframscript ./run_all.sh
+```
+
+Before running anything, `run_all.sh` prints the Python and the `wolframscript` it will use and checks that this Python
+imports every package of `requirements.txt`. If one is missing it stops at once, names the missing packages and the
+command that installs them, and leaves `results/` untouched.
 
 ## Running
 
@@ -82,8 +106,13 @@ Everything at once, with an acceptance rule for each log:
 ```
 
 It exits with status 0 only if every job passed (2 if some Wolfram jobs were skipped because `wolframscript` is
-missing). Each script can also be run from its own folder; the commands and the expected durations are in the
-READMEs and docstrings. The quickest checks:
+missing). A failed job is reported as `FAIL`, with the exit status or the acceptance rule that was not met; its log in
+`results/` contains the output of the failing script, and the summary lists the failed jobs. An interrupted run can be
+resumed with `--from K`; `./run_all.sh --list` prints the numbered jobs. Unknown or conflicting options (for example
+`--list` together with `--full`) are rejected.
+
+Each script can also be run from its own folder (with the same Python); the commands and the expected durations are
+in the READMEs and docstrings. The quickest checks:
 
 ```
 cd certificates && python3 verify_certificate.py *.json   # about 20 minutes; last line: OUTCOME: all certificates verified

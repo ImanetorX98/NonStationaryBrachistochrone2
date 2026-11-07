@@ -1,1 +1,1 @@
-mode 4: grid dr=0.0125, db=0.00626, de=0.0125, nu=41; K input [0,88.0] x [2.39,12.9], effective r in [2.3875,12.9000]; W(0, r0, delta) = 2.571651; candidate 2.566213; candidate - W = -0.00544; 1310s
+mode 4: grid dr=0.0125, db=0.00626, de=0.0125, nu=41; K input [0,88.0] x [2.39,12.9], effective r in [2.3875,12.9000]; W(0, r0, delta) = 2.571651; candidate 2.566213; candidate - W = -0.00544; 1291s

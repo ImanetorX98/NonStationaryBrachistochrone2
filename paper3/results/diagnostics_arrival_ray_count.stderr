@@ -1,0 +1,4 @@
+diagnostics/arrival_ray_count.py:26: RuntimeWarning: overflow encountered in scalar power
+  elif kind == 'up':   A = (lambda e: 1.075 + 0.075*np.tanh((e - 5)/0.5), lambda e: 0.15/np.cosh((e - 5)/0.5)**2, lambda e: -0.6*np.tanh((e - 5)/0.5)/np.cosh((e - 5)/0.5)**2)
+diagnostics/arrival_ray_count.py:27: RuntimeWarning: overflow encountered in scalar power
+  elif kind == 'down': A = (lambda e: 1.075 - 0.075*np.tanh((e - 5)/0.5), lambda e: -0.15/np.cosh((e - 5)/0.5)**2, lambda e: 0.6*np.tanh((e - 5)/0.5)/np.cosh((e - 5)/0.5)**2)

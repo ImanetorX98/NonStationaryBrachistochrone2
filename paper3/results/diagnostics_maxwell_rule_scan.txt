@@ -1,6 +1,6 @@
 q=2.0 r0=6.0: 1 maxima of Delta at t = 2.63246 (0.670495 pi); minima at t = 
    bridge from the dive: t in [2.0, 3.58866], Maxwell angle 0.58823288 pi, equal-area residual -0.00283
-   check min_L F_delta = brute force over crossings: worst rel. diff 0.00165 (grid interpolation, not exact); 4s
+   check min_L F_delta = brute force over crossings: worst rel. diff 0.00165 (grid interpolation, not exact); 3s
 q=1.01 r0=10000.0: 2 maxima of Delta at t = 3.58082 (0.707872 pi), 794.288 (0.891315 pi); minima at t = 8.29337 (0.701709 pi)
    bridge from the dive: t in [2.0, 1582.82], Maxwell angle 0.87182635 pi, equal-area residual -15.8
    check min_L F_delta = brute force over crossings: worst rel. diff 0.00358 (grid interpolation, not exact); 4s

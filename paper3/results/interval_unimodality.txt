@@ -5,23 +5,23 @@ sha256[:16] 14da77cd3a7dc738  unimodality.py
 sha256[:16] 673e88a8e3934b40  edges.py
 sha256[:16] a781d5d51d337f50  critical_separation.py
 sha256[:16] 7959ee10eeb4e067  critical_separation_estimate.py
-q= 1.2 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px20 Cx16 Nx22 ; max in t in [2.234528, 2.484478]; 184608 integrand evals, 764s
-q= 1.2 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx21 Nx53 ; max in t in [2.359703, 2.687763]; 320960 integrand evals, 1333s
-q= 1.2 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px31 Cx9 Px4 Cx48 Nx100 ; max in t in [2.695973, 3.070898]; 615360 integrand evals, 2477s
-q= 1.2 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px76 Cx23 Px3 Cx116 Nx251 ; max in t in [3.218842, 3.728505]; 1392928 integrand evals, 5118s
-q= 1.5 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px21 Cx16 Nx22 ; max in t in [2.250150, 2.500100]; 186176 integrand evals, 766s
-q= 1.5 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx22 Nx53 ; max in t in [2.375325, 2.719006]; 324576 integrand evals, 1352s
-q= 1.5 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px33 Cx11 Px5 Cx49 Nx102 ; max in t in [2.758461, 3.141197]; 646336 integrand evals, 2613s
-q= 1.5 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px86 Cx143 Nx241 ; max in t in [3.179299, 3.921826]; 1411168 integrand evals, 5185s
-q=   2 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px21 Cx16 Nx23 ; max in t in [2.250150, 2.500100]; 188960 integrand evals, 786s
-q=   2 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx22 Nx53 ; max in t in [2.390947, 2.734628]; 325280 integrand evals, 1344s
-q=   2 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px34 Cx9 Px7 Cx49 Nx102 ; max in t in [2.789705, 3.172441]; 653280 integrand evals, 2598s
-q=   2 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px87 Cx120 Nx238 ; max in t in [3.223235, 3.921826]; 1339264 integrand evals, 4852s
-q=   4 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px22 Cx16 Nx23 ; max in t in [2.265772, 2.515722]; 194848 integrand evals, 831s
-q=   4 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx24 Nx54 ; max in t in [2.406569, 2.758061]; 337280 integrand evals, 1385s
-q=   4 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px34 Cx7 Px9 Cx48 Nx102 ; max in t in [2.805327, 3.180252]; 657440 integrand evals, 2545s
-q=   4 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px82 Cx100 Nx233 ; max in t in [3.196873, 3.829559]; 1258048 integrand evals, 4568s
-q=  10 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px22 Cx16 Nx23 ; max in t in [2.265772, 2.515722]; 194848 integrand evals, 817s
-q=  10 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx27 Nx53 ; max in t in [2.406569, 2.773683]; 346496 integrand evals, 1338s
-q=  10 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px34 Cx6 Px10 Cx48 Nx101 ; max in t in [2.797516, 3.172441]; 661760 integrand evals, 2421s
-q=  10 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px79 Cx94 Nx234 ; max in t in [3.161724, 3.759261]; 1244704 integrand evals, 4324s
+q= 1.2 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px20 Cx16 Nx22 ; max in t in [2.234528, 2.484478]; 184608 integrand evals, 757s
+q= 1.2 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx21 Nx53 ; max in t in [2.359703, 2.687763]; 320960 integrand evals, 1310s
+q= 1.2 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px31 Cx9 Px4 Cx48 Nx100 ; max in t in [2.695973, 3.070898]; 615360 integrand evals, 2461s
+q= 1.2 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px76 Cx23 Px3 Cx116 Nx251 ; max in t in [3.218842, 3.728505]; 1392928 integrand evals, 5103s
+q= 1.5 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px21 Cx16 Nx22 ; max in t in [2.250150, 2.500100]; 186176 integrand evals, 765s
+q= 1.5 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx22 Nx53 ; max in t in [2.375325, 2.719006]; 324576 integrand evals, 1321s
+q= 1.5 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px33 Cx11 Px5 Cx49 Nx102 ; max in t in [2.758461, 3.141197]; 646336 integrand evals, 2589s
+q= 1.5 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px86 Cx143 Nx241 ; max in t in [3.179299, 3.921826]; 1411168 integrand evals, 5161s
+q=   2 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px21 Cx16 Nx23 ; max in t in [2.250150, 2.500100]; 188960 integrand evals, 776s
+q=   2 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx22 Nx53 ; max in t in [2.390947, 2.734628]; 325280 integrand evals, 1326s
+q=   2 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px34 Cx9 Px7 Cx49 Nx102 ; max in t in [2.789705, 3.172441]; 653280 integrand evals, 2572s
+q=   2 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px87 Cx120 Nx238 ; max in t in [3.223235, 3.921826]; 1339264 integrand evals, 4846s
+q=   4 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px22 Cx16 Nx23 ; max in t in [2.265772, 2.515722]; 194848 integrand evals, 809s
+q=   4 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx24 Nx54 ; max in t in [2.406569, 2.758061]; 337280 integrand evals, 1387s
+q=   4 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px34 Cx7 Px9 Cx48 Nx102 ; max in t in [2.805327, 3.180252]; 657440 integrand evals, 2543s
+q=   4 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px82 Cx100 Nx233 ; max in t in [3.196873, 3.829559]; 1258048 integrand evals, 4528s
+q=  10 r0=  4.0: CERTIFIED unimodal on t in [2.0002, 3.9998]; pattern Px22 Cx16 Nx23 ; max in t in [2.265772, 2.515722]; 194848 integrand evals, 812s
+q=  10 r0=  6.0: CERTIFIED unimodal on t in [2.0004, 5.9996]; pattern Px25 Cx27 Nx53 ; max in t in [2.406569, 2.773683]; 346496 integrand evals, 1326s
+q=  10 r0= 10.0: CERTIFIED unimodal on t in [2.0008, 9.9992]; pattern Px34 Cx6 Px10 Cx48 Nx101 ; max in t in [2.797516, 3.172441]; 661760 integrand evals, 2412s
+q=  10 r0= 20.0: CERTIFIED unimodal on t in [2.0018, 19.9982]; pattern Px79 Cx94 Nx234 ; max in t in [3.161724, 3.759261]; 1244704 integrand evals, 4305s

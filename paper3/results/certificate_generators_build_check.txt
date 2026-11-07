@@ -32,4 +32,4 @@ MATCH    group5_den_alpha: polynomials and data identical
 MATCH    group5_minus_alpha: polynomials and data identical
 MATCH    group5_den_Q: polynomials and data identical
 MATCH    group5_Q: polynomials and data identical
-SUMMARY: 33/33 certificates rebuilt identically (723s)
+SUMMARY: 33/33 certificates rebuilt identically (711s)

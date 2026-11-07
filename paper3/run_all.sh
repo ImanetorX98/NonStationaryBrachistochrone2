@@ -17,12 +17,14 @@ ROOT=$(cd "$(dirname "$0")" && pwd)
 PY=${PYTHON:-python3}
 WS=${WOLFRAMSCRIPT:-wolframscript}
 R=$ROOT/results
-mode=standard; from=1
+mode=standard; from=1; nmode=0
 while [ $# -gt 0 ]; do
-  case $1 in --full) mode=full ;; --list) mode=list ;; --check) mode=check ;; --from) from=$2; shift ;;
+  case $1 in --full) mode=full; nmode=$((nmode + 1)) ;; --list) mode=list; nmode=$((nmode + 1)) ;;
+    --check) mode=check; nmode=$((nmode + 1)) ;; --from) from=${2-}; shift ;;
     *) echo "unknown option $1"; exit 1 ;; esac
   shift
 done
+if [ $nmode -gt 1 ]; then echo "--full, --list and --check are alternatives: give at most one of them"; exit 1; fi
 case $from in ''|*[!0-9]*) echo "--from needs a positive integer"; exit 1 ;; esac
 
 # job table: set | name | folder | log (in results/) | rule | command
@@ -110,6 +112,32 @@ check_rule() {  # rule log status -> 0 if accepted
 }
 
 have_ws=0; command -v "$WS" > /dev/null 2>&1 && have_ws=1
+
+# Before running anything: the Python must exist and import every package of requirements.txt.
+if [ "$mode" = standard ] || [ "$mode" = full ]; then
+  if ! command -v "$PY" > /dev/null 2>&1; then
+    echo "Python not found: $PY. Set PYTHON=/path/to/python3 (see README.md, Setting up)."; exit 1
+  fi
+  missing=$("$PY" - "$ROOT/requirements.txt" 2>&1 <<'PY_CHECK'
+import importlib.util, sys
+names = []
+for line in open(sys.argv[1]):
+    line = line.split('#')[0].strip()
+    if line:
+        names.append(line.split('==')[0].split('>=')[0].strip())
+print(' '.join(n for n in names if importlib.util.find_spec(n.lower()) is None))
+PY_CHECK
+) || { echo "Python at $(command -v "$PY") could not check the packages: $missing"; exit 1; }
+  echo "Python:        $(command -v "$PY") ($("$PY" -c 'import sys; print(sys.version.split()[0])'))"
+  if [ -n "$missing" ]; then
+    echo "This Python lacks: $missing"
+    echo "Install them with: $PY -m pip install -r requirements.txt"
+    echo "or choose another Python with PYTHON=/path/to/python3 (see README.md, Setting up). Nothing was run."
+    exit 1
+  fi
+  if [ $have_ws = 1 ]; then echo "wolframscript: $(command -v "$WS")"
+  else echo "wolframscript: not found ($WS); the Wolfram jobs will be skipped (set WOLFRAMSCRIPT to use another one)"; fi
+fi
 selected=$(printf '%s\n' "$JOBS" | awk -F'|' -v m="$mode" '$1 == "standard" || $1 == "wolfram" || (m != "standard" && ($1 == "full" || $1 == "fullwolfram"))')
 total=$(printf '%s\n' "$selected" | grep -c .)
 if [ "$from" -lt 1 ] || [ "$from" -gt "$total" ]; then echo "--from must be between 1 and $total"; exit 1; fi

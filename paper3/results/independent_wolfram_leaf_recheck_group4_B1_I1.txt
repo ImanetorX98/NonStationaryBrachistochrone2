@@ -50,6 +50,6 @@ PASS cell InputForm[{{3/4, 1}, {1/2, 1}, {0, 1/2}, {1/2, 1}}]  min coefficient (
 PASS cell InputForm[{{1/2, 1}, {1/2, 1}, {1/2, 1}, {0, 1/2}}]  min coefficient (chord, tangent) {7649.2595240288557513618`3., 7649.2595240288557513618`3.}
 PASS cell InputForm[{{1/2, 3/4}, {1/2, 1}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {12456.057413459681933648`3., 12278.0651692899093591272`3.}
 PASS cell InputForm[{{3/4, 1}, {1/2, 1}, {1/2, 1}, {1/2, 1}}]  min coefficient (chord, tangent) {7304.0499105031191502137`3., 7198.7657284588717012152`3.}
-leaves checked 50, PASS 50, time 15287 s
+leaves checked 50, PASS 50, time 6413 s
 tampered P0 - 1/10 on the first leaf, still accepted: True
 RESULT: PASS (whole tree read and unit volume: True; all checked leaves pass: True)

@@ -5,26 +5,26 @@ VERIFIED (local) group1_P6.json: leaves 1, delegated 0, nodes 1, degrees [10, 4,
 VERIFIED (local) group2_Kinf.json: leaves 19, delegated 0, nodes 37, degrees [16, 12, 8], 0.6s
 VERIFIED (local) group3_I1minus_C1.json: leaves 1, delegated 0, nodes 1, degrees [38, 8, 7, 10], 2.4s
 VERIFIED (local) group3_I1minus_C2A.json: leaves 4, delegated 0, nodes 7, degrees [38, 8, 7, 10], 2.9s
-VERIFIED (local) group3_I1minus_C2B.json: leaves 4, delegated 0, nodes 7, degrees [38, 8, 7, 38], 11.1s
-VERIFIED (local) group3_I1minus_main.json: leaves 2024, delegated 144, nodes 4335, degrees [22, 4, 4, 6], 79.5s
+VERIFIED (local) group3_I1minus_C2B.json: leaves 4, delegated 0, nodes 7, degrees [38, 8, 7, 38], 11.3s
+VERIFIED (local) group3_I1minus_main.json: leaves 2024, delegated 144, nodes 4335, degrees [22, 4, 4, 6], 80.1s
 VERIFIED (local) group3_I1plus_C1.json: leaves 1, delegated 0, nodes 1, degrees [38, 8, 7, 10], 2.4s
 VERIFIED (local) group3_I1plus_C2A.json: leaves 4, delegated 0, nodes 7, degrees [38, 8, 7, 10], 2.9s
-VERIFIED (local) group3_I1plus_C2B.json: leaves 4, delegated 0, nodes 7, degrees [38, 8, 7, 38], 11.2s
-VERIFIED (local) group3_I1plus_main.json: leaves 2007, delegated 144, nodes 4301, degrees [22, 4, 4, 6], 78.9s
+VERIFIED (local) group3_I1plus_C2B.json: leaves 4, delegated 0, nodes 7, degrees [38, 8, 7, 38], 11.3s
+VERIFIED (local) group3_I1plus_main.json: leaves 2007, delegated 144, nodes 4301, degrees [22, 4, 4, 6], 78.2s
 VERIFIED (local) group3_I2_C1.json: leaves 1, delegated 0, nodes 1, degrees [32, 8, 6, 8], 0.8s
 VERIFIED (local) group3_I2_C2A.json: leaves 1, delegated 0, nodes 1, degrees [32, 8, 6, 8], 0.8s
 VERIFIED (local) group3_I2_C2B.json: leaves 1, delegated 0, nodes 1, degrees [32, 8, 6, 32], 3.8s
-VERIFIED (local) group3_I2_main.json: leaves 2229, delegated 136, nodes 4729, degrees [18, 4, 3, 5], 44.6s
-VERIFIED (local) group4_B1_I1.json: leaves 48, delegated 0, nodes 95, degrees [21, 17, 8, 8], 23.1s
+VERIFIED (local) group3_I2_main.json: leaves 2229, delegated 136, nodes 4729, degrees [18, 4, 3, 5], 44.1s
+VERIFIED (local) group4_B1_I1.json: leaves 48, delegated 0, nodes 95, degrees [21, 17, 8, 8], 23.2s
 VERIFIED (local) group4_B1_I2.json: leaves 20, delegated 0, nodes 39, degrees [11, 9, 4, 4], 0.7s
 VERIFIED (local) group4_B1_S.json: leaves 2, delegated 0, nodes 3, degrees [10, 8, 4, 4], 0.2s
 VERIFIED (local) group4_B2_I1.json: leaves 58, delegated 0, nodes 115, degrees [21, 17, 8, 8], 33.2s
 VERIFIED (local) group4_B2_I2.json: leaves 36, delegated 0, nodes 71, degrees [11, 9, 4, 4], 1.1s
 VERIFIED (local) group4_B2_S.json: leaves 6, delegated 0, nodes 11, degrees [10, 8, 4, 4], 0.3s
-VERIFIED (local) group4_B3_I1.json: leaves 238, delegated 0, nodes 475, degrees [21, 17, 8, 8], 129.3s
+VERIFIED (local) group4_B3_I1.json: leaves 238, delegated 0, nodes 475, degrees [21, 17, 8, 8], 128.9s
 VERIFIED (local) group4_B3_I2.json: leaves 66, delegated 0, nodes 131, degrees [11, 9, 4, 4], 1.8s
 VERIFIED (local) group4_B3_S.json: leaves 20, delegated 0, nodes 39, degrees [10, 8, 4, 4], 0.5s
-VERIFIED (local) group4_B4_I1.json: leaves 1414, delegated 0, nodes 2827, degrees [21, 17, 8, 8], 772.6s
+VERIFIED (local) group4_B4_I1.json: leaves 1414, delegated 0, nodes 2827, degrees [21, 17, 8, 8], 767.5s
 VERIFIED (local) group4_B4_I2.json: leaves 148, delegated 0, nodes 295, degrees [11, 9, 4, 4], 3.9s
 VERIFIED (local) group4_B4_S.json: leaves 81, delegated 0, nodes 161, degrees [10, 8, 4, 4], 1.7s
 VERIFIED (local) group5_den_alpha.json: leaves 1, delegated 0, nodes 1, degrees [11, 11, 3], 0.0s

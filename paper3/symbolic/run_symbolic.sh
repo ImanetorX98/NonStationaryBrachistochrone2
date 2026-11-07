@@ -50,6 +50,10 @@ case "${1:-}" in
 esac
 check_only=0
 if [ "${1:-}" = "--check" ]; then check_only=1; shift; fi
+if [ $check_only -eq 0 ] && ! command -v "$WS" > /dev/null 2>&1; then
+  echo "wolframscript not found ($WS). Install Wolfram Engine or Mathematica, or set WOLFRAMSCRIPT=/path/to/wolframscript."
+  echo "Nothing was run; the logs in results/ are unchanged."; exit 1
+fi
 fail=0; k=0
 if [ $# -gt 0 ]; then names=("$@")
 else
