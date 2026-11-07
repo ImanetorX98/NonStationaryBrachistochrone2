@@ -1,7 +1,7 @@
 # Manuscript and supplementary material
 
 LaTeX sources of the paper (`paper3.tex`) and of its supplementary material (`supplement_fronts.tex`), with the
-bibliography `refs3.bib`. The figures are read from `../figures/`, where the scripts that draw them are.
+bibliography `refs3.bib`, and the two PDF files built from them (`paper3.pdf`, `supplement_fronts.pdf`). The figures are read from `../figures/`, where the scripts that draw them are.
 
 ```
 ./build.sh      # pdflatex and bibtex in the right order; requires revtex4-2

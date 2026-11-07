@@ -7,7 +7,9 @@ authors:
     given-names: Iman
     orcid: "https://orcid.org/0009-0004-4536-0285"
     affiliation: "University of Pavia"
-version: "1.0.0"
+version: "1.0.1"
+date-released: "2026-11-07"
+doi: 10.5281/zenodo.24039819
 license: MIT
 repository-code: "https://github.com/ImanetorX98/NonStationaryBrachistochrone2"
 keywords:

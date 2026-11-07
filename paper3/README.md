@@ -133,5 +133,6 @@ pipe and rejects incomplete logs.
 ## Licence and citation
 
 Everything in this folder, the code, the LaTeX sources in `paper/` and the figures, is released under the MIT
-licence ([`../LICENSE`](../LICENSE)). If you use it, please cite it as described in
-[`../CITATION.cff`](../CITATION.cff), together with the paper.
+licence ([`../LICENSE`](../LICENSE)). The repository is archived on Zenodo with concept DOI
+[10.5281/zenodo.24039819](https://doi.org/10.5281/zenodo.24039819), which resolves to the latest version. If you use
+it, please cite it as described in [`../CITATION.cff`](../CITATION.cff), together with the paper.

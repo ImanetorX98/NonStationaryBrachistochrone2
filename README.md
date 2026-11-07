@@ -13,4 +13,5 @@ Kerr) is in the repository [NonStationaryBrachistochrone](https://github.com/Ima
 Each folder is self-contained: its scripts are run from inside it and its logs are in its own `results/`.
 
 Everything in this repository is released under the MIT licence ([`LICENSE`](LICENSE)); citation information is in
-[`CITATION.cff`](CITATION.cff).
+[`CITATION.cff`](CITATION.cff). The repository is archived on Zenodo with concept DOI
+[10.5281/zenodo.24039819](https://doi.org/10.5281/zenodo.24039819), which resolves to the latest version.

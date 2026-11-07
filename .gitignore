@@ -12,3 +12,6 @@ __pycache__/
 
 # Python environments created as in paper3/README.md
 .venv/
+
+# bibliography notes written by revtex at each build
+*Notes.bib
